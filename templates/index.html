@@ -1,68 +1,110 @@
-﻿{% extends "base.html" %}
-{% from "_macros.html" import conditions_band %}
+{% extends "base.html" %}
+{% from "_art.html" import tablecloth, panorama %}
 {% block main %}
 <div class="wrap">
-  <p class="dateline">{{ today | long_date }}, {{ site.name }}</p>
-  {{ conditions_band(conditions) }}
+  <div class="dateline">
+    <span>{{ today | dmy }}</span>
+    <span class="dateline-rule"></span>
+    <span>{{ site.name }}<span class="dateline-region">, {{ site.region }}</span></span>
+  </div>
 
-  {% if lead %}
-  <section class="lead" aria-labelledby="lead-h">
-    {% if lead.alert %}<p class="alert" role="note">{{ lead.alert }}</p>{% endif %}
-    <h1 id="lead-h"><a href="{{ lead.url | url }}">{{ lead.headline }}</a></h1>
-    <p class="dek">{{ lead.dek }}</p>
-    {% if lead.headlines %}
-    <ul class="headlines">
-      {% for h in lead.headlines %}<li><a href="{{ (lead.url ~ ('#' ~ h.anchor if h.anchor else '')) | url }}">{{ h.text }}</a></li>{% endfor %}
-    </ul>
+  <section class="hero" aria-labelledby="lead-h">
+    <div class="hero-main">
+      {{ tablecloth("hero-mark") }}
+      <p class="kicker accent">Today's brief</p>
+      {% if lead %}
+      <h1 id="lead-h"><a href="{{ lead.url | url }}">{% if lead.alert %}⚠️ {{ lead.alert }}{% else %}{{ lead.headline }}{% endif %}</a></h1>
+      <p class="hero-dek">{% if lead.alert %}Plus {{ lead.headline[0] | lower }}{{ lead.headline[1:] }}, and the rest of the day's news from {{ site.name }}.{% else %}{{ lead.dek }}{% endif %}</p>
+      <a class="more" href="{{ lead.url | url }}">Read today's brief <span aria-hidden="true">→</span></a>
+      {% else %}
+      <h1 id="lead-h">The first edition is on its way.</h1>
+      <p class="hero-dek">A new brief is published every morning.</p>
+      {% endif %}
+    </div>
+
+    {% if lead and lead.headlines %}
+    <aside class="morning card" aria-labelledby="morning-h">
+      <h2 id="morning-h" class="kicker">This morning in {{ site.name }}</h2>
+      <ol>
+        {% for h in lead.headlines %}<li><a href="{{ (lead.url ~ ('#' ~ h.anchor if h.anchor else '')) | url }}">{{ h.text }}</a></li>{% endfor %}
+      </ol>
+      {% if conditions and conditions.weather %}{% set w = conditions.weather %}
+      <p class="morning-conditions">
+        <svg class="mini-compass" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10.5"/><path style="--deg: {{ (w.wind_deg + 180) % 360 }}deg" d="M12 4 L15.5 15 L12 13 L8.5 15 Z"/></svg>
+        <span>{{ w.code | sky }}, {{ w.min }}–{{ w.max }}°. Wind from the {{ w.wind_from }}, gusting {{ w.gust_kmh }} km/h.{% if conditions.loadshedding %} {% if conditions.loadshedding.stage > 0 %}<strong>Stage {{ conditions.loadshedding.stage }} load-shedding.</strong>{% else %}No load-shedding.{% endif %}{% endif %}</span>
+      </p>
+      {% endif %}
+    </aside>
     {% endif %}
-    <a class="button" href="{{ lead.url | url }}">Read today's brief</a>
   </section>
-  {% else %}
-  <section class="lead"><h1>The first edition is on its way.</h1><p class="dek">Briefs are published every morning.</p></section>
+
+  {% if latest_by_type.values() | select | list %}
+  <section class="latest" aria-labelledby="latest-h">
+    <h2 id="latest-h" class="section-title">Latest across {{ site.name }}</h2>
+    <div class="latest-grid">
+      {% for t, label in types.items() %}{% set s = latest_by_type[t] %}
+      <article class="latest-item t-{{ t }}">
+        <p class="kicker">{{ label }}</p>
+        {% if s %}
+        <h3><a href="{{ s.url | url }}">{{ s.title }}</a></h3>
+        <p class="meta">{% if t == 'watch' and s.event_date %}Meeting {{ s.event_date | dmy }}{% else %}{{ s.date | dmy }}{% endif %}</p>
+        {% else %}
+        <p class="meta">Nothing yet. These appear when the source records support one.</p>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </section>
   {% endif %}
 
   <section class="week" aria-labelledby="week-h">
-    <h2 id="week-h">The week at a glance</h2>
+    <h2 id="week-h" class="section-title">The week at a glance <span class="range">{{ week[0].date | short_date }} – {{ week[-1].date | short_date }}</span></h2>
     <ol class="days">
       {% for d in week %}
       <li class="day{% if d.is_today %} today{% endif %}{% if not d.entries %} empty{% endif %}">
-        <p class="dayname"><span>{{ d.date | weekday }}</span> {{ d.date.day }}{% if d.is_today %} <em>today</em>{% endif %}</p>
-        {% if d.entries %}
-        <ul>
-          {% for e in d.entries %}
-          <li><span class="kind">{{ e.kind }}</span> <a href="{{ e.url if e.external else (e.url | url) }}"{% if e.external %} rel="noopener"{% endif %}>{{ e.title }}</a></li>
-          {% endfor %}
-        </ul>
-        {% endif %}
+        <p class="dayname">{{ d.date.strftime('%a') }} {{ d.date.day }}{% if d.is_today %} · today{% endif %}</p>
+        {% for e in d.entries %}
+        <p class="entry"><span class="kind k-{{ e.kind | lower | replace(' ', '-') }}">{{ e.kind }}</span>
+          <a href="{{ e.url if e.external else (e.url | url) }}"{% if e.external %} rel="noopener"{% endif %}>{{ e.title }}</a></p>
+        {% else %}
+        <p class="entry quiet">Nothing scheduled.</p>
+        {% endfor %}
       </li>
       {% endfor %}
     </ol>
   </section>
 
-  {% if stories %}
-  <section class="desk" aria-labelledby="desk-h">
-    <h2 id="desk-h">From the council desk</h2>
-    <div class="desk-grid">
-    {% for t, label in types.items() %}{% set s = latest_by_type[t] %}{% if s %}
-      <article class="desk-item {{ t }}">
-        <p class="kind">{{ label }}</p>
-        <h3><a href="{{ s.url | url }}">{{ s.title }}</a></h3>
-        <p>{{ s.summary }}</p>
-        <p class="meta">{% if t == 'watch' and s.event_date %}Meeting on {{ s.event_date | long_date }}{% else %}{{ s.date | long_date }}{% endif %}</p>
-      </article>
-    {% endif %}{% endfor %}
-    </div>
-  </section>
+  {% if site.feature %}{% set f = site.feature %}
+  <a class="feature" href="{{ f.url }}" rel="noopener">
+    <p class="kicker">{{ f.kicker }}</p>
+    <p class="feature-title">{{ f.title }}</p>
+    <p class="feature-text">{{ f.text }} <span class="feature-link">{{ f.link_text }} <span aria-hidden="true">→</span></span></p>
+    {{ tablecloth("feature-mark") }}
+  </a>
   {% endif %}
 
   {% if recent %}
   <section class="recent" aria-labelledby="recent-h">
-    <h2 id="recent-h">Earlier briefs</h2>
-    <ul class="brief-list">
-      {% for b in recent %}<li><a href="{{ b.url | url }}"><time datetime="{{ b.date }}">{{ b.date | weekday }} {{ b.date | short_date }}</time> {{ b.headline }}</a></li>{% endfor %}
+    <h2 id="recent-h" class="section-title">Recent daily briefs</h2>
+    <ul class="recent-list">
+      {% for b in recent %}<li><a href="{{ b.url | url }}"><time datetime="{{ b.date }}">{{ b.date | short_date }} · {{ b.date | weekday }}</time><span>{% if b.alert %}⚠️ {{ b.alert }}{% else %}{{ b.headline }}{% endif %}</span></a></li>{% endfor %}
     </ul>
-    <p><a href="{{ '/briefs/' | url }}">All daily briefs</a></p>
+    <a class="more" href="{{ '/briefs/' | url }}">See all daily briefs <span aria-hidden="true">→</span></a>
   </section>
   {% endif %}
+
+  <section class="follow" aria-labelledby="follow-h">
+    {{ panorama() }}
+    <div class="follow-body">
+      <p class="kicker">Every morning</p>
+      <h2 id="follow-h">A calm morning read on {{ site.name }}, before the south-easter picks up.</h2>
+      <p>What the City decided, what's coming up, and the local news worth knowing, written plainly and linked to its sources. A new brief lands around 07:00 every day.</p>
+      <div class="follow-actions">
+        <a class="button" href="{{ '/feed.xml' | url }}">Add the RSS feed</a>
+        <a class="more" href="{{ '/about/' | url }}">How this is made <span aria-hidden="true">→</span></a>
+      </div>
+      <p class="follow-note">No ads, no tracking, no clickbait.</p>
+    </div>
+  </section>
 </div>
 {% endblock %}

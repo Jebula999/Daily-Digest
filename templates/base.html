@@ -4,37 +4,71 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}{{ site.site_name }} — {{ site.tagline }}{% endblock %}</title>
-<meta name="description" content="{% block description %}Daily local news for {{ site.name }}: the morning brief, council meetings, outages and what the City decided.{% endblock %}">
+<meta name="description" content="{% block description %}Daily local news for {{ site.name }}: the morning brief, council meetings, planning decisions and what's coming up.{% endblock %}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ '/static/style.css' | url }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.site_name }}" href="{{ '/feed.xml' | url }}">
 <link rel="icon" href="{{ '/static/icon.svg' | url }}" type="image/svg+xml">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="masthead">
-  <div class="wrap masthead-row">
-    <a class="wordmark" href="{{ '/' | url }}">
-      <svg class="mountain" viewBox="0 0 120 28" aria-hidden="true"><path d="M0 28 L10 20 L18 21 L24 12 L30 9 L88 8 L94 11 L100 10 L106 16 L113 19 L120 28 Z"/></svg>
-      <span>{{ site.site_name }}</span>
-    </a>
-    <nav aria-label="Main">
-      <a href="{{ '/briefs/' | url }}">Daily briefs</a>
-      <a href="{{ '/stories/' | url }}">Council &amp; town</a>
-      <a href="{{ '/about/' | url }}">How this works</a>
-    </nav>
+
+<div class="statusbar">
+  <div class="wrap statusbar-row">
+    <p class="status-left">
+      {% if lead_alert %}<span class="dot alert"></span>{{ lead_alert }}{% else %}<span class="dot"></span>No weather or service alerts in today's brief{% endif %}
+      {% if next_meeting %}<span class="status-sep">
+        <span class="dot calm"></span>Next meeting: {{ next_meeting.title }} · {{ (next_meeting.date | iso).strftime('%a') }} {{ next_meeting.start }}</span>{% endif %}
+    </p>
+    {% if conditions and conditions.weather %}{% set w = conditions.weather %}
+    <p class="status-right">{{ w.max }}° / {{ w.min }}° · wind {{ w.wind_from }} {{ w.wind_kmh }} km/h · {{ site.name }}</p>
+    {% endif %}
   </div>
+</div>
+<div class="ticker" aria-label="By the numbers">
+  <div class="wrap ticker-row">
+    <span class="ticker-label">By the numbers</span>
+    <div class="ticker-track"><div class="ticker-items">
+      {% for _ in range(2) %}{% for n, label in numbers %}<span><b>{{ "{:,}".format(n) }}</b> {{ label }}</span>{% endfor %}{% endfor %}
+    </div></div>
+  </div>
+</div>
+
+<header class="masthead wrap">
+  <p class="kicker">{{ site.kicker }}</p>
+  <div class="masthead-row">
+    <a class="wordmark" href="{{ '/' | url }}">{{ site.site_name }}</a>
+    <p class="tagline">{{ site.tagline }}, compiled each morning by AI.</p>
+  </div>
+  <nav class="nav" aria-label="Main">
+    <div class="nav-links">
+      <a href="{{ '/briefs/' | url }}"{% if page.startswith('/briefs') %} aria-current="page"{% endif %}>Daily Briefs</a>
+      {% for path, sec in sections.items() %}<a href="{{ path | url }}"{% if page == path %} aria-current="page"{% endif %}>{{ sec[0] }}</a>{% endfor %}
+      <a href="{{ '/about/' | url }}"{% if page == '/about/' %} aria-current="page"{% endif %}>How it works</a>
+    </div>
+    <a class="button" href="{{ '/feed.xml' | url }}">Follow via RSS</a>
+  </nav>
 </header>
+
 <main id="main">
 {% block main %}{% endblock %}
 </main>
+
 <footer class="footer">
-  <div class="wrap">
-    <p><strong>{{ site.site_name }}</strong> is written and updated by AI every morning from public sources: local news outlets, the City of Cape Town's council records and media releases, Eskom and Open-Meteo. Every item links to where it came from. <a href="{{ '/about/' | url }}">Read how it works and what it gets wrong.</a></p>
-    <p class="small">Last built {{ build_time.strftime('%d %b %Y, %H:%M') }} SAST · <a href="{{ '/feed.xml' | url }}">RSS feed</a></p>
+  <div class="wrap footer-row">
+    <div>
+      <p class="footer-name">{{ site.site_name }}</p>
+      <p>Written and updated by AI every morning from named public sources: Cape Town newsrooms, the City of Cape Town's council records, Eskom and Open-Meteo. Every item links to where it came from. It is independent and not affiliated with the City or any outlet it cites.</p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="{{ '/about/' | url }}">How this is made</a></li>
+      <li><a href="{{ '/briefs/' | url }}">All daily briefs</a></li>
+      <li><a href="{{ '/feed.xml' | url }}">RSS feed</a></li>
+    </ul>
   </div>
+  <p class="wrap footer-small">Last built {{ build_time.strftime('%d %b %Y, %H:%M') }} SAST</p>
 </footer>
 </body>
 </html>

@@ -1,6 +1,6 @@
-﻿"""Build the static site from content/ into _site/.
+"""Build the static site from content/ into _site/.
 
-Usage: python scripts/build.py [--base /repo-name]
+Usage: python scripts/build.py [--base /repo-name] [--today YYYY-MM-DD]
 The base path can also come from the BASE_PATH environment variable (GitHub Pages project sites).
 """
 import argparse
@@ -30,11 +30,22 @@ STORY_TYPES = {
     "around": "Around town",
     "indepth": "In depth",
 }
+# Short labels used in the week-at-a-glance grid.
+WEEK_KIND = {"brief": "Brief", "watch": "Preview", "decided": "Report", "around": "Around town",
+             "indepth": "In depth", "meeting": "Meeting"}
+# Section pages: url -> (title, intro, story types)
+SECTIONS = {
+    "/local-government/": ("Local government", "Previews of upcoming City meetings and what councillors, "
+                           "committees and the planning tribunal decided.", ["watch", "decided"]),
+    "/around-town/": ("Around town", "Planning applications, appeals and developments, neighbourhood by neighbourhood.",
+                      ["around"]),
+    "/in-depth/": ("In depth", "Longer explainers that pull a running story together.", ["indepth"]),
+}
 REQUIRED = {"brief": ["date", "headline", "dek"], "story": ["type", "title", "date", "summary"]}
 
 
 def sky(code):
-    """WMO weather code â†’ plain words."""
+    """WMO weather code → plain words."""
     table = [((0,), "Clear"), ((1,), "Mostly clear"), ((2,), "Partly cloudy"), ((3,), "Overcast"),
              ((45, 48), "Fog"), ((51, 53, 55, 56, 57), "Drizzle"), ((61, 63, 66, 80, 81), "Rain"),
              ((65, 67, 82), "Heavy rain"), ((71, 73, 75, 77, 85, 86), "Snow"), ((95, 96, 99), "Thunderstorms")]
@@ -51,8 +62,7 @@ def parse(path):
     if not m:
         raise ContentError(f"{path}: missing front matter")
     meta = yaml.safe_load(m.group(1)) or {}
-    md = markdown.Markdown(extensions=["toc", "attr_list", "tables", "smarty"],
-                           extension_configs={"toc": {"permalink": False}})
+    md = markdown.Markdown(extensions=["toc", "attr_list", "tables", "smarty"])
     meta["html"] = md.convert(m.group(2))
     meta["path"] = path
     for k in ("date", "event_date"):
@@ -90,22 +100,32 @@ def load():
     return briefs, stories, daily
 
 
-def week_view(today, briefs, stories, daily):
-    """Rolling seven days: yesterday, today and the five days ahead."""
-    days = []
-    meetings = (daily.get(today) or {}).get("meetings", [])
-    for i in range(-1, 6):
-        d = today + timedelta(days=i)
-        entries = [{"kind": "Brief", "title": b["headline"], "url": b["url"]} for b in briefs if b["date"] == d]
+def week_view(today, briefs, stories, meetings):
+    """Five columns: the previous working day, today, then the next working days.
+    Weekend days only appear when something is happening on them."""
+    covered = {s.get("meeting_id") for s in stories}
+
+    def entries_for(d):
+        out = [{"kind": WEEK_KIND["brief"], "title": b.get("alert") or b["headline"], "url": b["url"]}
+               for b in briefs if b["date"] == d]
         for s in stories:
             when = s.get("event_date") if s["type"] == "watch" else s["date"]
             if when == d:
-                entries.append({"kind": s["label"], "title": s["title"], "url": s["url"]})
-        covered = {s.get("meeting_id") for s in stories}
+                out.append({"kind": WEEK_KIND[s["type"]], "title": s["title"], "url": s["url"]})
         for m in meetings:
             if m["date"] == d.isoformat() and m["id"] not in covered:
-                entries.append({"kind": "Meeting", "title": f"{m['title']}, {m['start']}", "url": m["url"], "external": True})
-        days.append({"date": d, "is_today": d == today, "entries": entries})
+                out.append({"kind": WEEK_KIND["meeting"], "title": f"{m['title']}, {m['start']}",
+                            "url": m["url"], "external": True})
+        return out
+
+    days, d = [], today - timedelta(days=1)
+    while d.weekday() >= 5 and not entries_for(d):
+        d -= timedelta(days=1)
+    while len(days) < 5:
+        e = entries_for(d)
+        if d.weekday() < 5 or e or d == today:
+            days.append({"date": d, "is_today": d == today, "entries": e})
+        d += timedelta(days=1)
     return days
 
 
@@ -127,15 +147,33 @@ def main():
 
     today = date.fromisoformat(args.today) if args.today else datetime.now(TZ).date()
     if briefs and briefs[0]["date"] < today and not args.today:
-        today = briefs[0]["date"]  # site shows the latest edition as "today" until a new one lands
+        today = briefs[0]["date"]  # the latest edition stays "today" until a new one lands
+
+    lead = briefs[0] if briefs else None
+    conditions = daily.get(lead["date"]) if lead else None
+    meetings = (conditions or {}).get("meetings", [])
+    next_meeting = next((m for m in meetings if m["date"] >= today.isoformat()), None)
+    meeting_ids = {m["id"] for d in daily.values() for m in d.get("meetings", [])}
+    numbers = [
+        (len(briefs), "daily briefs published"),
+        (len(stories), "council and town stories"),
+        (len(meeting_ids), "City meetings tracked"),
+        (len(CONFIG["feeds"]), "newsroom feeds read each morning"),
+        (0, "Google News or aggregator links used"),
+    ]
 
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape(["html", "xml"]))
-    env.globals.update(site=CONFIG, base=base, types=STORY_TYPES, build_time=datetime.now(TZ))
+    env.globals.update(site=CONFIG, base=base, types=STORY_TYPES, build_time=datetime.now(TZ),
+                       sections=SECTIONS, conditions=conditions, next_meeting=next_meeting,
+                       numbers=numbers, lead_alert=lead.get("alert") if lead else None)
     env.filters["url"] = lambda p: base + p
     env.filters["long_date"] = lambda d: f"{d:%A} {d.day} {d:%B %Y}"
+    env.filters["dmy"] = lambda d: f"{d.day} {d:%B %Y}"
     env.filters["short_date"] = lambda d: f"{d.day} {d:%b}"
     env.filters["weekday"] = lambda d: f"{d:%a}"
+    env.filters["fulldayname"] = lambda d: f"{d:%A}"
     env.filters["sky"] = sky
+    env.filters["iso"] = lambda s: date.fromisoformat(s)
     env.filters["rfc822"] = lambda d: format_datetime(datetime(d.year, d.month, d.day, 6, 0, tzinfo=TZ))
 
     if OUT.exists():
@@ -149,21 +187,21 @@ def main():
         if out_path.endswith("/"):
             dest = dest / "index.html"
         dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_text(env.get_template(tpl).render(**ctx), encoding="utf-8")
+        dest.write_text(env.get_template(tpl).render(page=out_path, **ctx), encoding="utf-8")
 
-    lead = briefs[0] if briefs else None
     latest_by_type = {t: next((s for s in stories if s["type"] == t), None) for t in STORY_TYPES}
-    render("index.html", "/", lead=lead, today=today, conditions=daily.get(lead["date"]) if lead else None,
-           latest_by_type=latest_by_type, week=week_view(today, briefs, stories, daily),
-           recent=briefs[1:8], stories=stories[:12])
+    render("index.html", "/", lead=lead, today=today, latest_by_type=latest_by_type,
+           week=week_view(today, briefs, stories, meetings), recent=briefs[1:9])
     for i, b in enumerate(briefs):
-        render("brief.html", b["url"], brief=b, conditions=daily.get(b["date"]),
+        render("brief.html", b["url"], brief=b, day=daily.get(b["date"]),
                newer=briefs[i - 1] if i > 0 else None, older=briefs[i + 1] if i + 1 < len(briefs) else None)
     for s in stories:
         related = [x for x in stories if x["type"] == s["type"] and x is not s][:4]
         render("story.html", s["url"], story=s, related=related)
+    for path, (title, intro, kinds) in SECTIONS.items():
+        render("section.html", path, title=title, intro=intro, kinds=kinds,
+               stories=[s for s in stories if s["type"] in kinds])
     render("archive.html", "/briefs/", briefs=briefs)
-    render("stories.html", "/stories/", stories=stories)
     render("about.html", "/about/")
     render("404.html", "/404.html")
     render("feed.xml", "/feed.xml", items=sorted(

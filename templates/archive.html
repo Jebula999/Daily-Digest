@@ -1,13 +1,14 @@
 {% extends "base.html" %}
 {% block title %}Daily briefs — {{ site.site_name }}{% endblock %}
 {% block main %}
-<div class="wrap article">
-  <h1>Daily briefs</h1>
-  <p class="dek">Every morning's edition, newest first.</p>
+<div class="wrap article wide">
+  <p class="kicker accent">Archive</p>
+  <h1 class="story-title">Daily briefs</h1>
+  <div class="standfirst"><p>Every morning's edition, newest first.</p></div>
   {% for month, items in briefs | groupby('date.month') | reverse %}
-  <h2 class="month">{{ items[0].date.strftime('%B %Y') }}</h2>
-  <ul class="brief-list">
-    {% for b in items %}<li><a href="{{ b.url | url }}"><time datetime="{{ b.date }}">{{ b.date | weekday }} {{ b.date | short_date }}</time> {{ b.headline }}</a></li>{% endfor %}
+  <h2 class="section-title small">{{ items[0].date.strftime('%B %Y') }}</h2>
+  <ul class="recent-list single">
+    {% for b in items | sort(attribute='date', reverse=true) %}<li><a href="{{ b.url | url }}"><time datetime="{{ b.date }}">{{ b.date | short_date }} · {{ b.date | weekday }}</time><span>{% if b.alert %}⚠️ {{ b.alert }}{% else %}{{ b.headline }}{% endif %}</span></a></li>{% endfor %}
   </ul>
   {% else %}
   <p>No briefs yet.</p>

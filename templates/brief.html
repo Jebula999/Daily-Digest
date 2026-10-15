@@ -1,19 +1,27 @@
 {% extends "base.html" %}
-{% from "_macros.html" import conditions_band, sources_list %}
-{% block title %}{{ brief.headline }} — {{ site.site_name }}{% endblock %}
+{% block title %}{% if brief.alert %}⚠️ {{ brief.alert }}{% else %}{{ brief.headline }}{% endif %} — {{ site.site_name }}, {{ brief.date | dmy }}{% endblock %}
 {% block description %}{{ brief.dek }}{% endblock %}
 {% block main %}
 <article class="wrap article">
-  <p class="dateline">Daily brief for {{ brief.date | long_date }}</p>
-  {% if brief.alert %}<p class="alert" role="note">{{ brief.alert }}</p>{% endif %}
-  <h1>{{ brief.headline }}</h1>
-  <p class="dek">{{ brief.dek }}</p>
-  {{ conditions_band(conditions, compact=true) }}
-  <div class="prose">{{ brief.html | safe }}</div>
-  {{ sources_list(brief.sources) }}
+  <a class="back" href="{{ '/briefs/' | url }}"><span aria-hidden="true">←</span> All daily briefs</a>
+  <p class="kicker accent">Daily brief</p>
+  <h1 class="date-title">{{ brief.date | dmy }}</h1>
+  <p class="weekday">{{ brief.date | fulldayname }}</p>
+  <div class="standfirst">
+    <p class="standfirst-head">{{ brief.headline }}</p>
+    <p>{{ brief.dek }}</p>
+  </div>
+  {% if day and day.weather %}{% set w = day.weather %}
+  <p class="conditions-line">
+    <svg class="mini-compass" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10.5"/><path style="--deg: {{ (w.wind_deg + 180) % 360 }}deg" d="M12 4 L15.5 15 L12 13 L8.5 15 Z"/></svg>
+    {{ w.code | sky }}, {{ w.min }}–{{ w.max }}°C · wind {{ w.wind_from }} {{ w.wind_kmh }} km/h, gusting {{ w.gust_kmh }} · UV {{ w.uv }}{% if day.loadshedding %} · {{ day.loadshedding.label }}{% endif %}
+    <span class="conditions-src">Open-Meteo, Eskom</span>
+  </p>
+  {% endif %}
+  <div class="prose brief-body">{{ brief.html | safe }}</div>
   <nav class="pager" aria-label="More briefs">
-    {% if older %}<a href="{{ older.url | url }}">Previous: {{ older.date | weekday }} {{ older.date | short_date }}</a>{% else %}<span></span>{% endif %}
-    {% if newer %}<a href="{{ newer.url | url }}">Next: {{ newer.date | weekday }} {{ newer.date | short_date }}</a>{% endif %}
+    {% if older %}<a href="{{ older.url | url }}"><span aria-hidden="true">←</span> {{ older.date | weekday }} {{ older.date | short_date }}</a>{% else %}<span></span>{% endif %}
+    {% if newer %}<a href="{{ newer.url | url }}">{{ newer.date | weekday }} {{ newer.date | short_date }} <span aria-hidden="true">→</span></a>{% endif %}
   </nav>
 </article>
 {% endblock %}

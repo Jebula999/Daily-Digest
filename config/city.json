@@ -4,37 +4,180 @@
   "region": "Western Cape",
   "site_name": "Cape Town Daily Brief",
   "tagline": "The Cape Town news you'd otherwise miss",
+  "kicker": "From the Mother City",
   "timezone": "Africa/Johannesburg",
   "lat": -33.9249,
   "lon": 18.4241,
-  "base_url": "",
+  "base_url": "https://jebula999.github.io/Daily-Digest",
+  "_feeds_note": "Only outlets with their own newsroom and an RSS feed. 'access': 'full' = the editor may open articles; 'headline' = the outlet's robots.txt blocks automated AI agents, so use the headline only as a lead to find a permitted source. Outlets that block all AI agents (News24, EWN) are left out entirely.",
   "feeds": [
-    {"name": "GroundUp", "url": "https://www.groundup.org.za/sitenews/rss/", "local_filter": true},
-    {"name": "Daily Maverick", "url": "https://www.dailymaverick.co.za/dmrss/", "local_filter": true},
-    {"name": "News24", "url": "https://feeds.capi24.com/v1/Search/articles/news24/SouthAfrica/rss", "local_filter": true},
-    {"name": "Cape Town ETC", "url": "https://www.capetownetc.com/feed/", "local_filter": false}
+    {
+      "name": "GroundUp",
+      "url": "https://www.groundup.org.za/sitenews/rss/",
+      "local_filter": true,
+      "access": "full"
+    },
+    {
+      "name": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/dmrss/",
+      "local_filter": true,
+      "access": "full"
+    },
+    {
+      "name": "Daily Maverick (Maverick Citizen)",
+      "url": "https://www.dailymaverick.co.za/dmrss/?section=maverick-citizen",
+      "local_filter": true,
+      "access": "full"
+    },
+    {
+      "name": "SABC News (Cape Town)",
+      "url": "https://www.sabcnews.com/sabcnews/tag/cape-town/feed/",
+      "local_filter": false,
+      "access": "full"
+    },
+    {
+      "name": "SABC News (Western Cape)",
+      "url": "https://www.sabcnews.com/sabcnews/tag/western-cape/feed/",
+      "local_filter": false,
+      "access": "full"
+    },
+    {
+      "name": "Cape Town ETC",
+      "url": "https://www.capetownetc.com/category/news/feed/",
+      "local_filter": true,
+      "access": "full"
+    },
+    {
+      "name": "The Citizen (Cape Town)",
+      "url": "https://www.citizen.co.za/tag/cape-town/feed/",
+      "local_filter": false,
+      "access": "full"
+    },
+    {
+      "name": "People's Post",
+      "url": "https://novanews.co.za/peoplespost/feed/",
+      "local_filter": false,
+      "access": "full",
+      "lookback_hours": 168
+    },
+    {
+      "name": "TygerBurger",
+      "url": "https://novanews.co.za/tygerburger/feed/",
+      "local_filter": false,
+      "access": "full",
+      "lookback_hours": 168
+    },
+    {
+      "name": "SAnews (government)",
+      "url": "https://www.sanews.gov.za/rss.xml",
+      "local_filter": true,
+      "access": "full"
+    },
+    {
+      "name": "Cape Argus / Cape Times (IOL)",
+      "url": "https://iol.co.za/rss",
+      "url_filter": "/(capeargus|capetimes|weekend-argus)/",
+      "local_filter": true,
+      "access": "headline"
+    }
   ],
-  "google_news_queries": [
-    "\"Cape Town\"",
-    "\"City of Cape Town\" council",
-    "Cape Town weather warning",
-    "Cape Town water outage OR electricity outage OR road closure",
-    "Western Cape SAWS warning"
+  "do_not_fetch": [
+    "news24.com",
+    "capi24.com",
+    "ewn.co.za",
+    "iol.co.za",
+    "timeslive.co.za",
+    "businesslive.co.za",
+    "moneyweb.co.za"
+  ],
+  "skip_url_patterns": [
+    "/sponsored/",
+    "/advertorial",
+    "/lifestyle/",
+    "/entertainment/",
+    "/celebrity",
+    "/horoscope",
+    "/competitions?/",
+    "/quiz",
+    "/video/",
+    "/travel/",
+    "/shopping/"
+  ],
+  "skip_title_patterns": [
+    "^watch\\b",
+    "^listen\\b",
+    "^pics?\\b",
+    "\\bquiz\\b",
+    "\\[photos?\\]",
+    "\\bsponsored\\b",
+    "you won't believe",
+    "here's why",
+    "^\\d+ (things|ways|reasons)"
   ],
   "local_keywords": [
-    "cape town", "western cape", "city of cape town", "khayelitsha", "mitchells plain",
-    "gugulethu", "nyanga", "philippi", "delft", "bellville", "durbanville", "atlantis",
-    "table mountain", "sea point", "woodstock", "observatory", "muizenberg", "fish hoek",
-    "simon's town", "hout bay", "camps bay", "langa", "athlone", "parow", "goodwood",
-    "milnerton", "blouberg", "strand", "somerset west", "kraaifontein", "brackenfell",
-    "stellenbosch", "paarl", "myciti", "metrorail", "eskom", "golden arrow", "hill-lewis",
-    "winde", "subcouncil", "table bay", "false bay", "cape flats", "lwandle", "wynberg",
-    "claremont", "rondebosch", "kuils river", "eerste river", "macassar", "dunoon"
+    "cape town",
+    "western cape",
+    "city of cape town",
+    "khayelitsha",
+    "mitchells plain",
+    "gugulethu",
+    "nyanga",
+    "philippi",
+    "delft",
+    "bellville",
+    "durbanville",
+    "atlantis",
+    "table mountain",
+    "sea point",
+    "woodstock",
+    "observatory",
+    "muizenberg",
+    "fish hoek",
+    "simon's town",
+    "hout bay",
+    "camps bay",
+    "langa",
+    "athlone",
+    "parow",
+    "goodwood",
+    "milnerton",
+    "blouberg",
+    "strand",
+    "somerset west",
+    "kraaifontein",
+    "brackenfell",
+    "myciti",
+    "metrorail",
+    "golden arrow",
+    "hill-lewis",
+    "winde",
+    "subcouncil",
+    "table bay",
+    "false bay",
+    "cape flats",
+    "lwandle",
+    "wynberg",
+    "claremont",
+    "rondebosch",
+    "kuils river",
+    "eerste river",
+    "macassar",
+    "dunoon",
+    "hanover park",
+    "manenberg",
+    "elsies river"
   ],
   "city_media_url": "https://www.capetown.gov.za/Media-and-news",
   "council_hub": {
     "app_url": "https://web1.capetown.gov.za/web1/councilhubonline/",
     "settings_url": "https://web1.capetown.gov.za/web1/councilhubonline/assets/config/appsettings.json"
   },
-  "eskom_status_url": "https://loadshedding.eskom.co.za/LoadShedding/GetStatus"
+  "eskom_status_url": "https://loadshedding.eskom.co.za/LoadShedding/GetStatus",
+  "feature": {
+    "kicker": "Local elections · 4 November 2026",
+    "title": "Your vote in Cape Town",
+    "text": "Check your registration and find your voting station with the IEC, then follow what the next council will inherit in our local government coverage.",
+    "url": "https://www.elections.org.za/",
+    "link_text": "Check your registration"
+  }
 }

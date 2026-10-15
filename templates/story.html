@@ -1,21 +1,25 @@
 {% extends "base.html" %}
-{% from "_macros.html" import sources_list %}
 {% block title %}{{ story.title }} — {{ site.site_name }}{% endblock %}
 {% block description %}{{ story.summary }}{% endblock %}
 {% block main %}
 <article class="wrap article">
-  <p class="dateline"><a href="{{ '/stories/' | url }}#{{ story.type }}">{{ story.label }}</a>, {{ story.date | long_date }}</p>
-  <h1>{{ story.title }}</h1>
-  <p class="dek">{{ story.summary }}</p>
+  {% set sec = '/in-depth/' if story.type == 'indepth' else ('/around-town/' if story.type == 'around' else '/local-government/') %}
+  <a class="back" href="{{ sec | url }}"><span aria-hidden="true">←</span> {{ sections[sec][0] }}</a>
+  <p class="kicker t-{{ story.type }}">{{ story.label }}</p>
+  <h1 class="story-title">{{ story.title }}</h1>
+  <p class="weekday">{{ story.date | long_date }}</p>
+  <div class="standfirst"><p>{{ story.summary }}</p></div>
   {% if story.type == 'watch' and story.event_date %}
-  <p class="when">Meeting: {{ story.event_date | long_date }}{% if story.time %}, {{ story.time }}{% endif %}{% if story.venue %}, {{ story.venue }}{% endif %}</p>
+  <p class="when"><strong>Meeting:</strong> {{ story.event_date | long_date }}{% if story.time %}, {{ story.time }}{% endif %}{% if story.venue %} · {{ story.venue }}{% endif %}</p>
   {% endif %}
   <div class="prose">{{ story.html | safe }}</div>
-  {{ sources_list(story.sources) }}
+  {% if story.sources %}
+  <p class="source-line">Sources: {% for s in story.sources %}<a href="{{ s.url }}" rel="noopener">{{ s.name }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</p>
+  {% endif %}
   {% if related %}
   <aside class="related">
-    <h2>More {{ story.label | lower }}</h2>
-    <ul class="brief-list">{% for r in related %}<li><a href="{{ r.url | url }}"><time datetime="{{ r.date }}">{{ r.date | short_date }}</time> {{ r.title }}</a></li>{% endfor %}</ul>
+    <h2 class="section-title">More {{ story.label | lower }}</h2>
+    <ul class="recent-list single">{% for r in related %}<li><a href="{{ r.url | url }}"><time datetime="{{ r.date }}">{{ r.date | short_date }}</time><span>{{ r.title }}</span></a></li>{% endfor %}</ul>
   </aside>
   {% endif %}
 </article>

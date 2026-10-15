@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} — {{ site.site_name }}{% endblock %}
+{% block main %}
+<div class="wrap article wide">
+  <p class="kicker accent">Section</p>
+  <h1 class="story-title">{{ title }}</h1>
+  <div class="standfirst"><p>{{ intro }}</p></div>
+  {% for t in kinds %}
+  {% set items = stories | selectattr('type', 'equalto', t) | list %}
+  <h2 class="section-title small t-{{ t }}">{{ types[t] }}</h2>
+  {% if items %}
+  <ul class="recent-list single">
+    {% for s in items %}<li><a href="{{ s.url | url }}"><time datetime="{{ s.date }}">{{ s.date | short_date }}</time><span>{{ s.title }}<small>{{ s.summary }}</small></span></a></li>{% endfor %}
+  </ul>
+  {% else %}
+  <p class="meta">Nothing here yet. A story is written only when the public record supports one.</p>
+  {% endif %}
+  {% endfor %}
+</div>
+{% endblock %}

@@ -1,21 +1,32 @@
 {% extends "base.html" %}
-{% block title %}How this works — {{ site.site_name }}{% endblock %}
+{% block title %}How this is made — {{ site.site_name }}{% endblock %}
 {% block main %}
 <article class="wrap article">
-  <h1>How this works</h1>
-  <p class="dek">{{ site.site_name }} is an experiment: a local news brief researched, written and published by AI, every day, without a newsroom.</p>
+  <p class="kicker accent">About</p>
+  <h1 class="story-title">How this is made</h1>
+  <div class="standfirst"><p>{{ site.site_name }} is an experiment: a local news brief researched, written and published by AI every morning, without a newsroom, and without clickbait.</p></div>
   <div class="prose">
+    <h2>Where the news comes from</h2>
+    <p>Only from named sources with their own reporters or official records. No Google News, no aggregators, no social media.</p>
+    <ul>
+      <li><strong>Newsrooms:</strong> GroundUp, Daily Maverick, SABC News, Cape Town ETC, The Citizen, the Novus community papers (People's Post, TygerBurger) and SAnews. Cape Argus and Cape Times headlines are used only as leads, because IOL asks AI tools not to read its articles.</li>
+      <li><strong>The City of Cape Town:</strong> council, committee and planning-tribunal meetings from the Council Hub, including agendas, minutes and resolutions, plus City media releases.</li>
+      <li><strong>Data:</strong> load-shedding status from Eskom and the forecast from Open-Meteo. These are copied by code, not written by AI.</li>
+    </ul>
+    <p>Sites that ask AI tools not to read them, such as News24 and EWN, are left out entirely.</p>
     <h2>Each morning</h2>
     <ol>
-      <li>A script collects the day's raw material: Cape Town stories from GroundUp, Daily Maverick, News24, Cape Town ETC and Google News; the City of Cape Town's media releases; council, committee and planning-tribunal meetings from the City's Council Hub, including agendas and minutes; Eskom's load-shedding status; and the Open-Meteo forecast.</li>
-      <li>An AI editor (Claude, made by Anthropic) reads that material, checks claims against the original sources, and writes the brief in its own words. It also writes previews of upcoming meetings and summaries of what was decided.</li>
+      <li>A script collects the sources above and filters out sponsored, lifestyle and listicle content.</li>
+      <li>An AI editor (Claude, made by Anthropic) chooses what matters most to people in Cape Town today, checks each claim against the original article or record, and writes the brief in its own words. Every item ends with a link to its source.</li>
       <li>The site is rebuilt and published automatically.</li>
     </ol>
     <h2>What to trust, and what not to</h2>
-    <p>The weather, load-shedding status and meeting calendar are copied directly from their sources by code, not written by AI. Everything else is an AI summary. It links to its sources so you can check them, and it should only report what those sources say, but AI makes mistakes. Treat this as a starting point, and rely on the original for anything that matters: emergency information, legal deadlines, public participation closing dates.</p>
+    <p>AI makes mistakes. The brief should only report what its sources say, and it links to them so you can check. For anything that matters, such as emergency information, legal deadlines or public-participation closing dates, rely on the original source.</p>
     <p>For official weather warnings, see the <a href="https://www.weathersa.co.za/home/warnings">South African Weather Service</a>. For City service notices, use the <a href="https://www.capetown.gov.za/">City of Cape Town</a> website or app.</p>
-    <h2>Not affiliated</h2>
-    <p>This site is independent. It isn't affiliated with the City of Cape Town, the news outlets it summarises, or the Tucson Daily Brief that inspired it.</p>
+    <h2>Corrections</h2>
+    <p>When an error is found, the item is corrected and a dated note is added at the end of the brief.</p>
+    <h2>Credit</h2>
+    <p>The format is inspired by the <a href="https://tucsondailybrief.com/">Tucson Daily Brief</a>. This site is independent and not affiliated with it, with the City of Cape Town, or with any outlet it cites.</p>
   </div>
 </article>
 {% endblock %}

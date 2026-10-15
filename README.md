@@ -15,14 +15,17 @@ scheduled Claude Code task (daily, on this PC)
 
 | Path | What it is |
 |---|---|
-| `config/city.json` | City settings: name, feeds, Google News queries, keywords, coordinates |
+| `config/city.json` | City settings: name, vetted outlet feeds, blocked domains, clickbait filters, keywords, coordinates |
 | `scripts/collect.py` | Collects raw sources into `data/` (git-ignored) and `content/daily/` |
-| `scripts/links.py` | Resolves Google News `#n` items in the digest to real article URLs |
 | `scripts/build.py` | Renders `content/` with `templates/` into `_site/` |
 | `EDITOR.md` | The AI editor's handbook: selection, verification and style rules |
 | `content/briefs/` | One markdown file per daily brief |
 | `content/stories/` | Council desk stories: `watch`, `decided`, `around`, `indepth` |
 | `content/daily/` | Weather, load-shedding and meeting calendar (written by code, not AI) |
+
+## Sources
+
+Only outlets with their own newsroom, plus official records. No Google News or other aggregators. Outlets whose robots.txt blocks AI agents are excluded (News24, EWN) or used as headlines only (IOL). See `EDITOR.md` section 2.
 
 ## Run it locally
 
@@ -35,6 +38,6 @@ python -m http.server 8765 --directory _site
 
 ## Another city
 
-Copy `config/city.json`, then change the name, coordinates, feeds, keywords and Google News queries.
+Copy `config/city.json`, then change the name, coordinates, outlet feeds and keywords.
 The council collector (`collect_council`) is specific to the City of Cape Town's Council Hub API.
 Another municipality needs its own version of that function, or can skip it.

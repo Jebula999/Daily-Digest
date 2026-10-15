@@ -14,6 +14,8 @@ import io
 import json
 import re
 import sys
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
@@ -25,16 +27,22 @@ import feedparser
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = json.loads((ROOT / "config" / "city.json").read_text(encoding="utf-8"))
 TZ = ZoneInfo(CONFIG["timezone"])
-UA = {"User-Agent": "Mozilla/5.0 (compatible; CapeTownDailyBrief/1.0; +https://github.com)"}
+UA = {"User-Agent": "Mozilla/5.0 (compatible; CapeTownDailyBrief/1.0; +https://github.com/Jebula999/Daily-Digest)"}
 LOOKBACK_HOURS = 36
 PROCEDURAL = re.compile(r"COVER PAGE|NOTICE OF (A )?MEETING|OPENING|LEAVE OF ABSENCE|APOLOGIES|DECLARATION OF INTEREST|"
                         r"CONFIRMATION OF (THE )?MINUTES|MOMENT OF SILENCE|GENERAL DISCUSSION", re.I)
 
 
-def fetch(url, headers=None, timeout=30):
+def fetch(url, headers=None, timeout=30, attempts=3):
     req = urllib.request.Request(url, headers={**UA, **(headers or {})})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+    for i in range(attempts):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except (urllib.error.URLError, ConnectionError, TimeoutError):
+            if i == attempts - 1:
+                raise
+            time.sleep(2 * (i + 1))
 
 
 def fetch_json(url, headers=None):
@@ -59,15 +67,16 @@ def entry_time(e):
     return None
 
 
+SKIP_URL = re.compile("|".join(CONFIG["skip_url_patterns"]), re.I)
+SKIP_TITLE = re.compile("|".join(CONFIG["skip_title_patterns"]), re.I)
+
+
 def collect_feeds(errors):
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
-    items = []
-    feeds = list(CONFIG["feeds"])
-    for q in CONFIG["google_news_queries"]:
-        url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
-            {"q": q + " when:2d", "hl": "en-ZA", "gl": "ZA", "ceid": "ZA:en"})
-        feeds.append({"name": f"Google News: {q}", "url": url, "local_filter": False})
-    for f in feeds:
+    """Curated outlet feeds only: no aggregators. Sponsored, lifestyle and clickbait-shaped items are dropped."""
+    now = datetime.now(timezone.utc)
+    items, skipped = [], 0
+    for f in CONFIG["feeds"]:
+        cutoff = now - timedelta(hours=f.get("lookback_hours", LOOKBACK_HOURS))
         try:
             parsed = feedparser.parse(fetch(f["url"]))
         except Exception as e:
@@ -77,21 +86,26 @@ def collect_feeds(errors):
             ts = entry_time(e)
             if ts and ts < cutoff:
                 continue
+            url = e.get("link") or ""
+            if f.get("url_filter") and not re.search(f["url_filter"], url):
+                continue
             title = clean(e.get("title"))
             summary = clean(e.get("summary"), 240)
             if f.get("local_filter") and not is_local(title + " " + summary):
                 continue
-            source = f["name"]
-            if source.startswith("Google News") and e.get("source"):
-                source = e.source.get("title", source)
+            if SKIP_URL.search(url) or SKIP_TITLE.search(title):
+                skipped += 1
+                continue
             items.append({
                 "title": title,
-                "summary": "" if source != f["name"] and summary.startswith(title[:30]) else summary,
-                "url": e.get("link"),
-                "source": source,
-                "via": f["name"],
+                "summary": summary,
+                "url": url,
+                "source": f["name"],
+                "access": f.get("access", "full"),
                 "published": ts.astimezone(TZ).isoformat() if ts else None,
             })
+    if skipped:
+        errors.append(f"(info) skipped {skipped} sponsored/lifestyle/clickbait-pattern items")
     # De-duplicate by normalised title
     seen, unique = set(), []
     for it in sorted(items, key=lambda x: x["published"] or "", reverse=True):
@@ -270,15 +284,14 @@ def digest(data):
                 continue
             extra = f" (text: {doc['text_file']})" if doc.get("text_file") else ""
             L.append(f"    - doc {doc['type']}: {doc['name']}{extra}")
-    L += ["", "## City of Cape Town media releases (latest on the City site)"]
+    L += ["", "## City of Cape Town media page (FEATURED items, not dated: may be old, check before use)"]
     L += [f"- {x['title']} — {x['url']}" for x in data["city_media"]]
-    L += ["", f"## News items (last {LOOKBACK_HOURS}h, {len(data['news'])} items)",
-          "Google News links are long redirects, so they are shown as #n. "
-          "Get them with: python scripts/links.py <date> <n> [<n> ...]", ""]
-    for i, n in enumerate(data["news"]):
+    L += ["", f"## News items ({len(data['news'])} items)",
+          "HEADLINE ONLY = the outlet blocks AI agents: don't open the article; find a permitted source.", ""]
+    for n in data["news"]:
         when = (n["published"] or "")[5:16].replace("T", " ")
-        link = f"#{i}" if "news.google.com" in (n["url"] or "") else n["url"]
-        L.append(f"- [{n['source']}] {n['title']} ({when}) {link}")
+        flag = " · HEADLINE ONLY" if n["access"] == "headline" else ""
+        L.append(f"- [{n['source']}{flag}] {n['title']} ({when}) {n['url']}")
         if n["summary"]:
             L.append(f"    {n['summary']}")
     if data["errors"]:

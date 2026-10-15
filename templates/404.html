@@ -2,7 +2,8 @@
 {% block title %}Page not found — {{ site.site_name }}{% endblock %}
 {% block main %}
 <div class="wrap article">
-  <h1>That page isn't here.</h1>
-  <p class="dek">It may have moved, or the link may be mistyped. <a href="{{ '/' | url }}">Go to today's brief</a> or <a href="{{ '/briefs/' | url }}">browse past briefs</a>.</p>
+  <p class="kicker accent">Not found</p>
+  <h1 class="story-title">That page isn't here.</h1>
+  <div class="standfirst"><p>It may have moved, or the link may be mistyped. <a href="{{ '/' | url }}">Go to today's brief</a> or <a href="{{ '/briefs/' | url }}">browse past briefs</a>.</p></div>
 </div>
 {% endblock %}
