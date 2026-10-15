@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site.site_name }} — {{ site.tagline }}{% endblock %}</title>
+<meta name="description" content="{% block description %}Daily local news for {{ site.name }}: the morning brief, council meetings, outages and what the City decided.{% endblock %}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/static/style.css' | url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.site_name }}" href="{{ '/feed.xml' | url }}">
+<link rel="icon" href="{{ '/static/icon.svg' | url }}" type="image/svg+xml">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="wrap masthead-row">
+    <a class="wordmark" href="{{ '/' | url }}">
+      <svg class="mountain" viewBox="0 0 120 28" aria-hidden="true"><path d="M0 28 L10 20 L18 21 L24 12 L30 9 L88 8 L94 11 L100 10 L106 16 L113 19 L120 28 Z"/></svg>
+      <span>{{ site.site_name }}</span>
+    </a>
+    <nav aria-label="Main">
+      <a href="{{ '/briefs/' | url }}">Daily briefs</a>
+      <a href="{{ '/stories/' | url }}">Council &amp; town</a>
+      <a href="{{ '/about/' | url }}">How this works</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+{% block main %}{% endblock %}
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <p><strong>{{ site.site_name }}</strong> is written and updated by AI every morning from public sources: local news outlets, the City of Cape Town's council records and media releases, Eskom and Open-Meteo. Every item links to where it came from. <a href="{{ '/about/' | url }}">Read how it works and what it gets wrong.</a></p>
+    <p class="small">Last built {{ build_time.strftime('%d %b %Y, %H:%M') }} SAST · <a href="{{ '/feed.xml' | url }}">RSS feed</a></p>
+  </div>
+</footer>
+</body>
+</html>

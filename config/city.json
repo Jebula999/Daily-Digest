@@ -1,0 +1,40 @@
+{
+  "slug": "cape-town",
+  "name": "Cape Town",
+  "region": "Western Cape",
+  "site_name": "Cape Town Daily Brief",
+  "tagline": "The Cape Town news you'd otherwise miss",
+  "timezone": "Africa/Johannesburg",
+  "lat": -33.9249,
+  "lon": 18.4241,
+  "base_url": "",
+  "feeds": [
+    {"name": "GroundUp", "url": "https://www.groundup.org.za/sitenews/rss/", "local_filter": true},
+    {"name": "Daily Maverick", "url": "https://www.dailymaverick.co.za/dmrss/", "local_filter": true},
+    {"name": "News24", "url": "https://feeds.capi24.com/v1/Search/articles/news24/SouthAfrica/rss", "local_filter": true},
+    {"name": "Cape Town ETC", "url": "https://www.capetownetc.com/feed/", "local_filter": false}
+  ],
+  "google_news_queries": [
+    "\"Cape Town\"",
+    "\"City of Cape Town\" council",
+    "Cape Town weather warning",
+    "Cape Town water outage OR electricity outage OR road closure",
+    "Western Cape SAWS warning"
+  ],
+  "local_keywords": [
+    "cape town", "western cape", "city of cape town", "khayelitsha", "mitchells plain",
+    "gugulethu", "nyanga", "philippi", "delft", "bellville", "durbanville", "atlantis",
+    "table mountain", "sea point", "woodstock", "observatory", "muizenberg", "fish hoek",
+    "simon's town", "hout bay", "camps bay", "langa", "athlone", "parow", "goodwood",
+    "milnerton", "blouberg", "strand", "somerset west", "kraaifontein", "brackenfell",
+    "stellenbosch", "paarl", "myciti", "metrorail", "eskom", "golden arrow", "hill-lewis",
+    "winde", "subcouncil", "table bay", "false bay", "cape flats", "lwandle", "wynberg",
+    "claremont", "rondebosch", "kuils river", "eerste river", "macassar", "dunoon"
+  ],
+  "city_media_url": "https://www.capetown.gov.za/Media-and-news",
+  "council_hub": {
+    "app_url": "https://web1.capetown.gov.za/web1/councilhubonline/",
+    "settings_url": "https://web1.capetown.gov.za/web1/councilhubonline/assets/config/appsettings.json"
+  },
+  "eskom_status_url": "https://loadshedding.eskom.co.za/LoadShedding/GetStatus"
+}

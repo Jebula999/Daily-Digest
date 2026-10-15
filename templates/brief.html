@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% from "_macros.html" import conditions_band, sources_list %}
+{% block title %}{{ brief.headline }} — {{ site.site_name }}{% endblock %}
+{% block description %}{{ brief.dek }}{% endblock %}
+{% block main %}
+<article class="wrap article">
+  <p class="dateline">Daily brief for {{ brief.date | long_date }}</p>
+  {% if brief.alert %}<p class="alert" role="note">{{ brief.alert }}</p>{% endif %}
+  <h1>{{ brief.headline }}</h1>
+  <p class="dek">{{ brief.dek }}</p>
+  {{ conditions_band(conditions, compact=true) }}
+  <div class="prose">{{ brief.html | safe }}</div>
+  {{ sources_list(brief.sources) }}
+  <nav class="pager" aria-label="More briefs">
+    {% if older %}<a href="{{ older.url | url }}">Previous: {{ older.date | weekday }} {{ older.date | short_date }}</a>{% else %}<span></span>{% endif %}
+    {% if newer %}<a href="{{ newer.url | url }}">Next: {{ newer.date | weekday }} {{ newer.date | short_date }}</a>{% endif %}
+  </nav>
+</article>
+{% endblock %}

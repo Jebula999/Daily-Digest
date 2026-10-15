@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Page not found — {{ site.site_name }}{% endblock %}
+{% block main %}
+<div class="wrap article">
+  <h1>That page isn't here.</h1>
+  <p class="dek">It may have moved, or the link may be mistyped. <a href="{{ '/' | url }}">Go to today's brief</a> or <a href="{{ '/briefs/' | url }}">browse past briefs</a>.</p>
+</div>
+{% endblock %}

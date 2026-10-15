@@ -1,0 +1,68 @@
+﻿{% extends "base.html" %}
+{% from "_macros.html" import conditions_band %}
+{% block main %}
+<div class="wrap">
+  <p class="dateline">{{ today | long_date }}, {{ site.name }}</p>
+  {{ conditions_band(conditions) }}
+
+  {% if lead %}
+  <section class="lead" aria-labelledby="lead-h">
+    {% if lead.alert %}<p class="alert" role="note">{{ lead.alert }}</p>{% endif %}
+    <h1 id="lead-h"><a href="{{ lead.url | url }}">{{ lead.headline }}</a></h1>
+    <p class="dek">{{ lead.dek }}</p>
+    {% if lead.headlines %}
+    <ul class="headlines">
+      {% for h in lead.headlines %}<li><a href="{{ (lead.url ~ ('#' ~ h.anchor if h.anchor else '')) | url }}">{{ h.text }}</a></li>{% endfor %}
+    </ul>
+    {% endif %}
+    <a class="button" href="{{ lead.url | url }}">Read today's brief</a>
+  </section>
+  {% else %}
+  <section class="lead"><h1>The first edition is on its way.</h1><p class="dek">Briefs are published every morning.</p></section>
+  {% endif %}
+
+  <section class="week" aria-labelledby="week-h">
+    <h2 id="week-h">The week at a glance</h2>
+    <ol class="days">
+      {% for d in week %}
+      <li class="day{% if d.is_today %} today{% endif %}{% if not d.entries %} empty{% endif %}">
+        <p class="dayname"><span>{{ d.date | weekday }}</span> {{ d.date.day }}{% if d.is_today %} <em>today</em>{% endif %}</p>
+        {% if d.entries %}
+        <ul>
+          {% for e in d.entries %}
+          <li><span class="kind">{{ e.kind }}</span> <a href="{{ e.url if e.external else (e.url | url) }}"{% if e.external %} rel="noopener"{% endif %}>{{ e.title }}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  {% if stories %}
+  <section class="desk" aria-labelledby="desk-h">
+    <h2 id="desk-h">From the council desk</h2>
+    <div class="desk-grid">
+    {% for t, label in types.items() %}{% set s = latest_by_type[t] %}{% if s %}
+      <article class="desk-item {{ t }}">
+        <p class="kind">{{ label }}</p>
+        <h3><a href="{{ s.url | url }}">{{ s.title }}</a></h3>
+        <p>{{ s.summary }}</p>
+        <p class="meta">{% if t == 'watch' and s.event_date %}Meeting on {{ s.event_date | long_date }}{% else %}{{ s.date | long_date }}{% endif %}</p>
+      </article>
+    {% endif %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if recent %}
+  <section class="recent" aria-labelledby="recent-h">
+    <h2 id="recent-h">Earlier briefs</h2>
+    <ul class="brief-list">
+      {% for b in recent %}<li><a href="{{ b.url | url }}"><time datetime="{{ b.date }}">{{ b.date | weekday }} {{ b.date | short_date }}</time> {{ b.headline }}</a></li>{% endfor %}
+    </ul>
+    <p><a href="{{ '/briefs/' | url }}">All daily briefs</a></p>
+  </section>
+  {% endif %}
+</div>
+{% endblock %}

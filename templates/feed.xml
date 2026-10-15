@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>{{ site.site_name }}</title>
+  <link>{{ site.base_url }}{{ '/' | url }}</link>
+  <description>{{ site.tagline }}</description>
+  <language>en-za</language>
+  {% for i in items %}
+  <item>
+    <title>{{ i.title }}</title>
+    <link>{{ site.base_url }}{{ i.url | url }}</link>
+    <guid>{{ site.base_url }}{{ i.url | url }}</guid>
+    <pubDate>{{ i.date | rfc822 }}</pubDate>
+    <description>{{ i.summary }}</description>
+  </item>
+  {% endfor %}
+</channel>
+</rss>
