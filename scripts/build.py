@@ -166,7 +166,6 @@ def main():
         (len(stories), "council and town stories"),
         (len(meeting_ids), "City meetings tracked"),
         (len(CONFIG["feeds"]), "newsroom feeds read each morning"),
-        (0, "Google News or aggregator links used"),
     ]
 
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape(["html", "xml"]))
@@ -210,7 +209,6 @@ def main():
         render("section.html", path, title=title, intro=intro, kinds=kinds,
                stories=[s for s in stories if s["type"] in kinds])
     render("archive.html", "/briefs/", briefs=briefs)
-    render("about.html", "/about/")
     render("404.html", "/404.html")
     render("feed.xml", "/feed.xml", items=sorted(
         [{"title": b["headline"], "url": b["url"], "date": b["date"], "summary": b["dek"]} for b in briefs] +

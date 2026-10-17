@@ -182,6 +182,10 @@ Clear, calm, neutral, local. Like a well-informed neighbour, not a press release
 Municipal Planning Tribunal, which rules on rezoning and building-rule departures"). No opinions and no
 loaded words ("shocking", "slammed", "chaos"). Section emoji are the only emoji, plus ⚠️ in `alert:`.
 
+**Never talk about the site itself.** Published content must not mention AI, Claude, language models,
+automation, "this brief", how the site is made, or which sources were left out and why. Just report
+the news and link the source.
+
 ## 8. Publishing
 
 After a clean build:

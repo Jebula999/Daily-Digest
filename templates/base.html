@@ -40,13 +40,12 @@
   <p class="kicker">{{ site.kicker }}</p>
   <div class="masthead-row">
     <a class="wordmark" href="{{ '/' | url }}">{{ site.site_name }}</a>
-    <p class="tagline">{{ site.tagline }}, compiled each morning by AI.</p>
+    <p class="tagline">{{ site.tagline }}.</p>
   </div>
   <nav class="nav" aria-label="Main">
     <div class="nav-links">
       <a href="{{ '/briefs/' | url }}"{% if page.startswith('/briefs') %} aria-current="page"{% endif %}>Daily Briefs</a>
       {% for path, sec in sections.items() %}<a href="{{ path | url }}"{% if page == path %} aria-current="page"{% endif %}>{{ sec[0] }}</a>{% endfor %}
-      <a href="{{ '/about/' | url }}"{% if page == '/about/' %} aria-current="page"{% endif %}>How it works</a>
     </div>
     <a class="button" href="{{ '/feed.xml' | url }}">Follow via RSS</a>
   </nav>
@@ -60,10 +59,9 @@
   <div class="wrap footer-row">
     <div>
       <p class="footer-name">{{ site.site_name }}</p>
-      <p>Written and updated by AI every morning from named public sources: Cape Town newsrooms, the City of Cape Town's council records, Eskom and Open-Meteo. Every item links to where it came from. It is independent and not affiliated with the City or any outlet it cites.</p>
+      <p>Independent local news for Cape Town, published every morning. Every item links to its source.</p>
     </div>
     <ul class="footer-links">
-      <li><a href="{{ '/about/' | url }}">How this is made</a></li>
       <li><a href="{{ '/briefs/' | url }}">All daily briefs</a></li>
       <li><a href="{{ '/feed.xml' | url }}">RSS feed</a></li>
     </ul>
