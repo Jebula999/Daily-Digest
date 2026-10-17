@@ -13,7 +13,7 @@
       {{ tablecloth("hero-mark") }}
       <p class="kicker accent">Today's brief</p>
       {% if lead %}
-      <h1 id="lead-h"><a href="{{ lead.url | url }}">{% if lead.alert %}⚠️ {{ lead.alert }}{% else %}{{ lead.headline }}{% endif %}</a></h1>
+      <h1 id="lead-h"><a href="{{ lead.url | url }}">{% if lead.alert %}⚠️ {{ lead.alert | keep }}{% else %}{{ lead.headline | keep }}{% endif %}</a></h1>
       <p class="hero-dek">{% if lead.alert %}Plus {{ lead.headline[0] | lower }}{{ lead.headline[1:] }}, and the rest of the day's news from {{ site.name }}.{% else %}{{ lead.dek }}{% endif %}</p>
       <a class="more" href="{{ lead.url | url }}">Read today's brief <span aria-hidden="true">→</span></a>
       {% else %}
@@ -26,7 +26,7 @@
     <aside class="morning card" aria-labelledby="morning-h">
       <h2 id="morning-h" class="kicker">This morning in {{ site.name }}</h2>
       <ol>
-        {% for h in lead.headlines %}<li><a href="{{ (lead.url ~ ('#' ~ h.anchor if h.anchor else '')) | url }}">{{ h.text }}</a></li>{% endfor %}
+        {% for h in lead.headlines %}<li><a href="{{ (lead.url ~ ('#' ~ h.anchor if h.anchor else '')) | url }}">{{ h.text | keep }}</a></li>{% endfor %}
       </ol>
       {% if conditions and conditions.weather %}{% set w = conditions.weather %}
       <p class="morning-conditions">
@@ -43,10 +43,10 @@
     <h2 id="latest-h" class="section-title">Latest across {{ site.name }}</h2>
     <div class="latest-grid">
       {% for t, label in types.items() %}{% set s = latest_by_type[t] %}
-      <article class="latest-item t-{{ t }}">
+      <article class="latest-item t-{{ t }}{% if not s %} empty{% endif %}">
         <p class="kicker">{{ label }}</p>
         {% if s %}
-        <h3><a href="{{ s.url | url }}">{{ s.title }}</a></h3>
+        <h3><a href="{{ s.url | url }}">{{ s.title | keep }}</a></h3>
         <p class="meta">{% if t == 'watch' and s.event_date %}Meeting {{ s.event_date | dmy }}{% else %}{{ s.date | dmy }}{% endif %}</p>
         {% else %}
         <p class="meta">Nothing yet. These appear when the source records support one.</p>
@@ -87,7 +87,7 @@
   <section class="recent" aria-labelledby="recent-h">
     <h2 id="recent-h" class="section-title">Recent daily briefs</h2>
     <ul class="recent-list">
-      {% for b in recent %}<li><a href="{{ b.url | url }}"><time datetime="{{ b.date }}">{{ b.date | short_date }} · {{ b.date | weekday }}</time><span>{% if b.alert %}⚠️ {{ b.alert }}{% else %}{{ b.headline }}{% endif %}</span></a></li>{% endfor %}
+      {% for b in recent %}<li><a href="{{ b.url | url }}"><time datetime="{{ b.date }}">{{ b.date | short_date }} · {{ b.date | weekday }}</time><span>{% if b.alert %}⚠️ {{ b.alert | keep }}{% else %}{{ b.headline | keep }}{% endif %}</span></a></li>{% endfor %}
     </ul>
     <a class="more" href="{{ '/briefs/' | url }}">See all daily briefs <span aria-hidden="true">→</span></a>
   </section>

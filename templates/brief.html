@@ -8,7 +8,7 @@
   <h1 class="date-title">{{ brief.date | dmy }}</h1>
   <p class="weekday">{{ brief.date | fulldayname }}</p>
   <div class="standfirst">
-    <p class="standfirst-head">{{ brief.headline }}</p>
+    <p class="standfirst-head">{{ brief.headline | keep }}</p>
     <p>{{ brief.dek }}</p>
   </div>
   {% if day and day.weather %}{% set w = day.weather %}

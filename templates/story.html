@@ -6,7 +6,7 @@
   {% set sec = '/in-depth/' if story.type == 'indepth' else ('/around-town/' if story.type == 'around' else '/local-government/') %}
   <a class="back" href="{{ sec | url }}"><span aria-hidden="true">←</span> {{ sections[sec][0] }}</a>
   <p class="kicker t-{{ story.type }}">{{ story.label }}</p>
-  <h1 class="story-title">{{ story.title }}</h1>
+  <h1 class="story-title">{{ story.title | keep }}</h1>
   <p class="weekday">{{ story.date | long_date }}</p>
   <div class="standfirst"><p>{{ story.summary }}</p></div>
   {% if story.type == 'watch' and story.event_date %}

@@ -48,8 +48,10 @@ body {
 a { color: var(--protea); text-underline-offset: .2em; text-decoration-thickness: 1px; }
 a:hover { color: var(--protea-deep); }
 :focus-visible { outline: 2px solid var(--protea); outline-offset: 3px; border-radius: 2px; }
-h1, h2, h3 { color: var(--ink); margin: 0; }
-p { margin: 0 0 1em; }
+h1, h2, h3 { color: var(--ink); margin: 0; text-wrap: balance; }
+p, li { text-wrap: pretty; }
+p { margin: 0 0 1em; overflow-wrap: break-word; }
+.nw { white-space: nowrap; }
 .wrap { max-width: 72rem; margin: 0 auto; padding: 0 1rem; }
 @media (min-width: 720px) { .wrap { padding: 0 2rem; } }
 .skip { position: absolute; left: -999px; top: 0; background: var(--ink); color: var(--paper); padding: .5rem 1rem; z-index: 10; }
@@ -67,7 +69,7 @@ p { margin: 0 0 1em; }
 
 /* Status bar + ticker */
 .statusbar { background: var(--bar); color: var(--bar-text); font: 500 .72rem/1.4 var(--mono); }
-.statusbar-row { display: flex; justify-content: space-between; gap: 1rem; padding-top: .5rem; padding-bottom: .5rem; }
+.statusbar-row { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding-top: .5rem; padding-bottom: .5rem; }
 .statusbar p { margin: 0; }
 .status-left { margin: 0; }
 .status-sep { margin-left: 1.25rem; }
@@ -273,24 +275,86 @@ p { margin: 0 0 1em; }
   .day .entry:last-child { margin-bottom: 0; }
   .day > .entry { grid-column: 2; }
 }
+/* Phones: a compact header, one-line bars, and text sized for reading on a small screen. */
 @media (max-width: 640px) {
-  .statusbar-row { flex-direction: column; gap: .25rem; }
-  .status-sep { display: none; }
-  .hero-mark { display: none; }
-  .dateline { font-size: .66rem; gap: .6rem; }
+  body { font-size: 1rem; line-height: 1.6; }
+
+  /* Status bar: one line. Show the alert if there is one, otherwise the weather. */
+  .statusbar-row { padding-top: .4rem; padding-bottom: .4rem; }
+  .status-left, .status-right { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+  .status-left.no-alert, .status-sep { display: none; }
+  .status-left:not(.no-alert) + .status-right { display: none; }
+  .ticker-row { padding-top: .45rem; padding-bottom: .45rem; gap: .75rem; }
+  .ticker-label { display: none; }
+
+  /* Masthead: name only, then a swipeable single-row nav. */
+  .masthead { padding-top: 1rem; }
+  .masthead .kicker, .tagline { display: none; }
+  .masthead-row { padding-bottom: .6rem; }
+  .wordmark { font-size: 1.85rem; }
+  .nav { padding: 0; margin: 0 -1rem; }
+  .nav-links {
+    flex-wrap: nowrap; overflow-x: auto; margin: 0; padding: .45rem 1rem; gap: .2rem;
+    scrollbar-width: none; -webkit-overflow-scrolling: touch;
+    mask-image: linear-gradient(90deg, #000 85%, transparent);
+  }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-links a { white-space: nowrap; font-size: .92rem; padding: .35rem .55rem; }
+  .nav .button { display: none; }
+
+  .dateline { margin: 1rem 0 1.1rem; font-size: .66rem; gap: .6rem; justify-content: space-between; }
   .dateline-rule, .dateline-region { display: none; }
-  .dateline { justify-content: space-between; }
-  .day.empty:not(.today) { display: none; }
-  .latest-grid { grid-template-columns: 1fr; }
-  .latest-item { padding: 0 0 1.25rem; border-left: 0; border-bottom: 1px solid var(--rule); }
-  .recent-list { grid-template-columns: 1fr; }
-  .recent-list a { grid-template-columns: 5.5rem 1fr; }
-  .follow { grid-template-columns: 1fr; }
-  .art-panel { min-height: 9rem; max-height: 11rem; }
-  .follow-body { padding: 1.5rem 1.25rem; }
-  .nav { flex-direction: column; align-items: flex-start; }
-  .footer-row { grid-template-columns: 1fr; }
-  .feature-mark { display: none; }
-  .day { grid-template-columns: 1fr; gap: .4rem; }
+
+  /* Hero */
+  .hero { gap: 1.5rem; margin-bottom: 2.5rem; }
+  .hero-mark { display: none; }
+  .hero h1 { font-size: 1.95rem; line-height: 1.12; margin-bottom: .75rem; }
+  .hero-dek { font-size: 1rem; margin-bottom: .8rem; }
+  .morning { padding: 1rem 1.1rem .75rem; }
+  .morning li { padding: .6rem 0; }
+  .morning li a { font-size: .95rem; }
+
+  /* Section titles: full width, the date range on its own small line */
+  .section-title { display: block; font-size: 1.45rem; margin-bottom: 1rem; }
+  .section-title .range { display: block; margin: .3rem 0 0; vertical-align: 0; }
+  .latest, .week, .recent, .feature { margin-bottom: 2.5rem; }
+
+  .latest-grid { grid-template-columns: 1fr; row-gap: 0; }
+  .latest-item, .latest-item:nth-child(3) { padding: 0 0 1rem; margin-bottom: 1rem; border-left: 0; border-bottom: 1px solid var(--rule); }
+  .latest-item.empty { display: none; }
+
+  .day { grid-template-columns: 1fr; gap: .3rem; padding: .85rem 1rem; }
   .day > .entry { grid-column: 1; }
+  .day.empty:not(.today) { display: none; }
+
+  .feature { padding: 1.25rem 1.2rem; }
+  .feature-mark { display: none; }
+
+  /* Lists: date above the headline so the headline gets the full width */
+  .recent-list { grid-template-columns: 1fr; }
+  .recent-list a { display: block; padding: .7rem 0; }
+  .recent-list time { display: block; font-size: .78rem; line-height: 1.4; margin-bottom: .1rem; }
+
+  .follow { grid-template-columns: 1fr; margin-bottom: 2.5rem; }
+  .art-panel { display: none; }
+  .follow-body { padding: 1.4rem 1.2rem; }
+  .footer-row { grid-template-columns: 1fr; gap: 1rem; }
+
+  /* Reading pages */
+  .article { padding-top: 1rem; padding-bottom: 2.5rem; }
+  .back { margin-bottom: 1rem; }
+  .date-title, .story-title { font-size: 2rem; line-height: 1.12; }
+  .weekday { margin-bottom: 1rem; }
+  .standfirst { font-size: 1.02rem; margin-bottom: 1.1rem; }
+  .standfirst-head { font-size: 1.08rem; }
+  .conditions-line { font-size: .85rem; padding: .55rem .7rem; margin-bottom: 1.5rem; }
+  .conditions-src { margin-left: 0; }
+  .prose { line-height: 1.62; }
+  .prose h2 { font-size: 1.35rem; margin: 2rem 0 .75rem; }
+  .prose blockquote { margin-bottom: 1.4rem; }
+  .prose ul, .prose ol { padding-left: 1.1rem; }
+  .prose table { font-size: .85rem; }
+  .prose th, .prose td { padding: .45rem .4rem; }
+  .when { font-size: .92rem; }
+  .pager { font-size: .9rem; }
 }

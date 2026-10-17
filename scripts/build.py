@@ -17,6 +17,7 @@ from zoneinfo import ZoneInfo
 import markdown
 import yaml
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from markupsafe import Markup, escape
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
@@ -50,6 +51,12 @@ def sky(code):
              ((45, 48), "Fog"), ((51, 53, 55, 56, 57), "Drizzle"), ((61, 63, 66, 80, 81), "Rain"),
              ((65, 67, 82), "Heavy rain"), ((71, 73, 75, 77, 85, 86), "Snow"), ((95, 96, 99), "Thunderstorms")]
     return next((label for codes, label in table if code in codes), "Mixed")
+
+
+def keep_hyphens(text):
+    """Escape text and keep hyphenated words (year-end, Hill-Lewis) on one line."""
+    out = re.sub(r"\w+(?:-\w+)+", lambda m: f'<span class="nw">{m.group(0)}</span>', str(escape(text or "")))
+    return Markup(out)
 
 
 class ContentError(Exception):
@@ -173,6 +180,7 @@ def main():
     env.filters["weekday"] = lambda d: f"{d:%a}"
     env.filters["fulldayname"] = lambda d: f"{d:%A}"
     env.filters["sky"] = sky
+    env.filters["keep"] = keep_hyphens
     env.filters["iso"] = lambda s: date.fromisoformat(s)
     env.filters["rfc822"] = lambda d: format_datetime(datetime(d.year, d.month, d.day, 6, 0, tzinfo=TZ))
 

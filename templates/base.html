@@ -17,7 +17,7 @@
 
 <div class="statusbar">
   <div class="wrap statusbar-row">
-    <p class="status-left">
+    <p class="status-left{% if not lead_alert %} no-alert{% endif %}">
       {% if lead_alert %}<span class="dot alert"></span>{{ lead_alert }}{% else %}<span class="dot"></span>No weather or service alerts in today's brief{% endif %}
       {% if next_meeting %}<span class="status-sep">
         <span class="dot calm"></span>Next meeting: {{ next_meeting.title }} · {{ (next_meeting.date | iso).strftime('%a') }} {{ next_meeting.start }}</span>{% endif %}
