@@ -1,0 +1,60 @@
+{
+ "date": "2026-10-18",
+ "loadshedding": {
+  "stage": 0,
+  "label": "No load-shedding",
+  "source": "Eskom",
+  "url": "https://loadshedding.eskom.co.za/"
+ },
+ "weather": {
+  "min": 11,
+  "max": 16,
+  "rain_mm": 0.1,
+  "rain_chance": 18,
+  "wind_kmh": 19,
+  "gust_kmh": 56,
+  "wind_deg": 172,
+  "wind_from": "S",
+  "uv": 5,
+  "code": 51,
+  "source": "Open-Meteo"
+ },
+ "meetings": [
+  {
+   "id": 30240,
+   "title": "MPT South Western",
+   "date": "2026-10-20",
+   "start": "08:30",
+   "category": "MPTMeeting",
+   "venue": "Microsoft Teams",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 30262,
+   "title": "MPT South Eastern",
+   "date": "2026-10-27",
+   "start": "08:30",
+   "category": "MPTMeeting",
+   "venue": "Microsoft Teams",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 16992,
+   "title": "Planning Appeals Advisory Panel",
+   "date": "2026-10-27",
+   "start": "09:00",
+   "category": "ECSMeeting",
+   "venue": "Ray Alexander Simon Room Civic Centre",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 17146,
+   "title": "Special Council",
+   "date": "2026-10-29",
+   "start": "10:00",
+   "category": "ECSMeeting",
+   "venue": "Microsoft Teams",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  }
+ ]
+}
