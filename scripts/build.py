@@ -213,6 +213,87 @@ def week_view(today, briefs, stories, meetings):
     return days
 
 
+EVENT_CATEGORIES = {
+    "music": "Music", "stage": "Stage & comedy", "food": "Food & drink", "markets": "Markets",
+    "festivals": "Festivals", "outdoors": "Outdoors", "sport": "Sport", "art": "Art", "family": "Family",
+    "film-talks": "Film & talks", "other": "Out & about",
+}
+
+
+def load_weekends():
+    """content/weekend/<monday>.json, newest first."""
+    weeks = []
+    for p in sorted((CONTENT / "weekend").glob("*.json"), reverse=True):
+        w = json.loads(p.read_text(encoding="utf-8-sig"))
+        w["monday"] = date.fromisoformat(w["week_start"])
+        w["url"] = f"/weekend/{w['week_start']}/"
+        weeks.append(w)
+    return weeks
+
+
+def where(venue, area):
+    """'Venue, Area', leaving out the area when it's just 'Cape Town' or already in the venue's name."""
+    venue = venue or ""
+    if area and area != "Cape Town" and area.lower() not in venue.lower():
+        return f"{venue}, {area}" if venue else area
+    return venue or area or ""
+
+
+def weekend_view(week, today):
+    """Group a week's events into Friday, Saturday, Sunday and 'on all weekend'."""
+    fri = date.fromisoformat(week["weekend_start"])
+    days = [fri + timedelta(days=i) for i in range(3)]
+    by_day, multi = {d: [] for d in days}, []
+    for e in week["events"]:
+        start = datetime.fromisoformat(e["start"])
+        end = datetime.fromisoformat(e["end"]) if e.get("end") else start
+        if end.time() == datetime.min.time() and end.date() > start.date():
+            end -= timedelta(minutes=1)  # ends at midnight: the day before
+        on = {datetime.fromisoformat(x).date() for x in e.get("sessions") or [e["start"]]}
+        if end - start >= timedelta(hours=20):  # a real multi-day run, not an evening that ends after midnight
+            on |= {d for d in days if start.date() <= d <= end.date()}
+        on = sorted(d for d in on if d in days)
+        if not on:
+            continue
+        ev = dict(e, days=on, is_new=e.get("added") == today.isoformat(),
+                  label=EVENT_CATEGORIES.get(e["category"], "Out & about"),
+                  time=None if e.get("all_day") or len(on) > 1 else f"{start:%H:%M}",
+                  where=where(e.get("venue"), e.get("area")))
+        if len(on) > 1:
+            span = f"{on[0]:%a}–{on[-1]:%a}" if len(on) == 3 else " & ".join(f"{d:%a}" for d in on)
+            ev["when"] = f"{span}" + (f", until {end.day} {end:%b}" if end.date() > days[-1] else "")
+            multi.append(ev)
+        else:
+            by_day[on[0]].append(ev)
+    order = lambda e: (not e.get("highlight"), e.get("time") or "00:00", e["title"])
+    groups = [(d, sorted(by_day[d], key=order)) for d in days]
+    everything = [e for _, v in groups for e in v] + multi
+    # Homepage: the editor's picks first, then one from each category so it isn't five wine tastings.
+    picks, seen = [e for e in everything if e.get("highlight")], set()
+    for e in everything:
+        if len(picks) >= 5:
+            break
+        if e not in picks and e["category"] not in seen:
+            picks.append(e)
+            seen.add(e["category"])
+    return {"days": groups, "multi": sorted(multi, key=lambda e: (not e.get("highlight"), e["title"])),
+            "count": sum(len(v) for v in by_day.values()) + len(multi),
+            "new": sum(1 for v in by_day.values() for e in v if e["is_new"]) + sum(e["is_new"] for e in multi),
+            "fri": fri, "sun": days[-1], "picks": picks[:5]}
+
+
+def load_history():
+    """content/history/MM-DD.json -> {"MM-DD": {...}}."""
+    out = {}
+    for p in sorted((CONTENT / "history").glob("*.json")):
+        h = json.loads(p.read_text(encoding="utf-8-sig"))
+        h["cape"] = [x for x in h["south_africa"] if x.get("cape_town")]
+        h["sa"] = [x for x in h["south_africa"] if not x.get("cape_town")]
+        h["url"] = f"/history/{p.stem}/"
+        out[p.stem] = h
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", default=os.environ.get("BASE_PATH", ""))
@@ -243,12 +324,19 @@ def main():
     meetings = (conditions or {}).get("meetings", [])
     next_meeting = next((m for m in meetings if m["date"] >= today.isoformat()), None)
     meeting_ids = {m["id"] for d in daily.values() for m in d.get("meetings", [])}
+    weeks = load_weekends()
+    current_week = next((w for w in weeks if w["monday"] <= today), None)
+    weekend = weekend_view(current_week, today) if current_week else None
+    history = load_history()
+    history_today = history.get(f"{today:%m-%d}")
     numbers = [
         (len(briefs), "daily briefs published"),
         (len(stories), "council and town stories"),
         (len(meeting_ids), "City meetings tracked"),
         (len(CONFIG["feeds"]), "newsroom feeds read each morning"),
     ]
+    if weekend and weekend["count"]:
+        numbers.insert(2, (weekend["count"], "things to do this weekend"))
 
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape(["html", "xml"]))
     env.globals.update(site=CONFIG, base=base, types=STORY_TYPES, build_time=datetime.now(TZ),
@@ -263,6 +351,7 @@ def main():
     env.filters["sky"] = sky
     env.filters["keep"] = keep_hyphens
     env.filters["iso"] = lambda s: date.fromisoformat(s)
+    env.filters["md"] = lambda k: f"{int(k[3:])} {date(2000, int(k[:2]), 1):%B}"  # "10-21" -> "21 October"
     env.filters["rfc822"] = lambda d: format_datetime(datetime(d.year, d.month, d.day, 6, 0, tzinfo=TZ))
 
     if OUT.exists():
@@ -280,7 +369,23 @@ def main():
 
     latest_by_type = {t: next((s for s in stories if s["type"] == t), None) for t in STORY_TYPES}
     render("index.html", "/", lead=lead, today=today, latest_by_type=latest_by_type,
-           week=week_view(today, briefs, stories, meetings), recent=briefs[1:9])
+           week=week_view(today, briefs, stories, meetings), recent=briefs[1:9],
+           weekend=weekend, weekend_url=current_week["url"] if current_week else None, history_today=history_today)
+    for w in weeks:
+        view = weekend_view(w, today)
+        others = [x for x in weeks if x is not w][:8]
+        render("weekend.html", w["url"], week=w, view=view, others=others, current=w is current_week)
+        if w is current_week:
+            render("weekend.html", "/weekend/", week=w, view=view, others=others, current=True)
+    for key, h in history.items():
+        d = date(2000, int(key[:2]), int(key[3:]))  # a leap year, so 29 February works
+        keys = list(history)
+        i = keys.index(key)
+        nav = dict(prev=history[keys[i - 1]] if i > 0 else None,
+                   next=history[keys[i + 1]] if i + 1 < len(keys) else None)
+        render("history.html", h["url"], h=h, day=d, **nav)
+        if h is (history_today or next(iter(history.values()))):
+            render("history.html", "/history/", h=h, day=d, **nav)
     for i, b in enumerate(briefs):
         render("brief.html", b["url"], brief=b, day=daily.get(b["date"]),
                newer=briefs[i - 1] if i > 0 else None, older=briefs[i + 1] if i + 1 < len(briefs) else None)

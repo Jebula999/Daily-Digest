@@ -1,0 +1,9 @@
+<li class="event c-{{ e.category }}{% if e.highlight %} highlight{% endif %}">
+  <p class="event-when">{% if e.time %}{{ e.time }}{% elif e.when %}{{ e.when }}{% else %}All day{% endif %}</p>
+  <div>
+    <p class="event-tags"><span class="event-cat">{{ e.label }}</span>{% if e.highlight %}<span class="event-pick">Pick</span>{% endif %}{% if e.is_new %}<span class="event-new">New</span>{% endif %}</p>
+    <h3><a href="{{ e.url }}" rel="noopener">{{ e.title | keep }}</a></h3>
+    {% if e.blurb %}<p class="event-blurb">{{ e.blurb }}</p>{% endif %}
+    <p class="meta">{{ e.where }}{% if e.price_from %} · from R{{ "{:,.0f}".format(e.price_from) }}{% elif e.free %} · free{% endif %}</p>
+  </div>
+</li>

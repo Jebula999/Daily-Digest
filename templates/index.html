@@ -75,6 +75,32 @@
     </ol>
   </section>
 
+  {% if (weekend and weekend.count) or history_today %}
+  <div class="pair">
+    {% if weekend and weekend.count %}
+    <section class="card pair-card weekend-card" aria-labelledby="wk-h">
+      <p class="kicker">{{ weekend.fri | short_date }}–{{ weekend.sun | short_date }}{% if weekend.new %} · {{ weekend.new }} new today{% endif %}</p>
+      <h2 id="wk-h" class="pair-title"><a href="{{ weekend_url | url }}">This weekend in {{ site.name }}</a></h2>
+      <ul class="pair-list">
+        {% for e in weekend.picks %}<li><span class="kind">{% if e.days | length > 1 %}{{ e.when }}{% else %}{{ e.days[0].strftime('%a') }}{% if e.time %} {{ e.time }}{% endif %}{% endif %} · {{ e.label }}</span><a href="{{ e.url }}" rel="noopener">{{ e.title | keep }}</a></li>{% endfor %}
+      </ul>
+      <a class="more" href="{{ weekend_url | url }}">All {{ weekend.count }} things to do <span aria-hidden="true">→</span></a>
+    </section>
+    {% endif %}
+    {% if history_today %}{% set h = history_today %}
+    <section class="card pair-card history-card" aria-labelledby="hist-h">
+      <p class="kicker">This day in history</p>
+      <h2 id="hist-h" class="pair-title"><a href="{{ '/history/' | url }}">{{ today.day }} {{ today.strftime('%B') }}</a></h2>
+      <ul class="pair-list">
+        {% for x in (h.cape + h.sa)[:3] %}<li><span class="kind">{{ x.year }}</span><a href="{{ x.url }}" rel="noopener">{{ x.title | keep }}</a></li>{% endfor %}
+        {% for x in h.world[:1] %}<li><span class="kind">{{ x.year }} · World</span>{{ x.text }}</li>{% endfor %}
+      </ul>
+      <a class="more" href="{{ '/history/' | url }}">More from this day <span aria-hidden="true">→</span></a>
+    </section>
+    {% endif %}
+  </div>
+  {% endif %}
+
   {% if site.feature %}{% set f = site.feature %}
   <a class="feature" href="{{ f.url }}" rel="noopener">
     <p class="kicker">{{ f.kicker }}</p>

@@ -1,0 +1,60 @@
+{
+  "_help": "What 'This weekend' tracks. Edit freely: the next morning's run uses it. Matching is case-insensitive and checks the event's title and description.",
+
+  "track_categories": ["music", "stage", "food", "markets", "festivals", "outdoors", "sport", "art", "family", "film-talks", "other"],
+
+  "skip_keywords": [
+    "silent disco",
+    "beach walk", "beach clean", "coastal walk",
+    "webinar", "online event", "virtual event", "livestream",
+    "networking", "seminar", "conference", "summit", "expo for exhibitors",
+    "course", "training", "certification", "accredited", "masterclass", "bootcamp",
+    "church service", "sermon", "prayer meeting", "revival",
+    "speed dating", "job fair", "open day", "information session", "info session",
+    "parkrun",
+    "class", "classes", "workshop", "yoga", "pilates", "ministry", "worship", "bestellings", "pre-order", "orders"
+  ],
+
+  "keep_keywords": [],
+
+  "categories": {
+    "music": ["concert", "live music", "jazz", "band", "gig", "orchestra", "symphony", "choir", "choral", "dj ", "album launch", "acoustic", "unplugged", "rock", "hip hop", "amapiano", "opera"],
+    "stage": ["theatre", "theater", "stage play", "musical", "comedy", "comedian", "laugh", "stand-up", "standup", "cabaret", "ballet", "dance", "drag", "burlesque", "improv", "circus", "magic show"],
+    "food": ["wine", "tasting", "food", "brunch", "beer", "gin", "whisky", "dinner", "lunch", "braai", "pairing", "chef"],
+    "markets": ["market", "craft fair", "flea", "pop-up shop", "makers"],
+    "festivals": ["festival", "fest ", "carnival", "fair", "celebration"],
+    "outdoors": ["hike", "trail", "walk", "run ", "fun run", "marathon", "cycle", "cycling", "mtb", "surf", "paddle", "swim", "garden", "picnic", "stargazing"],
+    "sport": ["rugby", "cricket", "football", "soccer", "stormers", "match", "race", "tournament", "boxing", "netball"],
+    "art": ["exhibition", "gallery", "art ", "artist", "museum", "photography", "sculpture", "opening night"],
+    "family": ["kids", "children", "family", "toddler", "school holiday", "puppet"],
+    "film-talks": ["film", "screening", "cinema", "movie", "talk", "lecture", "book launch", "reading", "panel", "q&a"]
+  },
+
+  "area": {
+    "lat": -33.9249, "lon": 18.4241, "radius_km": 60,
+    "localities": ["cape town", "stellenbosch", "paarl", "franschhoek", "somerset west", "strand", "gordon's bay",
+                   "durbanville", "bellville", "brackenfell", "kuils river", "milnerton", "table view", "bloubergstrand",
+                   "hout bay", "noordhoek", "kommetjie", "muizenberg", "kalk bay", "fish hoek", "simon's town",
+                   "constantia", "claremont", "rondebosch", "observatory", "woodstock", "sea point", "green point",
+                   "camps bay", "gardens", "tamboerskloof", "wynberg", "tokai", "khayelitsha", "mitchells plain",
+                   "athlone", "langa", "gugulethu", "goodwood", "parow", "pinelands", "melkbosstrand", "atlantis",
+                   "wellington", "elgin", "grabouw"]
+  },
+
+  "max_days_running": 7,
+  "_max_days_running": "Long-running exhibitions and shows that started more than this many days before the weekend are left out (most are recurring sessions or permanent attractions), so the list stays about what's on this weekend specifically.",
+
+  "listing_sources": [
+    {"name": "Quicket", "url": "https://www.quicket.co.za/events/?location=cape-town&page={page}", "pages": 8},
+    {"name": "Eventbrite", "url": "https://www.eventbrite.com/d/south-africa--cape-town/events--this-weekend/?page={page}", "pages": 4},
+    {"name": "Eventbrite", "url": "https://www.eventbrite.com/d/south-africa--cape-town/all-events/?page={page}", "pages": 4},
+    {"name": "Cape Town Tourism", "url": "https://www.capetown.travel/events/page/{page}/", "pages": 3}
+  ],
+  "article_feeds": [
+    {"name": "Cape Town ETC (events)", "url": "https://www.capetownetc.com/category/events/feed/"},
+    {"name": "Cape Town ETC (things to do)", "url": "https://www.capetownetc.com/things-to-do-cape-town/feed/"},
+    {"name": "Cape Town Tourism", "url": "https://www.capetown.travel/feed/"},
+    {"name": "Artscape", "url": "https://www.artscape.co.za/feed/"},
+    {"name": "Zeitz MOCAA", "url": "https://zeitzmocaa.museum/feed/"}
+  ]
+}

@@ -1,0 +1,100 @@
+{
+ "day": "10-20",
+ "south_africa": [
+  {
+   "year": 1820,
+   "title": "Cape of Good Hope Royal Observatory is founded",
+   "text": "On 20 October, 1820, South Africa’s first permanent modern observatory was erected at the Cape of Good Hope (now known as Cape Town) byFearon Fallows, a British astronomer. During the 1830s…",
+   "url": "https://sahistory.org.za/dated-event/cape-good-hope-royal-observatory-founded",
+   "cape_town": true
+  },
+  {
+   "year": 1894,
+   "title": "Building of Delagoa Bay railway line is completed",
+   "text": "The building of the Delagoa Bay railway line to Pretoria was completed on this date. It was scheduled to be opened for traffic on 2 November 1894, however, the official opening of the line only took…",
+   "url": "https://sahistory.org.za/dated-event/building-delagoa-bay-railway-line-completed",
+   "cape_town": false
+  },
+  {
+   "year": 1901,
+   "title": "Political activist, Professor ZK Matthews is born",
+   "text": "Zachariah Keodirelang Matthews, was born in Kimberley in 1901, the son of Peter Motsielwa and Martha Mooketsi Matthews, a Tswana mineworker who later opened a cafe. Though exposed to politics at a…",
+   "url": "https://sahistory.org.za/dated-event/political-activist-professor-zk-matthews-born",
+   "cape_town": false
+  },
+  {
+   "year": 1915,
+   "title": "The Second General Election is held in the Union of SA",
+   "text": "The second general election was held in the Union of South Africa with the National Party (NP) participating for the first time. The main point at issue was whether South Africa should continue to…",
+   "url": "https://sahistory.org.za/dated-event/second-general-election-held-union-sa",
+   "cape_town": false
+  },
+  {
+   "year": 1946,
+   "title": "Political activist, Dr Yusuf Dadoo is re-elected President of Transvaal Indian Congress",
+   "text": "The a son of a wealthy businessman, Yusuf Dadoo was all too familiar with the repressive political and social conditions that the Indian community lived under during segregation and apartheid…",
+   "url": "https://sahistory.org.za/dated-event/political-activist-dr-yusuf-dadoo-re-elected-president-transvaal-indian-congress",
+   "cape_town": false
+  },
+  {
+   "year": 1988,
+   "title": "South African model, Candice Swanepoel is born in Mooi River, KwaZulu-Natal",
+   "text": "Candice Swanepoel was born in Mooi River, KwaZulu-Natal on 20 October 1988 She grew up on a farm and had aspirations of becoming a ballerina. Swanepoel did not think of herself as beautiful, even…",
+   "url": "https://sahistory.org.za/dated-event/south-african-model-candice-swanepoel-born-mooi-river-kwazulu-natal",
+   "cape_town": false
+  },
+  {
+   "year": 1994,
+   "title": "President Mandela warns disgruntled former Umkhonto we Sizwe combatants",
+   "text": "The newly elected President of the Republic of South Africa, Nelson Mandela warned disgruntled former uMkhonto weSizwe (MK) combatants, who took leave without permission while being integrated into…",
+   "url": "https://sahistory.org.za/dated-event/president-mandela-warns-disgruntled-former-umkhonto-we-sizwe-combatants",
+   "cape_town": false
+  },
+  {
+   "year": 1995,
+   "title": "A book claims that SA’s Nuclear weapons programme has continued since 1993",
+   "text": "Peter Houman and Steve McQuillan's book \" Mini-Nuke Conspiracy: Mandela's Nuclear Nightmare \" claimed that South Africa did not destroy all its nuclear weapons in 1993, as it was initially claimed by…",
+   "url": "https://sahistory.org.za/dated-event/book-claims-sas-nuclear-weapons-programme-has-continued-1993",
+   "cape_town": false
+  },
+  {
+   "year": 1999,
+   "title": "Former diplomat and Director of Foreign Affairs Jackie Selebi is set to lead SAPS",
+   "text": "The South African government announced that former diplomat and Director of Foreign Affairs, Jacob Sello Selebi, would take over from the outgoing South African Police Services (SAPS) national…",
+   "url": "https://sahistory.org.za/dated-event/former-diplomat-and-director-foreign-affairs-jackie-selebi-set-lead-saps",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1740,
+   "text": "Under the terms of the Pragmatic Sanction, Maria Theresa ascended the Habsburg throne.",
+   "url": "https://en.wikipedia.org/wiki/Pragmatic_Sanction_of_1713",
+   "sa": false
+  },
+  {
+   "year": 1944,
+   "text": "World War II: Fulfilling a promise he made two years previously, General Douglas MacArthur landed on Leyte to begin the recapture of the Philippines.",
+   "url": "https://en.wikipedia.org/wiki/World_War_II",
+   "sa": false
+  },
+  {
+   "year": 1969,
+   "text": "Experimental results from the Stanford Linear Accelerator Center were published showing that protons were composed of smaller particles, the first evidence of quarks.",
+   "url": "https://en.wikipedia.org/wiki/SLAC_National_Accelerator_Laboratory",
+   "sa": false
+  },
+  {
+   "year": 1984,
+   "text": "The Spanish trawler Sonia sank in British waters after a five-hour chase by the Irish Naval Service patrol vessel Aisling, during which almost 600 shots were fired.",
+   "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Spanish_trawler_Sonia",
+   "sa": false
+  },
+  {
+   "year": 1991,
+   "text": "An earthquake struck the Indian state of Uttarakhand, killing at least 768 people and destroying thousands of homes.",
+   "url": "https://en.wikipedia.org/wiki/1991_Uttarkashi_earthquake",
+   "sa": false
+  }
+ ]
+}

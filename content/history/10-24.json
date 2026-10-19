@@ -1,0 +1,79 @@
+{
+ "day": "10-24",
+ "south_africa": [
+  {
+   "year": 1985,
+   "title": "’Purple rain’ used on women protesters",
+   "text": "The police in Adderley street, Cape Town used their new water cannons to suppress a Cape riot that had, for the third time, spread to White areas. The rioting spread from the Schotche Kloof Malay…",
+   "url": "https://sahistory.org.za/dated-event/purple-rain-used-women-protesters",
+   "cape_town": true
+  },
+  {
+   "year": 1946,
+   "title": "The UN decides not to support the request of the Union of South Africa concerning the treatment of Indians in SA",
+   "text": "During the second part of the first session of the United Nations General Assembly, the General Committee decided not to support the request of the Union of South Africa (SA) that the complaint of…",
+   "url": "https://sahistory.org.za/dated-event/un-decides-not-support-request-union-south-africa-concerning-treatment-indians-sa",
+   "cape_town": false
+  },
+  {
+   "year": 1969,
+   "title": "The Herstigte Nasionale Party is established",
+   "text": "The Herstigte Nasionale Party (HNP) (Reconstituted National Party) was established as a right wing splinter group of the South African National Party (NP). The party was led by Albert Hertzog, son of…",
+   "url": "https://sahistory.org.za/dated-event/herstigte-nasionale-party-established",
+   "cape_town": false
+  },
+  {
+   "year": 1977,
+   "title": "The Minister of Justice, Police and Prisons, Jimmy Kruger, received a report of a police investigation into Steve Biko’s death",
+   "text": "The Minister of Justice, Police and Prisons, Jimmy Kruger, received a report of a police investigation into Steve Biko's death as well as a post-mortem report submitted to the Attorney General of…",
+   "url": "https://sahistory.org.za/dated-event/minister-justice-police-and-prisons-jimmy-kruger-received-report-police-investigation",
+   "cape_town": false
+  },
+  {
+   "year": 2004,
+   "title": "Dumisani Makhaye passes away",
+   "text": "The KwaZulu-Natal MEC for Local Government, Housing and Traditional Affairs and member of the African National Congress (ANC), Dumisani Makhaye, succumbed to lung cancer at Parklands Hospital, Durban…",
+   "url": "https://sahistory.org.za/dated-event/dumisani-makhaye-passes-away",
+   "cape_town": false
+  },
+  {
+   "year": 2018,
+   "title": "Hip-hop star Jabulani Tsambo known as HHP dies",
+   "text": "On 24 October 2018, Jabulani Tsambo, who was also known as HHP, passed away at the age of 38. Details of his death were not clear, but reports suggested that it was a possible suicide as he was…",
+   "url": "https://sahistory.org.za/dated-event/hip-hop-star-jabulani-tsambo-known-hhp-dies",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1260,
+   "text": "Qutuz (bust pictured), the sultan of Egypt, was assassinated and replaced by fellow Mamluk leader Baybars.",
+   "url": "https://en.wikipedia.org/wiki/Qutuz",
+   "sa": false
+  },
+  {
+   "year": 1851,
+   "text": "William Lassell found Umbriel and Ariel, the third and fourth Uranian moons to be discovered.",
+   "url": "https://en.wikipedia.org/wiki/William_Lassell",
+   "sa": false
+  },
+  {
+   "year": 1929,
+   "text": "On \"Black Thursday\", the New York Stock Exchange lost 11 percent of its value at the opening bell on very heavy trading, marking the beginning of the Great Depression.",
+   "url": "https://en.wikipedia.org/wiki/Wall_Street_crash_of_1929",
+   "sa": false
+  },
+  {
+   "year": 1945,
+   "text": "The Charter of the United Nations entered into force after being ratified by the five permanent members of the Security Council and a majority of the other signatories.",
+   "url": "https://en.wikipedia.org/wiki/Charter_of_the_United_Nations",
+   "sa": false
+  },
+  {
+   "year": 1972,
+   "text": "Three people were killed when falsework collapsed during the construction of the Loddon Bridge in Berkshire, leading to reform of construction practices in the UK.",
+   "url": "https://en.wikipedia.org/wiki/Falsework",
+   "sa": false
+  }
+ ]
+}

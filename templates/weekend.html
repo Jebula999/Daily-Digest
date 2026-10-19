@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}This weekend in {{ site.name }}: {{ view.fri | short_date }}–{{ view.sun | short_date }} — {{ site.site_name }}{% endblock %}
+{% block description %}Things to do in {{ site.name }} on the weekend of {{ view.fri | short_date }}–{{ view.sun | dmy }}: music, theatre, markets, food, sport and the outdoors.{% endblock %}
+{% block main %}
+<div class="wrap article wide">
+  <p class="kicker accent">{% if current %}This weekend{% else %}Past weekend{% endif %}</p>
+  <h1 class="story-title">{% if current %}Weekend in {{ site.name }}{% else %}The weekend of {{ view.fri | short_date }}{% endif %}</h1>
+  <div class="standfirst">
+    <p>{{ view.fri.strftime('%A') }} {{ view.fri.day }} to {{ view.sun.strftime('%A') }} {{ view.sun | dmy }}.
+    {% if view.count %}{{ view.count }} things to do{% if current and view.new %}, {{ view.new }} new today{% endif %}.{% endif %}
+    {% if current %}The list grows each morning until Friday.{% endif %}</p>
+  </div>
+
+  {% if not view.count %}
+  <p class="meta">Nothing on the list yet. Events are added each morning from Monday.</p>
+  {% endif %}
+
+  {% for d, events in view.days %}{% if events %}
+  <section class="wk-day" aria-labelledby="d{{ loop.index }}">
+    <h2 id="d{{ loop.index }}" class="section-title small">{{ d.strftime('%A') }} <span class="range">{{ d | short_date }}</span></h2>
+    <ul class="events">
+      {% for e in events %}{% include "_event.html" %}{% endfor %}
+    </ul>
+  </section>
+  {% endif %}{% endfor %}
+
+  {% if view.multi %}
+  <section class="wk-day" aria-labelledby="dmulti">
+    <h2 id="dmulti" class="section-title small">Running over several days</h2>
+    <ul class="events">
+      {% for e in view.multi %}{% include "_event.html" %}{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <p class="meta wk-note">Times and prices change: check the event page before you go.</p>
+
+  {% if others %}
+  <h2 class="section-title small">Other weekends</h2>
+  <ul class="recent-list single">
+    {% for w in others %}<li><a href="{{ w.url | url }}"><time datetime="{{ w.weekend_start }}">{{ w.weekend_start | iso | short_date }}</time><span>{{ w.events | length }} things to do</span></a></li>{% endfor %}
+  </ul>
+  {% endif %}
+</div>
+{% endblock %}

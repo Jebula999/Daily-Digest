@@ -1,0 +1,100 @@
+{
+ "day": "10-26",
+ "south_africa": [
+  {
+   "year": 1939,
+   "title": "Karel Schoeman, well known Afrikaans author, is born",
+   "text": "Karel Schoeman was born on 26 October 1939 in Trompsburg, Orange Free State. He matriculated from the HoÁƒÂƒÂ«r Jongenskool in Paarl in 1956, obtained a BA in languages at the University of the…",
+   "url": "https://sahistory.org.za/dated-event/karel-schoeman-well-known-afrikaans-author-born",
+   "cape_town": true
+  },
+  {
+   "year": 1938,
+   "title": "Richard J. Goldstone, former Justice of the Constitutional Court of SA, is born",
+   "text": "On 26 October 1938, Richard Goldstone,a well-known figure in the legal fraternity, was born in Boksburg, Gauteng Province. In 1962, Goldstone graduated from the University of the Witwatersrand (Wits)…",
+   "url": "https://sahistory.org.za/dated-event/richard-j-goldstone-former-justice-constitutional-court-sa-born",
+   "cape_town": false
+  },
+  {
+   "year": 1948,
+   "title": "George Msimang, artist, is born",
+   "text": "Artist George Msimang was born on 26 October 1948 in Durban. Msimang's interest in art began at school although art was not offered as a subject. He left Lamontville High School in 1968 after…",
+   "url": "https://sahistory.org.za/dated-event/george-msimang-artist-born",
+   "cape_town": false
+  },
+  {
+   "year": 1964,
+   "title": "UN Special Committee on Policies of Apartheid appeals for assistance to families of apartheid victims.",
+   "text": "The United Nations Special Committee on the Policies of Apartheid issued an appeal to member states and organizations to assist families of persons persecuted by the government for their stance…",
+   "url": "https://sahistory.org.za/dated-event/un-special-committee-policies-apartheid-appeals-assistance-families-apartheid-victims",
+   "cape_town": false
+  },
+  {
+   "year": 1976,
+   "title": "Paramount Chief, Botha Sigcau is appointed the first President of Transkei",
+   "text": "Paramount Chief of Eastern Pondoland, Botha Sigcau who had earlier supported Bantu Authorities was appointed the first President of Transkei at the opening session of the Transkei Assembly. Kaizer…",
+   "url": "https://sahistory.org.za/dated-event/paramount-chief-botha-sigcau-appointed-first-president-transkei",
+   "cape_town": false
+  },
+  {
+   "year": 1988,
+   "title": "Local elections in Townships",
+   "text": "Following government's introduction of Black Township Councils in the late 1980s, which attempted to co-opt Black leaders into the Apartheid system without sharing power, the government introduced…",
+   "url": "https://sahistory.org.za/dated-event/local-elections-townships",
+   "cape_town": false
+  },
+  {
+   "year": 1988,
+   "title": "Blacks boycott municipal elections",
+   "text": "All-race municipal elections were held on this date to elect segregated local authorities. For the first time elections for all areas, except homelands, were held on the same day. This meant that…",
+   "url": "https://sahistory.org.za/dated-event/blacks-boycott-municipal-elections",
+   "cape_town": false
+  },
+  {
+   "year": 1989,
+   "title": "Transkei announces plans to unban ANC and PAC",
+   "text": "During the celebration day of independence not recognised by the international community, the President of the Transkei homeland, Tutor Ndamase, announced that his homeland government plans to unban…",
+   "url": "https://sahistory.org.za/dated-event/transkei-announces-plans-unban-anc-and-pac",
+   "cape_town": false
+  },
+  {
+   "year": 1991,
+   "title": "PAC attends Patriotic Front Conference",
+   "text": "After a long pursuit by the African National Congress (ANC) and other African countries, the Pan African Congress of Azania (PAC) acceded to meet with the ANC and other liberation movements including…",
+   "url": "https://sahistory.org.za/dated-event/pac-attends-patriotic-front-conference",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1341,
+   "text": "The Byzantine army proclaimed chief minister John VI Kantakouzenos as emperor, triggering a civil war between his supporters and those of John V Palaiologos, the heir to the throne.",
+   "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+   "sa": false
+  },
+  {
+   "year": 1813,
+   "text": "War of 1812: British forces and Mohawk allies under Charles de Salaberry repulsed an American attempt to invade Canada.",
+   "url": "https://en.wikipedia.org/wiki/War_of_1812",
+   "sa": false
+  },
+  {
+   "year": 1892,
+   "text": "Ida B. Wells began publishing her research on lynching in the United States, for which she was posthumously awarded a Pulitzer Prize in 2020.",
+   "url": "https://en.wikipedia.org/wiki/Ida_B._Wells",
+   "sa": false
+  },
+  {
+   "year": 1921,
+   "text": "The Chicago Theatre, the oldest surviving grand movie palace, opened.",
+   "url": "https://en.wikipedia.org/wiki/Chicago_Theatre",
+   "sa": false
+  },
+  {
+   "year": 1994,
+   "text": "Israel and Jordan signed a peace treaty, settling relations between the two countries and pledging that neither would allow its territory to become a staging ground for military strikes by a third country.",
+   "url": "https://en.wikipedia.org/wiki/Israel%E2%80%93Jordan_peace_treaty",
+   "sa": false
+  }
+ ]
+}

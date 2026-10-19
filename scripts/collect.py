@@ -350,6 +350,25 @@ def main():
     for e in errors:
         print("  !", e, file=sys.stderr)
 
+    # The weekend list and this day in history run on their own; a failure in one doesn't stop the other.
+    sys.path.insert(0, str(ROOT / "scripts"))
+    try:
+        import weekend
+        week, added, articles, errs = weekend.collect(today)
+        print(f"weekend={len(week['events'])} (+{len(added)} new, {len(articles)} articles) "
+              f"-> data/raw/{today}-weekend.md")
+        for e in errs:
+            print("  !", e, file=sys.stderr)
+    except Exception as ex:
+        print("  ! weekend:", ex, file=sys.stderr)
+    try:
+        import history
+        for i in range(history.DAYS_AHEAD + 1):
+            d = today + timedelta(days=i)
+            print(f"history {d:%m-%d}: {history.build_day(d)}")
+    except Exception as ex:
+        print("  ! history:", ex, file=sys.stderr)
+
 
 if __name__ == "__main__":
     main()

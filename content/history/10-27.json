@@ -1,0 +1,107 @@
+{
+ "day": "10-27",
+ "south_africa": [
+  {
+   "year": 1808,
+   "title": "Slave rebellion at the Cape led by Louis of Mauritius. Over 300 slaves and Khoi Khoi servants from outlying farms marched on Cape Town demanding their freedom",
+   "text": "This was the first such 'mass movement\" against slavery and oppression at the Cape, and suggests a deep awareness around issues of abolition and freedom held by slaves and servants throughout the…",
+   "url": "https://sahistory.org.za/dated-event/slave-rebellion-cape-led-louis-mauritius-over-300-slaves-and-khoi-khoi-servants",
+   "cape_town": true
+  },
+  {
+   "year": 1917,
+   "title": "Former ANC President, Oliver ‘OR’ Tambo, is born",
+   "text": "On 27 October 1917, Oliver Tambo, who would become African National Congress (ANC) President, was born at Bizana, Transkei (now known as Eastern Cape). During the 1940s, he enrolled at the University…",
+   "url": "https://sahistory.org.za/dated-event/former-anc-president-oliver-or-tambo-born",
+   "cape_town": false
+  },
+  {
+   "year": 1922,
+   "title": "Southern Rhodesia rejects joining the Union of South Africa",
+   "text": "Southern Rhodesia (now Zimbabwe) rejected joining the South African Union in a referendum. Voters had to choose between establishing self government, joining the Union of South Africa or continuing…",
+   "url": "https://sahistory.org.za/dated-event/southern-rhodesia-rejects-joining-union-south-africa",
+   "cape_town": false
+  },
+  {
+   "year": 1966,
+   "title": "The UN ends SA mandate over South West Africa",
+   "text": "The United Nations (UN) debated the South West Africa issue (now Namibia) year after year with increasing acrimony. On 18 July 1966 the International Court of Justice ruled in a split vote that they…",
+   "url": "https://sahistory.org.za/dated-event/un-ends-sa-mandate-over-south-west-africa",
+   "cape_town": false
+  },
+  {
+   "year": 1971,
+   "title": "Death in detention of Ahmed Timol",
+   "text": "Ahmed Timol was born on the 3rd November 1941 in Breyten in current-day Mpumalanga. He grew up in Roodepoort and trained as a teacher. In 1964 he attended the funeral of Suliman 'Babla' Saloogee who…",
+   "url": "https://sahistory.org.za/dated-event/death-detention-ahmed-timol",
+   "cape_town": false
+  },
+  {
+   "year": 1985,
+   "title": "Famine anniversary in Ethiopia",
+   "text": "Following major American television's first airing of the famine crisis in Ethiopia, the world celebrated the day as famine anniversary. The day was used to mark the end of famine and the successful…",
+   "url": "https://sahistory.org.za/dated-event/famine-anniversary-ethiopia",
+   "cape_town": false
+  },
+  {
+   "year": 1988,
+   "title": "Salman Rushdie’s visit is still on",
+   "text": "Despite an increasing outcry against Salman Rushdie's public lecture from the Islamic Council of Southern Africa, the Weekly Mail (now Mail and Guardian) announces that the public lecture will go…",
+   "url": "https://sahistory.org.za/dated-event/salman-rushdies-visit-still",
+   "cape_town": false
+  },
+  {
+   "year": 1990,
+   "title": "The ANC Youth League is re-established at Orlando stadium in Soweto",
+   "text": "The African National Congress Youth League (ANCYL) was re-established at Orlando stadium in Soweto after an absence of thirty years from the political arena in South Africa. The Youth League was…",
+   "url": "https://sahistory.org.za/dated-event/anc-youth-league-re-established-orlando-stadium-soweto",
+   "cape_town": false
+  },
+  {
+   "year": 1992,
+   "title": "Reggie Hadebe ANC Regional Executive Committee member and Media officer in the Natal Midlands Region, is gunned down",
+   "text": "African National Congress (ANC) Regional Executive Committee member and Media officer in the Natal Midlands Region, Mr Reggie Hadebe, was gunned down in an ambush on the Richmond-Ixopo road. Radebe…",
+   "url": "https://sahistory.org.za/dated-event/reggie-hadebe-anc-regional-executive-committee-member-and-media-officer-natal-midlands",
+   "cape_town": false
+  },
+  {
+   "year": 2004,
+   "title": "COSATU delegates are left at Beitbridge",
+   "text": "In spite of being refused to visit, the thirteen delegates of the Congress of South African Trade Union (COSATU), left for Zimbabwe with the intent of meeting Zimbabwe's Congress of Trade Union (ZCTU…",
+   "url": "https://sahistory.org.za/dated-event/cosatu-delegates-are-left-beitbridge",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1674,
+   "text": "Franco-Dutch War: French forces surrender the fortress town of Grave to the Dutch army after a three month siege.",
+   "url": "https://en.wikipedia.org/wiki/Franco-Dutch_War",
+   "sa": false
+  },
+  {
+   "year": 1904,
+   "text": "The first underground segment of the New York City Subway opened, connecting New York City Hall (station pictured) with Harlem.",
+   "url": "https://en.wikipedia.org/wiki/Early_history_of_the_IRT_subway",
+   "sa": false
+  },
+  {
+   "year": 1942,
+   "text": "The Empire of Japan achieved a pyrrhic victory against the United States at the Battle of the Santa Cruz Islands.",
+   "url": "https://en.wikipedia.org/wiki/Empire_of_Japan",
+   "sa": false
+  },
+  {
+   "year": 1967,
+   "text": "American Catholic priest Philip Berrigan led a protest against the Vietnam War by pouring blood over Selective Service records in Baltimore, Maryland.",
+   "url": "https://en.wikipedia.org/wiki/Philip_Berrigan",
+   "sa": false
+  },
+  {
+   "year": 1999,
+   "text": "Armed men led by Nairi Hunanyan carried out a mass shooting at the Armenian parliament, killing Prime Minister Vazgen Sargsyan, National Assembly speaker Karen Demirchyan, and six others.",
+   "url": "https://en.wikipedia.org/wiki/Nairi_Hunanyan",
+   "sa": false
+  }
+ ]
+}

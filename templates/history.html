@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}This day in history: {{ day.day }} {{ day.strftime('%B') }} — {{ site.site_name }}{% endblock %}
+{% block description %}What happened on {{ day.day }} {{ day.strftime('%B') }} in {{ site.name }}, South Africa and the world.{% endblock %}
+{% macro entry(x, sa=True) %}
+<li>
+  <p class="hist-year">{{ x.year or '' }}</p>
+  <div>
+    {% if sa %}
+    <h3><a href="{{ x.url }}" rel="noopener">{{ x.title | keep }}</a></h3>
+    {% if x.text and x.text != x.title %}<p>{{ x.text }}</p>{% endif %}
+    {% else %}
+    <p>{{ x.text }}{% if x.url %} <a href="{{ x.url }}" rel="noopener" class="hist-more">More</a>{% endif %}</p>
+    {% endif %}
+  </div>
+</li>
+{% endmacro %}
+{% block main %}
+<div class="wrap article">
+  <p class="kicker accent">This day in history</p>
+  <h1 class="story-title">{{ day.day }} {{ day.strftime('%B') }}</h1>
+
+  {% if h.cape %}
+  <h2 class="section-title small">In {{ site.name }}</h2>
+  <ol class="hist">{% for x in h.cape %}{{ entry(x) }}{% endfor %}</ol>
+  {% endif %}
+  {% if h.sa %}
+  <h2 class="section-title small">In South Africa</h2>
+  <ol class="hist">{% for x in h.sa %}{{ entry(x) }}{% endfor %}</ol>
+  {% endif %}
+  {% if h.world %}
+  <h2 class="section-title small">Around the world</h2>
+  <ol class="hist world">{% for x in h.world %}{{ entry(x, False) }}{% endfor %}</ol>
+  {% endif %}
+
+  <p class="meta hist-credit">South African entries from <a href="https://sahistory.org.za/this-day-in-history" rel="noopener">South African History Online</a>.
+    World entries from <a href="https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries" rel="noopener">Wikipedia</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>.</p>
+
+  <nav class="pager" aria-label="Other days">
+    {% if prev %}<a href="{{ prev.url | url }}" rel="prev">← {{ prev.day | md }}</a>{% else %}<span></span>{% endif %}
+    {% if next %}<a href="{{ next.url | url }}" rel="next">{{ next.day | md }} →</a>{% endif %}
+  </nav>
+</div>
+{% endblock %}

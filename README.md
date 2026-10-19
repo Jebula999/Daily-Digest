@@ -18,6 +18,8 @@ scheduled Claude Code task (daily, on this PC)
 |---|---|
 | `config/city.json` | City settings: name, vetted outlet feeds, blocked domains, clickbait filters, keywords, coordinates |
 | `scripts/collect.py` | Collects raw sources into `data/` (git-ignored) and `content/daily/` |
+| `scripts/weekend.py` | Adds new events for the coming Friday–Sunday to `content/weekend/<monday>.json`, filtered by `config/weekend.json` (run by collect.py; `skip <id> "reason"` removes one) |
+| `scripts/history.py` | Writes `content/history/MM-DD.json` from SA History Online and Wikipedia's On this day (run by collect.py) |
 | `scripts/geocode.py` | Geocodes places tagged in briefs (`data-place`) and stories (`places:`) via Nominatim |
 | `scripts/build.py` | Renders `content/` with `templates/` into `_site/`, including the `/map/` page |
 | `EDITOR.md` | The AI editor's handbook: selection, verification and style rules |

@@ -419,3 +419,58 @@ p { margin: 0 0 1em; overflow-wrap: break-word; }
   .map { height: 58vh; min-height: 300px; margin: 0 -1rem; border-radius: 0; border-left: 0; border-right: 0; }
   .map-list { grid-template-columns: 1fr; }
 }
+
+/* This weekend + this day in history */
+.pair { display: grid; grid-template-columns: 3fr 2fr; gap: 1.5rem; margin-bottom: 3.5rem; }
+.pair-card { padding: 1.25rem 1.4rem 1.1rem; border-top: 3px solid var(--g-events); }
+.history-card { border-top-color: var(--sea); }
+.pair-title { font: 600 1.45rem/1.2 var(--display); margin: .1rem 0 .6rem; }
+.pair-title a { color: var(--ink); text-decoration: none; }
+.pair-title a:hover { color: var(--protea); }
+.pair-list { list-style: none; margin: 0 0 1rem; padding: 0; }
+.pair-list li { padding: .6rem 0; border-top: 1px solid var(--rule); font: .96rem/1.4 var(--serif); color: var(--ink); }
+.pair-list li a { color: var(--ink); text-decoration: none; }
+.pair-list li a:hover { color: var(--protea); text-decoration: underline; }
+.pair-list .kind { margin-bottom: .1rem; }
+
+.wk-day { margin-bottom: 1rem; }
+.events { list-style: none; margin: 0; padding: 0; }
+.event { display: grid; grid-template-columns: 6.5rem 1fr; gap: 1rem; padding: .9rem 0; border-top: 1px solid var(--rule); }
+.event:first-child { border-top: 0; padding-top: 0; }
+.event-when { font: 600 .85rem/1.7 var(--serif); color: var(--fynbos); margin: 0; }
+.event h3 { font: 600 1.06rem/1.35 var(--serif); margin: 0 0 .2rem; }
+.event h3 a { color: var(--ink); text-decoration: none; }
+.event h3 a:hover { color: var(--protea); text-decoration: underline; }
+.event-blurb { margin: 0 0 .25rem; font-size: .96rem; }
+.event-tags { margin: 0 0 .15rem; display: flex; flex-wrap: wrap; gap: .5rem; font: 500 .62rem/1.6 var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+.event-cat { color: var(--muted); }
+.event-pick { color: var(--protea); }
+.event-new { color: var(--paper); background: var(--g-events); padding: 0 .4em; border-radius: 2px; }
+.event.highlight h3 a { color: var(--protea-deep); }
+.c-music .event-cat, .c-stage .event-cat { color: var(--g-elections); }
+.c-food .event-cat, .c-markets .event-cat { color: var(--sand); }
+.c-outdoors .event-cat, .c-sport .event-cat { color: var(--fynbos); }
+.c-art .event-cat, .c-film-talks .event-cat { color: var(--sea); }
+.c-festivals .event-cat, .c-family .event-cat { color: var(--g-alerts); }
+.wk-note { margin-top: 1.5rem; font-style: italic; }
+
+.hist { list-style: none; margin: 0 0 1rem; padding: 0; }
+.hist li { display: grid; grid-template-columns: 4rem 1fr; gap: 1rem; padding: .8rem 0; border-top: 1px solid var(--rule); }
+.hist li:first-child { border-top: 0; padding-top: 0; }
+.hist-year { font: 700 1.1rem/1.4 var(--display); color: var(--protea); margin: 0; }
+.hist h3 { font: 600 1.04rem/1.35 var(--serif); margin: 0 0 .25rem; }
+.hist h3 a { color: var(--ink); text-decoration: none; }
+.hist h3 a:hover { color: var(--protea); text-decoration: underline; }
+.hist p { margin: 0; font-size: .97rem; }
+.hist.world .hist-year { color: var(--sea); }
+.hist-more { font-size: .88rem; }
+.hist-credit { margin-top: 2rem; }
+
+@media (max-width: 760px) {
+  .pair { grid-template-columns: 1fr; gap: 1rem; margin-bottom: 2.5rem; }
+}
+@media (max-width: 640px) {
+  .event { grid-template-columns: 1fr; gap: .1rem; }
+  .event-when { line-height: 1.4; }
+  .hist li { grid-template-columns: 3.2rem 1fr; gap: .7rem; }
+}

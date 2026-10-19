@@ -1,0 +1,107 @@
+{
+ "day": "10-23",
+ "south_africa": [
+  {
+   "year": 1880,
+   "title": "Chief Mhlonthlo revolts against the British",
+   "text": "Paramount Chief of the Mpondomise, Mhlonthlo, lured Hamilton Hope, the third resident magistrate at Tsolo in the Eastern Cape, and his staff to Sulenkama where they were massacred, during a revolt…",
+   "url": "https://sahistory.org.za/dated-event/chief-mhlonthlo-revolts-against-british",
+   "cape_town": false
+  },
+  {
+   "year": 1920,
+   "title": "Mgqwetho,the first poem of Nontisi is published",
+   "text": "Mgqwetho, the first poem of Nontisi (Cizama, Imbongikazi yakwaCizama) was published in Umteteli under her clan name, Cizama. She is the sole significant female Xhosa poet up to now and her work is…",
+   "url": "https://sahistory.org.za/dated-event/mgqwethothe-first-poem-nontisi-published",
+   "cape_town": false
+  },
+  {
+   "year": 1942,
+   "title": "The Second Battle of El Alamein starts",
+   "text": "After various North African operations late in June and in July 1942, Lt.-Gen. B.L. Montgomery, the new commander of the Eighth Army in World War 2, initiated a second attack at El Alamein, a town in…",
+   "url": "https://sahistory.org.za/dated-event/second-battle-el-alamein-starts",
+   "cape_town": false
+  },
+  {
+   "year": 1958,
+   "title": "The apartheid government establishes a Department for Coloured Affairs’ (CAD)",
+   "text": "Long before the inception of apartheid \"Coloured\" people in South Africa occupied this precarious position between White and Black South Africans. This position was intensified during apartheid by…",
+   "url": "https://sahistory.org.za/dated-event/apartheid-government-establishes-department-coloured-affairs-cad",
+   "cape_town": false
+  },
+  {
+   "year": 1968,
+   "title": "Kip Keino of Kenya wins the Olympic gold medal for 1,500 metres in 3 mins 34.9 secs",
+   "text": "Kipchego “Kip” Keino was born in Kipsano, Kenya on 17 January 1940. Keino began his international running career in 1962. From early on he trained under very high altitudes to prepare his body to…",
+   "url": "https://sahistory.org.za/dated-event/kip-keino-kenya-wins-olympic-gold-medal-1500-metres-3-mins-349-secs",
+   "cape_town": false
+  },
+  {
+   "year": 1981,
+   "title": "Kaiser Matanzima of Transkei announces his intention to retire from the Presidency",
+   "text": "President Kaiser Matanzima of Transkei announced his intention to retire from the Presidency in February 1982, to devote more time to traditional and family affairs. However, in 1986 Matanzima was…",
+   "url": "https://sahistory.org.za/dated-event/kaiser-matanzima-transkei-announces-his-intention-retire-presidency",
+   "cape_town": false
+  },
+  {
+   "year": 1984,
+   "title": "SADF seals off Vaal townships",
+   "text": "A combined force of seven thousand South African Defence Force (SADF) troops and the South African Police (SAP) sealed off the Vaal Triangle townships of Sebokeng, Sharpeville and Boipatong. They…",
+   "url": "https://sahistory.org.za/dated-event/sadf-seals-vaal-townships",
+   "cape_town": false
+  },
+  {
+   "year": 1990,
+   "title": "Zeph Mothopeng, President of the PAC dies",
+   "text": "Zephania (Zeph) Mothopeng, President of the Pan Africanist Congress (PAC) since 1984 dies in Johannesburg at the age of 77. Mothopeng's death came at the time when the PAC was in need of stable…",
+   "url": "https://sahistory.org.za/dated-event/zeph-mothopeng-president-pac-dies",
+   "cape_town": false
+  },
+  {
+   "year": 1996,
+   "title": "Mandela confirms the appointment of first Black Chief Justice",
+   "text": "President Nelson Mandela confirms the historic appointment of the first Black Supreme Court Judge in South Africa. Ismail Mahomed was interviewed for the post by Judicial Service Commission (JSC),…",
+   "url": "https://sahistory.org.za/dated-event/mandela-confirms-appointment-first-black-chief-justice",
+   "cape_town": false
+  },
+  {
+   "year": 2005,
+   "title": "SA TV Producer reported killed in Air crash",
+   "text": "Adele Lorenzo, South African TV producer, was reported killed in a plane crash in Nigeria the previous night while on assignment for Africa Report. The twin-engine Boeing 737 left Murtala Muhammed…",
+   "url": "https://sahistory.org.za/dated-event/sa-tv-producer-reported-killed-air-crash",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1157,
+   "text": "The Battle of Grathe Heath ended the Danish Civil War.",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Grathe_Heath",
+   "sa": false
+  },
+  {
+   "year": 1850,
+   "text": "The inaugural National Women's Rights Convention, presided over by American activist Paulina Wright Davis, began in Worcester, Massachusetts.",
+   "url": "https://en.wikipedia.org/wiki/National_Women's_Rights_Convention",
+   "sa": false
+  },
+  {
+   "year": 1955,
+   "text": "The State of Vietnam voted in a referendum to become a republic.",
+   "url": "https://en.wikipedia.org/wiki/State_of_Vietnam",
+   "sa": false
+  },
+  {
+   "year": 1995,
+   "text": "The runway show for Alexander McQueen's collection The Hunger was staged at London's Natural History Museum.",
+   "url": "https://en.wikipedia.org/wiki/Alexander_McQueen",
+   "sa": false
+  },
+  {
+   "year": 2015,
+   "text": "Hurricane Patricia, the most intense tropical cyclone on record in the Western Hemisphere, peaked with maximum sustained winds of 215 mph (345 km/h) south of Mexico.",
+   "url": "https://en.wikipedia.org/wiki/Hurricane_Patricia",
+   "sa": false
+  }
+ ]
+}

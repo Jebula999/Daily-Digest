@@ -15,14 +15,18 @@ This file is your full job description. Follow it each run.
    - `data/agendas/<doc id>.txt`: text extracted from council agendas, reports and minutes.
    - `content/daily/<today>.json`: weather, load-shedding and the meeting calendar. The site shows these
      automatically. Don't edit this file.
+   - `data/raw/<today>-weekend.md`: events added to this weekend's list today, plus event articles
+     (section 6a).
+   - `content/history/MM-DD.json`: this day in history for today and the next week. Fully automatic.
 2. Look at what's already published so you don't repeat yourself: the last 3 files in `content/briefs/`
    and the last 10 in `content/stories/`.
 3. Choose today's stories (section 3), then verify them (section 4).
 4. Write `content/briefs/<today>.md` (section 5).
 5. Write 0–3 council-desk stories in `content/stories/` (section 6), when the material supports them.
-6. Run `python scripts/geocode.py` (looks up any new places for the map), then `python scripts/build.py`.
+6. Tend this weekend's list (section 6a). Ten minutes, not an hour.
+7. Run `python scripts/geocode.py` (looks up any new places for the map), then `python scripts/build.py`.
    If either reports a problem (a place not found, a content error), fix the file and run them again.
-7. Publish (section 8).
+8. Publish (section 8).
 
 If today's brief already exists, you're on a re-run: update it with anything significant and new rather
 than starting over.
@@ -32,6 +36,8 @@ than starting over.
 **Permitted sources.** You may open, read and cite these:
 - Newsrooms: GroundUp, Daily Maverick, SABC News, Cape Town ETC, The Citizen, Novus community papers
   (People's Post, TygerBurger and others on novanews.co.za), Getaway, SAnews.gov.za.
+- Event listings (for the weekend list only): Quicket, Eventbrite, Cape Town Tourism (capetown.travel),
+  Artscape, Zeitz MOCAA, and venues' own websites (check robots.txt first, as below).
 - Official sources: City of Cape Town (capetown.gov.za and the Council Hub), Western Cape Government,
   national government (gov.za), IEC (elections.org.za), SAWS, Eskom, SAPS statements, courts, NSRI,
   Parliament and the PMG.
@@ -186,6 +192,44 @@ appealed, any money involved, the officials' recommendation), and how residents 
 - Erf numbers and street addresses in public planning records are fine to include. Owners' names and
   officials' names are not, unless the owner is a company or public body.
 - Don't write a second story for a meeting that already has one (check `meeting_id`).
+
+## 6a. This weekend: `content/weekend/<monday>.json`
+
+Each week (Monday to Sunday) has one file listing things to do on the coming Friday to Sunday. The
+collector adds new events every morning; a fresh file starts each Monday. What gets tracked is set in
+`config/weekend.json` (skip keywords, categories, area). **Don't edit the config during a daily run**:
+if something keeps slipping through, mention it in your report so the owner can add a skip keyword.
+
+Each morning, using `data/raw/<today>-weekend.md`:
+
+1. **Skip what doesn't belong.** For each event added today that isn't a public event worth a
+   Capetonian's weekend (a course or class, a private or members-only booking, a sales promotion, a
+   repeat listing, outside the metro and Winelands, or not actually on this weekend), run
+   `python scripts/weekend.py skip <id> "reason"`. Skipped events are never re-added that week.
+   Also skip anything like the config's skip keywords that slipped through: silent discos, beach
+   walks and clean-ups, networking, webinars, religious services.
+2. **Add what the listings missed.** The digest lists event articles (Cape Town ETC, Cape Town
+   Tourism, Artscape, Zeitz MOCAA) not seen before. If one describes a public event on this
+   Friday to Sunday, and it isn't on the list, add it to the `events` array by hand:
+   ```json
+   {"id": "m-kirstenbosch-concert", "title": "Kirstenbosch Summer Sunset Concert: Freshlyground",
+    "category": "music", "start": "2026-10-25T17:30+02:00", "end": null, "all_day": false,
+    "venue": "Kirstenbosch National Botanical Garden", "area": "Newlands", "price_from": 250,
+    "url": "https://... (the event's own page or the article)", "source": "Cape Town ETC",
+    "description": "", "added": "<today>"}
+   ```
+   Categories: music, stage, food, markets, festivals, outdoors, sport, art, family, film-talks,
+   other. Check the date and venue on the event's own page when there is one. The big public events
+   in the main brief's `## 📅 This weekend` section (marathons, festivals, City events) belong here too.
+3. **Tidy titles** that carry dates or venues already shown elsewhere ("Winehouse | 25 October 2026 |
+   Paradise Rooftop" becomes "Winehouse"). Don't change anything else the collector wrote.
+4. **Mark 2–4 picks** across the weekend with `"highlight": true` and a one-sentence `"blurb"` in your
+   own words (what it is and why it's worth going, no hype). Prefer one-off events over regular ones,
+   and a spread of kinds. Picks lead each day and the homepage card. Re-check picks on Thursday and
+   Friday as new events arrive.
+
+The brief's `## 📅 This weekend` section, when you use it, can end with a link:
+`[Everything on this weekend](/weekend/)`.
 
 ## 7. Voice
 
