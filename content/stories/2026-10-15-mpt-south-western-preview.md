@@ -8,16 +8,6 @@ venue: "Online (Microsoft Teams)"
 meeting_id: 30240
 places:
   - "Constantia"
-  - "Newlands"
-  - "Rondebosch"
-  - "Hout Bay"
-  - "Southfield"
-  - "Zeekoevlei"
-  - "Philippi"
-  - "Gugulethu"
-  - "Strandfontein, Mitchells Plain"
-  - "Lansdowne"
-  - "Athlone"
 summary: "On Tuesday the City's south-western planning tribunal considers subdivisions in Constantia, Hout Bay, Newlands and Southfield, a large Philippi farm application, and penalties for unauthorised building from Strandfontein to Athlone."
 sources:
   - name: "City of Cape Town Council Hub: MPT South Western, 20 October 2026, agenda"

@@ -59,35 +59,23 @@
         .addTo(layer);
       items.forEach(p => markers.set(p, m));
     });
-    // One list row per item: a story tagged with several places is listed once, with all its places.
-    const entries = new Map();
     shown.forEach(p => {
-      const e = entries.get(p.url) || entries.set(p.url, { p, places: [], pins: new Set() }).get(p.url);
-      e.places.push(p.place); e.pins.add(markers.get(p));
-    });
-    entries.forEach(({ p, places, pins }) => {
-      const where = places.length > 1 ? `${places[0]} and ${places.length - 1} more place${places.length > 2 ? 's' : ''}` : places[0];
       const li = document.createElement('li');
       li.innerHTML = `<button type="button" class="map-item"><span class="dot g-${p.group}"></span>` +
-        `<span class="map-item-body"><span class="map-item-meta">${fmt(p.date)} · ${esc(where)}</span>` +
+        `<span class="map-item-body"><span class="map-item-meta">${fmt(p.date)} · ${esc(p.place)}</span>` +
         `<span class="map-item-title">${esc(p.title)}</span></span></button>`;
       li.querySelector('button').addEventListener('click', () => {
-        const ms = [...pins];
-        if (ms.length === 1) {
-          map.flyTo(ms[0].getLatLng(), Math.max(map.getZoom(), 13), { duration: .6 });
-          ms[0].openPopup();
-        } else {
-          map.closePopup();
-          map.flyToBounds(L.featureGroup(ms).getBounds().pad(.2), { maxZoom: 13, duration: .6 });
-        }
+        const m = markers.get(p);
+        map.flyTo(m.getLatLng(), Math.max(map.getZoom(), 13), { duration: .6 });
+        m.openPopup();
         document.getElementById('map').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       });
       list.appendChild(li);
     });
     const groups = new Set(shown.map(p => p.group));
     document.querySelectorAll('.legend li').forEach(li => li.hidden = !groups.has(li.dataset.group));
-    count.textContent = entries.size
-      ? `${entries.size} item${entries.size === 1 ? '' : 's'} in ${spots.size} place${spots.size === 1 ? '' : 's'}`
+    count.textContent = shown.length
+      ? `${shown.length} item${shown.length === 1 ? '' : 's'} in ${spots.size} place${spots.size === 1 ? '' : 's'}`
       : 'Nothing located in this period yet.';
     if (spots.size) map.fitBounds(L.featureGroup([...layer.getLayers()]).getBounds().pad(.15), { maxZoom: 13 });
   }

@@ -136,12 +136,13 @@ def map_points(briefs, stories, places):
     points, unknown = [], set()
 
     def locate(raw):
+        """One pin per item: the first tagged place that has coordinates (the main location)."""
         for name in (n.strip() for n in raw.split(";") if n.strip()):
             hit = places.get(name)
             if hit:
                 yield name, hit
-            else:
-                unknown.add(name)
+                return
+            unknown.add(name)
 
     for b in briefs:
         section, used = "", set(re.findall(r'id="([^"]+)"', b["html"]))
