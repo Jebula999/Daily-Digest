@@ -11,6 +11,7 @@ import shutil
 import sys
 from datetime import date, datetime, timedelta
 from email.utils import format_datetime
+from html import unescape as html_unescape
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -22,7 +23,7 @@ from markupsafe import Markup, escape
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 OUT = ROOT / "_site"
-CONFIG = json.loads((ROOT / "config" / "city.json").read_text(encoding="utf-8"))
+CONFIG = json.loads((ROOT / "config" / "city.json").read_text(encoding="utf-8-sig"))
 TZ = ZoneInfo(CONFIG["timezone"])
 
 STORY_TYPES = {
@@ -64,7 +65,7 @@ class ContentError(Exception):
 
 
 def parse(path):
-    text = path.read_text(encoding="utf-8")
+    text = path.read_text(encoding="utf-8-sig")
     m = re.match(r"^---\s*\n(.*?)\n---\s*\n(.*)$", text, re.S)
     if not m:
         raise ContentError(f"{path}: missing front matter")
@@ -101,10 +102,86 @@ def load():
         s["label"] = STORY_TYPES[s["type"]]
         stories.append(s)
     for p in sorted((CONTENT / "daily").glob("*.json")):
-        daily[date.fromisoformat(p.stem)] = json.loads(p.read_text(encoding="utf-8"))
+        daily[date.fromisoformat(p.stem)] = json.loads(p.read_text(encoding="utf-8-sig"))
     briefs.sort(key=lambda b: b["date"], reverse=True)
     stories.sort(key=lambda s: (s["date"], s.get("event_date") or s["date"]), reverse=True)
     return briefs, stories, daily
+
+
+# Map colour groups, keyed by the words in a brief's section heading or a story's type.
+MAP_GROUPS = [
+    ("alerts", "Alerts & outages", ("alert", "outage")),
+    ("safety", "Safety", ("safety",)),
+    ("government", "Local government", ("government", "watch", "decided")),
+    ("elections", "Elections", ("election",)),
+    ("housing", "Housing & development", ("housing", "around")),
+    ("transport", "Getting around", ("getting around", "transport")),
+    ("community", "Health & community", ("health", "community")),
+    ("environment", "Environment", ("environment",)),
+    ("events", "Events & weekend", ("weekend", "coming up", "event", "indepth")),
+]
+
+
+def map_group(text):
+    t = (text or "").lower()
+    return next((key for key, _, words in MAP_GROUPS if any(w in t for w in words)), "events")
+
+
+def strip_tags(s):
+    return " ".join(re.sub(r"<[^>]+>", " ", s).split())
+
+
+def map_points(briefs, stories, places):
+    """Collect located items. Gives tagged brief paragraphs an id if they lack one, so the map can link to them."""
+    points, unknown = [], set()
+
+    def locate(raw):
+        for name in (n.strip() for n in raw.split(";") if n.strip()):
+            hit = places.get(name)
+            if hit:
+                yield name, hit
+            else:
+                unknown.add(name)
+
+    for b in briefs:
+        section, used = "", set(re.findall(r'id="([^"]+)"', b["html"]))
+
+        def tag(m):
+            nonlocal section
+            if m.group("h2") is not None:
+                section = strip_tags(m.group("h2"))
+                return m.group(0)
+            attrs, body = m.group("attrs"), m.group("body")
+            lead_m = re.search(r"<strong>(.*?)</strong>", body, re.S)
+            lead = strip_tags(lead_m.group(1)) if lead_m else strip_tags(body)[:120]
+            pid = re.search(r'\bid="([^"]+)"', attrs)
+            if pid:
+                pid = pid.group(1)
+            else:
+                pid = re.sub(r"[^a-z0-9]+", "-", lead.lower()).strip("-")[:48] or "item"
+                while pid in used:
+                    pid += "-x"
+                used.add(pid)
+                attrs = f' id="{pid}"' + attrs
+            rest = strip_tags(body[lead_m.end():] if lead_m else "")
+            for name, hit in locate(html_unescape(re.search(r'data-place="([^"]+)"', attrs).group(1))):
+                points.append({"lat": hit["lat"], "lon": hit["lon"], "place": name, "title": html_unescape(lead),
+                               "text": html_unescape(rest[:180] + ("…" if len(rest) > 180 else "")),
+                               "url": f"{b['url']}#{pid}", "date": b["date"].isoformat(),
+                               "label": re.sub(r"^\W+", "", html_unescape(section)), "group": map_group(section)})
+            return f"<p{attrs}>{body}</p>"
+
+        b["html"] = re.sub(r"<h2[^>]*>(?P<h2>.*?)</h2>|<p(?P<attrs>[^>]*\bdata-place=\"[^\"]*\"[^>]*)>(?P<body>.*?)</p>",
+                           tag, b["html"], flags=re.S)
+
+    for s in stories:
+        for name, hit in locate("; ".join(s.get("places") or [])):
+            points.append({"lat": hit["lat"], "lon": hit["lon"], "place": name, "title": s["title"],
+                           "text": s["summary"], "url": s["url"], "date": s["date"].isoformat(),
+                           "label": s["label"], "group": map_group(s["type"])})
+    for name in sorted(unknown):
+        print(f"  ! no coordinates for place '{name}' (run scripts/geocode.py)")
+    return points
 
 
 def week_view(today, briefs, stories, meetings):
@@ -147,6 +224,11 @@ def main():
         briefs, stories, daily = load()
     except ContentError as e:
         sys.exit(f"Content error: {e}")
+
+    places_file = CONTENT / "places.json"
+    places = {k: v for k, v in json.loads(places_file.read_text(encoding="utf-8-sig")).items() if v} \
+        if places_file.exists() else {}
+    points = map_points(briefs, stories, places)
 
     # Root-relative links written in markdown ("/stories/...") need the base path too.
     for item in briefs + stories:
@@ -208,6 +290,10 @@ def main():
     for path, (title, intro, kinds) in SECTIONS.items():
         render("section.html", path, title=title, intro=intro, kinds=kinds,
                stories=[s for s in stories if s["type"] in kinds])
+    for p in points:
+        p["url"] = base + p["url"]
+    render("map.html", "/map/", today=today, groups=[(k, label) for k, label, _ in MAP_GROUPS],
+           points_json=Markup(json.dumps(points, ensure_ascii=False).replace("</", "<\\/")))
     render("archive.html", "/briefs/", briefs=briefs)
     render("404.html", "/404.html")
     render("feed.xml", "/feed.xml", items=sorted(

@@ -20,7 +20,8 @@ This file is your full job description. Follow it each run.
 3. Choose today's stories (section 3), then verify them (section 4).
 4. Write `content/briefs/<today>.md` (section 5).
 5. Write 0–3 council-desk stories in `content/stories/` (section 6), when the material supports them.
-6. Run `python scripts/build.py`. If it reports a content error, fix the file and rebuild.
+6. Run `python scripts/geocode.py` (looks up any new places for the map), then `python scripts/build.py`.
+   If either reports a problem (a place not found, a content error), fix the file and run them again.
 7. Publish (section 8).
 
 If today's brief already exists, you're on a re-run: update it with anything significant and new rather
@@ -112,7 +113,7 @@ headlines:                       # 3–5 items for the homepage's "This morning"
 
 **Bold lead sentence saying what happened.** Two to four sentences: who, what, where, when, what
 happens next, and what residents should do.
-{: #some-id }
+{: #some-id data-place="Main Road, Observatory" }
 
 > [Outlet](https://...), [City of Cape Town](https://...)
 
@@ -131,6 +132,13 @@ Rules:
 - **Anchors**: put `{: #short-id }` on its own line directly under an item's paragraph (no blank line
   in between). The `anchor:` values in `headlines` must match. After building, check them in
   `_site/briefs/<date>/index.html`.
+- **Places (for the map)**: add `data-place="..."` to an item's anchor line when it happens somewhere
+  specific: `{: #epping-shooting data-place="Fisher Avenue, Epping" }`. Use a suburb, a street plus
+  suburb, or a named landmark (`Boulders Beach`, `Parliament of South Africa`); separate several with
+  `;`. Leave it off for city-wide or national items. For crime, never go finer than street level and
+  never give a house number. `geocode.py` looks each new name up on OpenStreetMap and caches it in
+  `content/places.json`; if it prints ✗ or the match is clearly wrong (check the `match` text), make the
+  name more specific (add the suburb) or correct the coordinates in `places.json`. Never guess coordinates.
 - **Source line**: every item gets one, written as `> [Outlet name](url)`, with commas between several.
   Use real article URLs only.
 - `## 🔭 Coming up` is a bullet list of dates and deadlines over the next week or two, with links.
@@ -159,6 +167,9 @@ event_date: 2026-10-20      # watch only: the meeting date
 time: "11:00"               # watch only
 venue: "Online (Microsoft Teams)"   # watch only
 meeting_id: 16974           # the [id] from the digest, so the calendar doesn't list the meeting twice
+places:                     # suburbs or streets the story covers, for the map (same rules as data-place)
+  - "Sea Point"
+  - "Hout Bay"
 summary: "One-sentence summary for cards and search results."
 sources:
   - name: "City of Cape Town Council Hub: Planning Appeals Advisory Panel agenda, 20 Oct 2026"

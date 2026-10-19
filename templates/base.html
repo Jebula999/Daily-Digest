@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="{{ '/static/style.css' | url }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.site_name }}" href="{{ '/feed.xml' | url }}">
 <link rel="icon" href="{{ '/static/icon.svg' | url }}" type="image/svg+xml">
+{% block head %}{% endblock %}
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -47,7 +48,7 @@
       <a href="{{ '/briefs/' | url }}"{% if page.startswith('/briefs') %} aria-current="page"{% endif %}>Daily Briefs</a>
       {% for path, sec in sections.items() %}<a href="{{ path | url }}"{% if page == path %} aria-current="page"{% endif %}>{{ sec[0] }}</a>{% endfor %}
     </div>
-    <a class="button" href="{{ '/feed.xml' | url }}">Follow via RSS</a>
+    <a class="button button-map" href="{{ '/map/' | url }}"{% if page == '/map/' %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>Map</a>
   </nav>
 </header>
 

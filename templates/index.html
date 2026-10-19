@@ -34,6 +34,7 @@
         <span>{{ w.code | sky }}, {{ w.min }}–{{ w.max }}°. Wind from the {{ w.wind_from }}, gusting {{ w.gust_kmh }} km/h.{% if conditions.loadshedding %} {% if conditions.loadshedding.stage > 0 %}<strong>Stage {{ conditions.loadshedding.stage }} load-shedding.</strong>{% else %}No load-shedding.{% endif %}{% endif %}</span>
       </p>
       {% endif %}
+      <a class="more morning-map" href="{{ '/map/' | url }}">See it on the map <span aria-hidden="true">→</span></a>
     </aside>
     {% endif %}
   </section>

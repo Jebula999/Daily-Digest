@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% block title %}Map — {{ site.site_name }}{% endblock %}
+{% block description %}Where today's Cape Town news is happening, on a map.{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+{% endblock %}
+{% block main %}
+<div class="wrap map-page">
+  <div class="map-head">
+    <h1 class="story-title">Map</h1>
+    <div class="chips" role="group" aria-label="Time period">
+      <button type="button" class="chip" data-days="0">Today</button>
+      <button type="button" class="chip" data-days="7" aria-pressed="true">7 days</button>
+      <button type="button" class="chip" data-days="30">30 days</button>
+    </div>
+  </div>
+  <div id="map" class="map" role="region" aria-label="Map of news locations"></div>
+  <ul class="legend" aria-label="Sections">
+    {% for key, label in groups %}<li class="g-{{ key }}" data-group="{{ key }}" hidden><span class="dot"></span>{{ label }}</li>{% endfor %}
+  </ul>
+  <p class="map-count" id="map-count" aria-live="polite"></p>
+  <ol class="map-list" id="map-list"></ol>
+  <noscript><p class="meta">The map needs JavaScript. Every item is also in the <a href="{{ '/briefs/' | url }}">daily briefs</a>.</p></noscript>
+</div>
+<script id="map-data" type="application/json">{{ points_json }}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+(() => {
+  const points = JSON.parse(document.getElementById('map-data').textContent);
+  const today = '{{ today.isoformat() }}';
+  const map = L.map('map', { scrollWheelZoom: false, zoomControl: true }).setView([{{ site.lat }}, {{ site.lon }}], 10);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  const layer = L.layerGroup().addTo(map);
+  const list = document.getElementById('map-list');
+  const count = document.getElementById('map-count');
+  const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const day = iso => new Date(iso + 'T12:00:00');
+  const fmt = iso => day(iso).toLocaleDateString('en-ZA', { weekday: 'short', day: 'numeric', month: 'short' });
+  const markers = new Map();
+
+  function render(days) {
+    layer.clearLayers(); markers.clear(); list.innerHTML = '';
+    const cutoff = day(today); cutoff.setDate(cutoff.getDate() - days);
+    const shown = points.filter(p => day(p.date) >= cutoff && day(p.date) <= day(today))
+                        .sort((a, b) => b.date.localeCompare(a.date));
+    // One marker per location; items at the same spot share a popup.
+    const spots = new Map();
+    shown.forEach(p => { const k = p.lat + ',' + p.lon; (spots.get(k) || spots.set(k, []).get(k)).push(p); });
+    spots.forEach((items, k) => {
+      const [lat, lon] = k.split(',').map(Number);
+      const m = L.circleMarker([lat, lon], { radius: 8 + Math.min(items.length - 1, 4) * 1.5, weight: 2,
+        className: 'pin g-' + items[0].group, fillOpacity: .85 })
+        .bindPopup(`<p class="pop-place">${esc(items[0].place)}</p>` + items.map(p =>
+          `<div class="pop-item"><p class="pop-meta"><span class="dot g-${p.group}"></span>${esc(p.label)} · ${fmt(p.date)}</p>` +
+          `<a href="${esc(p.url)}">${esc(p.title)}</a></div>`).join(''), { maxWidth: 280 })
+        .addTo(layer);
+      items.forEach(p => markers.set(p, m));
+    });
+    shown.forEach(p => {
+      const li = document.createElement('li');
+      li.innerHTML = `<button type="button" class="map-item"><span class="dot g-${p.group}"></span>` +
+        `<span class="map-item-body"><span class="map-item-meta">${fmt(p.date)} · ${esc(p.place)}</span>` +
+        `<span class="map-item-title">${esc(p.title)}</span></span></button>`;
+      li.querySelector('button').addEventListener('click', () => {
+        const m = markers.get(p);
+        map.flyTo(m.getLatLng(), Math.max(map.getZoom(), 13), { duration: .6 });
+        m.openPopup();
+        document.getElementById('map').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      });
+      list.appendChild(li);
+    });
+    const groups = new Set(shown.map(p => p.group));
+    document.querySelectorAll('.legend li').forEach(li => li.hidden = !groups.has(li.dataset.group));
+    count.textContent = shown.length
+      ? `${shown.length} item${shown.length === 1 ? '' : 's'} in ${spots.size} place${spots.size === 1 ? '' : 's'}`
+      : 'Nothing located in this period yet.';
+    if (spots.size) map.fitBounds(L.featureGroup([...layer.getLayers()]).getBounds().pad(.15), { maxZoom: 13 });
+  }
+
+  document.querySelectorAll('.chip').forEach(btn => btn.addEventListener('click', () => {
+    document.querySelectorAll('.chip').forEach(b => b.setAttribute('aria-pressed', b === btn));
+    render(+btn.dataset.days);
+  }));
+  render(7);
+})();
+</script>
+{% endblock %}

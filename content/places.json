@@ -1,0 +1,277 @@
+{
+ "Athlone": {
+  "lat": -33.96667,
+  "lon": 18.505,
+  "match": "Athlone, Cape Town, City of Cape Town, Western Cape, 7770, South Africa"
+ },
+ "Belgravia, Bellville": {
+  "lat": -33.90111,
+  "lon": 18.65,
+  "match": "Belgravia, Cape Town Ward 3, Bellville, City of Cape Town, Western Cape, 7532, South Africa"
+ },
+ "Bikini Beach": {
+  "lat": -34.16679,
+  "lon": 18.85648,
+  "match": "Bikini Beach Park, Gordon's Bay, Cape Town Ward 100, City of Cape Town, Western Cape, South Africa"
+ },
+ "Blue Downs": {
+  "lat": -33.9718,
+  "lon": 18.7067,
+  "match": "Cape Town Ward 14, Blue Downs, City of Cape Town, Western Cape, South Africa"
+ },
+ "Boulders Beach": {
+  "lat": -34.19807,
+  "lon": 18.45236,
+  "match": "Boulders Beach, The Boulders, Cape Town Ward 61, Simon's Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Brackenfell": {
+  "lat": -33.88064,
+  "lon": 18.71338,
+  "match": "Brackenfell Nature Reserve, 2, Cape Town Ward 7, Cape Town, City of Cape Town, Western Cape, 7560, South Africa"
+ },
+ "Brantwood, Kuils River": {
+  "lat": -33.92333,
+  "lon": 18.67389,
+  "match": "Brantwood, Cape Town Ward 8, Kuilsrivier, City of Cape Town, Western Cape, 7580, South Africa"
+ },
+ "Camps Bay Beach": {
+  "lat": -33.95091,
+  "lon": 18.37772,
+  "match": "Camps Bay Beach, Camps Bay, Cape Town Ward 54, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Clifton": {
+  "lat": -33.93528,
+  "lon": 18.37907,
+  "match": "Clifton, Cape Town Ward 54, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Clifton 4th Beach": {
+  "lat": -33.94031,
+  "lon": 18.37543,
+  "match": "Fourth Beach, Clifton, Cape Town Ward 54, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Constantia": {
+  "lat": -34.02833,
+  "lon": 18.41556,
+  "match": "Constantia, Cape Town, City of Cape Town, Western Cape, 7806, South Africa"
+ },
+ "Cravenby": {
+  "lat": -33.9234,
+  "lon": 18.58725,
+  "match": "Husami Masjid (Cravenby Mosque), York Street, Cravenby, Cape Town Ward 25, Cape Town, City of Cape Town, Western Cape, 7493, South Africa"
+ },
+ "DHL Stadium, Green Point": {
+  "lat": -33.90346,
+  "lon": 18.41115,
+  "match": "DHL Stadium, South Forecourt, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8005, South Africa"
+ },
+ "Delft": {
+  "lat": -33.9754,
+  "lon": 18.64985,
+  "match": "Delft Primary School, Voorbrug Road, Voorbrug, Cape Town Ward 20, Cape Town, City of Cape Town, Western Cape, 7100, South Africa"
+ },
+ "Edgemead": {
+  "lat": -33.87557,
+  "lon": 18.53995,
+  "match": "Edgemead, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Fish Hoek Beach": {
+  "lat": -34.13697,
+  "lon": 18.43423,
+  "match": "Fish Hoek Beach, Fish Hoek, Cape Town Ward 64, Fish Hoek, City of Cape Town, Western Cape, South Africa"
+ },
+ "Fisher Avenue, Epping": {
+  "lat": -33.93709,
+  "lon": 18.53663,
+  "match": "Fisher Avenue, Epping 1, Cape Town Ward 53, Cape Town, City of Cape Town, Western Cape, 7455, South Africa"
+ },
+ "Grassy Park": {
+  "lat": -34.04513,
+  "lon": 18.50325,
+  "match": "Grassy Park, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Gugulethu": {
+  "lat": -33.97304,
+  "lon": 18.57424,
+  "match": "Gugulethu, Cape Town Ward 40, Cape Town, City of Cape Town, Western Cape, 7755, South Africa"
+ },
+ "Haasendal, Kuils River": {
+  "lat": -33.90873,
+  "lon": 18.69892,
+  "match": "Haasendal Boulevard, Soneike, Cape Town Ward 8, Kuilsrivier, City of Cape Town, Western Cape, 7560, South Africa"
+ },
+ "Highbury, Kuils River": {
+  "lat": -33.94871,
+  "lon": 18.68067,
+  "match": "Highbury Primary School, 100, Highbury Road, Highbury, Cape Town Ward 19, Cape Town, City of Cape Town, Western Cape, 7580, South Africa"
+ },
+ "Hout Bay": {
+  "lat": -34.04309,
+  "lon": 18.35564,
+  "match": "Hout Bay, City of Cape Town, Western Cape, 7872, South Africa"
+ },
+ "Keerom Street, Cape Town": {
+  "lat": -33.92548,
+  "lon": 18.41685,
+  "match": "Keerom Street, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
+ },
+ "Kensington": {
+  "lat": -33.91444,
+  "lon": 18.50694,
+  "match": "Kensington, Cape Town Ward 56, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Khayelitsha": {
+  "lat": -34.04165,
+  "lon": 18.70818,
+  "match": "Cape Town Ward 96, Khayelitsha, City of Cape Town, Western Cape, South Africa"
+ },
+ "Klipkop, Parow": {
+  "lat": -33.91141,
+  "lon": 18.6035,
+  "match": "Klipkop, Cape Town Ward 10, Parow, City of Cape Town, Western Cape, South Africa"
+ },
+ "Langa": {
+  "lat": -33.94556,
+  "lon": 18.53,
+  "match": "Langa, Cape Town, City of Cape Town, Western Cape, 7455, South Africa"
+ },
+ "Lansdowne": {
+  "lat": -33.99634,
+  "lon": 18.50689,
+  "match": "Lansdowne, Cape Town, City of Cape Town, Western Cape, 7780, South Africa"
+ },
+ "Llandudno Beach": {
+  "lat": -34.00812,
+  "lon": 18.34126,
+  "match": "Llandudno Beach, Llandudno, Cape Town Ward 74, Hout Bay, City of Cape Town, Western Cape, South Africa"
+ },
+ "Loumar": {
+  "lat": -33.90431,
+  "lon": 18.65885,
+  "match": "Loumar Road, Shirley Park, Cape Town Ward 3, Bellville, City of Cape Town, Western Cape, 7532, South Africa"
+ },
+ "Maitland": {
+  "lat": -33.9225,
+  "lon": 18.49306,
+  "match": "Maitland, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Melkbosstrand": {
+  "lat": -33.72222,
+  "lon": 18.44583,
+  "match": "Melkbosstrand, City of Cape Town, Western Cape, South Africa"
+ },
+ "Monte Vista, Goodwood": {
+  "lat": -33.89156,
+  "lon": 18.54902,
+  "match": "Monte Vista, N1, Goodwood, Parow, City of Cape Town, Western Cape, 7640, South Africa"
+ },
+ "Muizenberg Beach": {
+  "lat": -34.09738,
+  "lon": 18.50435,
+  "match": "Muizenberg Beach, Cape Town Ward 64, City of Cape Town, Western Cape, South Africa"
+ },
+ "Newlands": {
+  "lat": -33.97428,
+  "lon": 18.4573,
+  "match": "Newlands, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Observatory": {
+  "lat": -33.93694,
+  "lon": 18.46833,
+  "match": "Observatory, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Paarden Eiland": {
+  "lat": -33.91405,
+  "lon": 18.47119,
+  "match": "Paarden Eiland, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Panorama, Parow": {
+  "lat": -33.8755,
+  "lon": 18.56915,
+  "match": "Panorama Laerskool, Malmesbury Road, Welgelegen, Cape Town Ward 1, Cape Town, City of Cape Town, Western Cape, 7500, South Africa"
+ },
+ "Parliament of South Africa": {
+  "lat": -33.92711,
+  "lon": 18.419,
+  "match": "Parliament of South Africa, Paddock Terrace, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
+ },
+ "Parow": {
+  "lat": -33.90106,
+  "lon": 18.54397,
+  "match": "Cape Town Ward 27, Parow, City of Cape Town, Western Cape, South Africa"
+ },
+ "Parow Valley": {
+  "lat": -33.91364,
+  "lon": 18.59294,
+  "match": "Parow Valley, Parow, City of Cape Town, Western Cape, South Africa"
+ },
+ "Peerless Park, Kraaifontein": {
+  "lat": -33.84312,
+  "lon": 18.7235,
+  "match": "Peerless Park, Cape Town Ward 111, Kraaifontein, City of Cape Town, Western Cape, 7500, South Africa"
+ },
+ "Philippi": {
+  "lat": -34.00531,
+  "lon": 18.57038,
+  "match": "Philippi, Cape Town Ward 80, Cape Town, City of Cape Town, Western Cape, 7755, South Africa"
+ },
+ "Protea Park, Atlantis": {
+  "lat": -33.57417,
+  "lon": 18.49471,
+  "match": "Protea Park, Atlantis, City of Cape Town, Western Cape, South Africa"
+ },
+ "Robben Island": {
+  "lat": -33.8053,
+  "lon": 18.36888,
+  "match": "Robben Island, Robben Island Village, City of Cape Town, Western Cape, South Africa"
+ },
+ "Rondebosch": {
+  "lat": -33.96806,
+  "lon": 18.48778,
+  "match": "Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa"
+ },
+ "Scottsdene": {
+  "lat": -33.86097,
+  "lon": 18.7246,
+  "match": "Scottsdene High School, 12, Koopmans Avenue, Scottsdene, Cape Town Ward 7, Cape Town, City of Cape Town, Western Cape, 7570, South Africa"
+ },
+ "Silwerstroomstrand": {
+  "lat": -33.58346,
+  "lon": 18.36109,
+  "match": "Silwerstroomstrand Oord, Cape Town Ward 29, City of Cape Town, Western Cape, South Africa"
+ },
+ "Southfield": {
+  "lat": -34.03472,
+  "lon": 18.48333,
+  "match": "Southfield, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Strand Street, Cape Town": {
+  "lat": -33.92502,
+  "lon": 18.42889,
+  "match": "Strand Street, Foreshore, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
+ },
+ "Strandfontein, Mitchells Plain": {
+  "lat": -34.07191,
+  "lon": 18.5768,
+  "match": "Strandfontein Police, Spine Road, Cape Town Ward 43, Mitchells Plain, City of Cape Town, Western Cape, 7798, South Africa"
+ },
+ "Thornton": {
+  "lat": -33.92361,
+  "lon": 18.53528,
+  "match": "Thornton, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Vredelust, Bellville": {
+  "lat": -33.89768,
+  "lon": 18.61347,
+  "match": "Vredelust Primary School, 73, 6th Avenue, Vredelust, Cape Town, City of Cape Town, Western Cape, 7530, South Africa"
+ },
+ "Woodstock": {
+  "lat": -33.93056,
+  "lon": 18.44722,
+  "match": "Woodstock, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Zeekoevlei": {
+  "lat": -34.06202,
+  "lon": 18.50832,
+  "match": "Zeekoevlei, Cape Town Ward 67, Cape Town, City of Cape Town, Western Cape, South Africa"
+ }
+}

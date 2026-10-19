@@ -3,6 +3,17 @@ type: decided
 title: "Northern suburbs tribunal approves Bellville flats, fines owners up to R150,000"
 date: 2026-10-15
 meeting_id: 30250
+places:
+  - "Belgravia, Bellville"
+  - "Panorama, Parow"
+  - "Monte Vista, Goodwood"
+  - "Cravenby"
+  - "Vredelust, Bellville"
+  - "Edgemead"
+  - "Brantwood, Kuils River"
+  - "Delft"
+  - "Loumar"
+  - "Parow Valley"
 summary: "On 13 October the City's north-eastern planning tribunal approved two blocks of flats in Belgravia, offices in Panorama and a guest house in Vredelust, and imposed nine penalties for building or using property without permission."
 sources:
   - name: "City of Cape Town Council Hub: MPT North Eastern, 13 October 2026, agenda and resolutions"
