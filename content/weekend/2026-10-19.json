@@ -16,7 +16,12 @@
    "url": "https://www.capetown.travel/event/pan-afrikan-design-week-2026/",
    "source": "Cape Town Tourism",
    "description": "In a historic first the V&A Waterfront will play host to Pan Afrikan Design Week from 21–24 October 2026, bringing together designers, educators, students, entrepreneurs, ...",
-   "added": "2026-10-20"
+   "added": "2026-10-20",
+   "sessions": [
+    "2026-10-21T00:00+02:00"
+   ],
+   "highlight": true,
+   "blurb": "The first Pan Afrikan Design Week at the V&A Waterfront brings designers, educators and students together, with its last days on Friday and Saturday."
   },
   {
    "id": "50c88a3e7c",
@@ -31,7 +36,10 @@
    "url": "https://www.capetown.travel/event/ibf-world-championship/",
    "source": "Cape Town Tourism",
    "description": "The South African Blackball Federation (SABF) is proud to announce the upcoming IBF World Championship, scheduled to take place on 23 October 2026 – 1 ...",
-   "added": "2026-10-20"
+   "added": "2026-10-20",
+   "sessions": [
+    "2026-10-23T00:00+02:00"
+   ]
   },
   {
    "id": "96ca62b853",
@@ -46,7 +54,10 @@
    "url": "https://www.quicket.co.za/events/396951-simons-says-laugh-alan-committie/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-10-20"
+   "added": "2026-10-20",
+   "sessions": [
+    "2026-10-23T18:00+02:00"
+   ]
   },
   {
    "id": "6cce7fe57b",
@@ -61,7 +72,10 @@
    "url": "https://www.capetown.travel/event/the-khaltsha-academysip-for-something-bigger-fundraiser/",
    "source": "Cape Town Tourism",
    "description": "Sip for Something Bigger is Khaltsha Cycling Academy’s first-ever paint night fundraiser at Southern Sun, the Cullinan. Join us for an evening of art, South ...",
-   "added": "2026-10-20"
+   "added": "2026-10-20",
+   "sessions": [
+    "2026-10-23T18:00+02:00"
+   ]
   },
   {
    "id": "74f000b884",
@@ -76,7 +90,10 @@
    "url": "https://www.quicket.co.za/events/389491-a-christmas-festival/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-10-20"
+   "added": "2026-10-20",
+   "sessions": [
+    "2026-10-23T19:30+02:00"
+   ]
   },
   {
    "id": "c1a79c3eec",
@@ -94,7 +111,9 @@
    "added": "2026-10-20",
    "sessions": [
     "2026-10-24T10:00+02:00"
-   ]
+   ],
+   "highlight": true,
+   "blurb": "Kites of every size fill the sky over Youngsfield in Ottery across Saturday and Sunday, a long-running family day out."
   },
   {
    "id": "9b8854b42b",
@@ -109,7 +128,10 @@
    "url": "https://www.quicket.co.za/events/400039-plettenberg-bay-wine-tasting-by-ctwc/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-10-20"
+   "added": "2026-10-20",
+   "sessions": [
+    "2026-10-24T18:30+02:00"
+   ]
   },
   {
    "id": "46cbd49b75",
@@ -124,7 +146,12 @@
    "url": "https://www.quicket.co.za/events/373630-mendelssohn-a-choral-odyssey/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-10-20"
+   "added": "2026-10-20",
+   "sessions": [
+    "2026-10-24T19:30+02:00"
+   ],
+   "highlight": true,
+   "blurb": "A Saturday-night choral concert of Mendelssohn's music in the City Hall's grand auditorium."
   },
   {
    "id": "1c55e21bc0",
@@ -139,11 +166,14 @@
    "url": "https://www.quicket.co.za/events/397203-a-brewery-brunch/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-10-20"
+   "added": "2026-10-20",
+   "sessions": [
+    "2026-10-25T11:00+02:00"
+   ]
   },
   {
    "id": "96f59c2bbe",
-   "title": "Winehouse | 25 October 2026 | Paradise Rooftop, Cape Town",
+   "title": "Winehouse",
    "category": "other",
    "start": "2026-10-25T16:00+02:00",
    "end": "2026-10-25T22:00+02:00",
@@ -154,7 +184,10 @@
    "url": "https://www.quicket.co.za/events/395491-winehouse-25-october-2026-paradise-rooftop-cape-town/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-10-20"
+   "added": "2026-10-20",
+   "sessions": [
+    "2026-10-25T16:00+02:00"
+   ]
   }
  ],
  "skipped": [],

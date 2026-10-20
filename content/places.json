@@ -1,4 +1,9 @@
 {
+ "35th Avenue, Elsies River": {
+  "lat": -33.94405,
+  "lon": 18.59374,
+  "match": "35th Avenue, Bishop Lavis, Cape Town Ward 24, Elsiesriver, City of Cape Town, Western Cape, 7490, South Africa"
+ },
  "Athlone": {
   "lat": -33.96667,
   "lon": 18.505,
@@ -14,10 +19,20 @@
   "lon": 18.85648,
   "match": "Bikini Beach Park, Gordon's Bay, Cape Town Ward 100, City of Cape Town, Western Cape, South Africa"
  },
+ "Bishopscourt": {
+  "lat": -33.98861,
+  "lon": 18.44667,
+  "match": "Bishopscourt, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
  "Blue Downs": {
   "lat": -33.9718,
   "lon": 18.7067,
   "match": "Cape Town Ward 14, Blue Downs, City of Cape Town, Western Cape, South Africa"
+ },
+ "Bokmakierie Street, Hazendal": {
+  "lat": -33.95387,
+  "lon": 18.50694,
+  "match": "Bokmakierie Street, Cape Town Ward 49, Cape Town, City of Cape Town, Western Cape, 7430, South Africa"
  },
  "Boulders Beach": {
   "lat": -34.19807,
@@ -124,10 +139,20 @@
   "lon": 18.70818,
   "match": "Cape Town Ward 96, Khayelitsha, City of Cape Town, Western Cape, South Africa"
  },
+ "Klipfontein Road, Athlone": {
+  "lat": -33.96231,
+  "lon": 18.51157,
+  "match": "Klipfontein Road, Gleemoor, Athlone, Cape Town, City of Cape Town, Western Cape, 7760, South Africa"
+ },
  "Klipkop, Parow": {
   "lat": -33.91141,
   "lon": 18.6035,
   "match": "Klipkop, Cape Town Ward 10, Parow, City of Cape Town, Western Cape, South Africa"
+ },
+ "Kuyasa, Khayelitsha": {
+  "lat": -34.0603,
+  "lon": 18.68869,
+  "match": "Kuyasa, Cape Town Ward 97, Khayelitsha, City of Cape Town, Western Cape, 7748, South Africa"
  },
  "Langa": {
   "lat": -33.94556,
@@ -178,6 +203,11 @@
   "lat": -33.93694,
   "lon": 18.46833,
   "match": "Observatory, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Old Oak Road, Bellville": {
+  "lat": -33.87268,
+  "lon": 18.64321,
+  "match": "Old Oak Road, Ridgeworth, Cape Town Ward 21, Bellville, City of Cape Town, Western Cape, 7530, South Africa"
  },
  "Paarden Eiland": {
   "lat": -33.91405,
@@ -264,6 +294,7 @@
   "lon": 18.61347,
   "match": "Vredelust Primary School, 73, 6th Avenue, Vredelust, Cape Town, City of Cape Town, Western Cape, 7530, South Africa"
  },
+ "Vygieskraal, Athlone": null,
  "Woodstock": {
   "lat": -33.93056,
   "lon": 18.44722,
