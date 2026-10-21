@@ -54,6 +54,11 @@
   "lon": 18.37772,
   "match": "Camps Bay Beach, Camps Bay, Cape Town Ward 54, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
+ "Castle of Good Hope": {
+  "lat": -33.92585,
+  "lon": 18.42673,
+  "match": "Castle of Good Hope, Catzenellenbogen Bastion, Foreshore, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
+ },
  "Clifton": {
   "lat": -33.93528,
   "lon": 18.37907,
@@ -83,6 +88,11 @@
   "lat": -33.9754,
   "lon": 18.64985,
   "match": "Delft Primary School, Voorbrug Road, Voorbrug, Cape Town Ward 20, Cape Town, City of Cape Town, Western Cape, 7100, South Africa"
+ },
+ "Dunoon": {
+  "lat": -33.81731,
+  "lon": 18.53842,
+  "match": "Dunoon Masjid, 40, Dumani Road, Racing Park, Cape Town Ward 104, Cape Town, City of Cape Town, Western Cape, 7435, South Africa"
  },
  "Edgemead": {
   "lat": -33.87557,
@@ -283,6 +293,11 @@
   "lat": -34.07191,
   "lon": 18.5768,
   "match": "Strandfontein Police, Spine Road, Cape Town Ward 43, Mitchells Plain, City of Cape Town, Western Cape, 7798, South Africa"
+ },
+ "Thornhill Road, Green Point": {
+  "lat": -33.91064,
+  "lon": 18.41015,
+  "match": "Thornhill Road, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8005, South Africa"
  },
  "Thornton": {
   "lat": -33.92361,
