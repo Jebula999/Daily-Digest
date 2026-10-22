@@ -14,6 +14,11 @@
   "lon": 18.65,
   "match": "Belgravia, Cape Town Ward 3, Bellville, City of Cape Town, Western Cape, 7532, South Africa"
  },
+ "Bellville": {
+  "lat": -33.91279,
+  "lon": 18.66254,
+  "match": "Bellville Hoër Tegniese Skool, College Road, Labiance, Cape Town Ward 9, Cape Town, City of Cape Town, Western Cape, 7530, South Africa"
+ },
  "Bikini Beach": {
   "lat": -34.16679,
   "lon": 18.85648,
@@ -44,6 +49,8 @@
   "lon": 18.71338,
   "match": "Brackenfell Nature Reserve, 2, Cape Town Ward 7, Cape Town, City of Cape Town, Western Cape, 7560, South Africa"
  },
+ "Brackengate": null,
+ "Brackengate Business Park, Brackenfell": null,
  "Brantwood, Kuils River": {
   "lat": -33.92333,
   "lon": 18.67389,
@@ -78,6 +85,11 @@
   "lat": -33.9234,
   "lon": 18.58725,
   "match": "Husami Masjid (Cravenby Mosque), York Street, Cravenby, Cape Town Ward 25, Cape Town, City of Cape Town, Western Cape, 7493, South Africa"
+ },
+ "DHL Stadium": {
+  "lat": -33.90346,
+  "lon": 18.41115,
+  "match": "DHL Stadium, South Forecourt, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8005, South Africa"
  },
  "DHL Stadium, Green Point": {
   "lat": -33.90346,
@@ -194,6 +206,11 @@
   "lon": 18.44583,
   "match": "Melkbosstrand, City of Cape Town, Western Cape, South Africa"
  },
+ "Middestad Mall, Bellville": {
+  "lat": -33.90353,
+  "lon": 18.62946,
+  "match": "Middestad Mall, Charl Malan Street, Cape Town Ward 10, Bellville, City of Cape Town, Western Cape, 7530, South Africa"
+ },
  "Monte Vista, Goodwood": {
   "lat": -33.89156,
   "lon": 18.54902,
@@ -268,6 +285,11 @@
   "lat": -33.96806,
   "lon": 18.48778,
   "match": "Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa"
+ },
+ "Scholtz Road, Green Point": {
+  "lat": -33.90961,
+  "lon": 18.40129,
+  "match": "Scholtz Road, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8005, South Africa"
  },
  "Scottsdene": {
   "lat": -33.86097,

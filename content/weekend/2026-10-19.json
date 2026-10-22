@@ -188,6 +188,21 @@
    "sessions": [
     "2026-10-25T16:00+02:00"
    ]
+  },
+  {
+   "id": "m-stormers-scarlets",
+   "title": "URC rugby: Stormers v Scarlets",
+   "category": "sport",
+   "start": "2026-10-24T16:00+02:00",
+   "end": null,
+   "all_day": false,
+   "venue": "DHL Stadium",
+   "area": "Green Point",
+   "price_from": null,
+   "url": "https://www.capetownetc.com/news/sports/dhl-stormers-name-team-to-face-scarlets/",
+   "source": "Cape Town ETC",
+   "description": "",
+   "added": "2026-10-22"
   }
  ],
  "skipped": [],
@@ -208,6 +223,7 @@
   "https://www.capetown.travel/cape-town-creeps-into-the-worlds-top-50-halloween-destinations/",
   "https://www.capetown.travel/cape-town-market-guide/",
   "https://www.capetown.travel/cape-town-tourism-honours-the-frontline-teams-supporting-visitors-across-the-city/",
+  "https://www.capetown.travel/cape-towns-hottest-new-hotels-and-stays-to-check-into/",
   "https://www.capetown.travel/free-things-to-do-in-cape-town/",
   "https://www.capetown.travel/guardians-of-the-deep-your-passport-to-cape-towns-coastline/",
   "https://www.capetown.travel/how-to-spend-a-day-at-cape-point/",
