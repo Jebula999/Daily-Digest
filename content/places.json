@@ -9,6 +9,11 @@
   "lon": 18.505,
   "match": "Athlone, Cape Town, City of Cape Town, Western Cape, 7770, South Africa"
  },
+ "Atlantis": {
+  "lat": -33.56722,
+  "lon": 18.50028,
+  "match": "Atlantis, City of Cape Town, Western Cape, South Africa"
+ },
  "Belgravia, Bellville": {
   "lat": -33.90111,
   "lon": 18.65,
@@ -200,6 +205,11 @@
   "lat": -33.9225,
   "lon": 18.49306,
   "match": "Maitland, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Mandela Park Stadium, Khayelitsha": {
+  "lat": -34.05213,
+  "lon": 18.68928,
+  "match": "Mandela Park Stadium, Solomon Mahlangu Crescent, Kuyasa, Cape Town Ward 97, Khayelitsha, City of Cape Town, Western Cape, 7748, South Africa"
  },
  "Melkbosstrand": {
   "lat": -33.72222,

@@ -116,6 +116,21 @@
    "blurb": "Kites of every size fill the sky over Youngsfield in Ottery across Saturday and Sunday, a long-running family day out."
   },
   {
+   "id": "m-stormers-scarlets",
+   "title": "URC rugby: Stormers v Scarlets",
+   "category": "sport",
+   "start": "2026-10-24T16:00+02:00",
+   "end": null,
+   "all_day": false,
+   "venue": "DHL Stadium",
+   "area": "Green Point",
+   "price_from": null,
+   "url": "https://www.capetownetc.com/news/sports/dhl-stormers-name-team-to-face-scarlets/",
+   "source": "Cape Town ETC",
+   "description": "",
+   "added": "2026-10-22"
+  },
+  {
    "id": "9b8854b42b",
    "title": "Plettenberg Bay Wine Tasting by CTWC",
    "category": "food",
@@ -188,21 +203,6 @@
    "sessions": [
     "2026-10-25T16:00+02:00"
    ]
-  },
-  {
-   "id": "m-stormers-scarlets",
-   "title": "URC rugby: Stormers v Scarlets",
-   "category": "sport",
-   "start": "2026-10-24T16:00+02:00",
-   "end": null,
-   "all_day": false,
-   "venue": "DHL Stadium",
-   "area": "Green Point",
-   "price_from": null,
-   "url": "https://www.capetownetc.com/news/sports/dhl-stormers-name-team-to-face-scarlets/",
-   "source": "Cape Town ETC",
-   "description": "",
-   "added": "2026-10-22"
   }
  ],
  "skipped": [],
@@ -230,19 +230,24 @@
   "https://www.capetown.travel/make-your-circle-bigger-in-cape-town/",
   "https://www.capetown.travel/nelson-mandela-marathon-2026-cape-town-road-closures/",
   "https://www.capetown.travel/sunset-lovers-here-are-the-best-sunset-spots-in-cape-town/",
+  "https://www.capetownetc.com/entertainment/cape-town-evenings-at-home-relaxed-ideas-for-adults/",
   "https://www.capetownetc.com/entertainment/zingara-returns-to-century-city-with-a-show-like-never-before/",
   "https://www.capetownetc.com/events/arts-and-culture/17-emerging-artists-showcase-their-work-in-cape-town/",
   "https://www.capetownetc.com/events/arts-and-culture/artsability-festival-2026-brings-inclusive-dance-to-cape-town/",
   "https://www.capetownetc.com/events/arts-and-culture/cape-town-mural-project-seeks-artists-to-tell-district-six-stories/",
   "https://www.capetownetc.com/events/arts-and-culture/imagnary-house-bookstore-cape-town-kenilworth/",
   "https://www.capetownetc.com/events/cape-town-ranks-among-top-50-halloween-destinations-2026/",
+  "https://www.capetownetc.com/events/course-empowers-mitchells-plain-women/",
   "https://www.capetownetc.com/events/garden-town-stellenbosch-2026-wine-trails-and-conservation/",
+  "https://www.capetownetc.com/events/one-young-world-summit-2026-cape-town/",
   "https://www.capetownetc.com/events/sport-and-outdoors/elite-stars-nelson-mandela-marathon/",
   "https://www.capetownetc.com/featured/cape-town-weekend-events-road-closures-and-traffic-guide/",
   "https://www.capetownetc.com/lifestyle/5-south-african-destinations-to-consider-for-a-solo-trip/",
   "https://www.capetownetc.com/lifestyle/a-glowing-reindeer-classic-vws-and-a-cape-town-night-drive/",
   "https://www.capetownetc.com/lifestyle/steenberg-farms-historic-manor-house-restored-in-cape-town/",
+  "https://www.capetownetc.com/olivers-travels/bangbroek-honey-badger-south-african-cocktail/",
   "https://www.capetownetc.com/sponsored/cape-rail-company-slow-down-and-explore-the-cape-by-vintage-train/",
+  "https://www.capetownetc.com/sponsored/coastal-bliss-the-morea-house-way/",
   "https://www.capetownetc.com/sponsored/mineral-world-scratch-patch-cave-golf-a-gem-of-a-family-adventure/",
   "https://www.capetownetc.com/sponsored/six-travel-destinations-to-put-on-your-2027-holiday-list/",
   "https://www.capetownetc.com/sponsored/the-last-generation-a-tanzanite-story/",

@@ -1,0 +1,86 @@
+{
+ "day": "10-30",
+ "south_africa": [
+  {
+   "year": 1906,
+   "title": "Archibald Campbell Mzoliza Jordan is born",
+   "text": "The Xhosa writer and linguist, Archibald Campbell Mzoliza Jordan, was born at Mbokothwana Mission, Tsolo district, Transkei. After several years as teacher and having obtained an M.A. Degree at the…",
+   "url": "https://sahistory.org.za/dated-event/archibald-campbell-mzoliza-jordan-born",
+   "cape_town": false
+  },
+  {
+   "year": 1991,
+   "title": "Date is set for constitutional talks",
+   "text": "Delegates from twenty groups (SA government, 'homeland' governments, political parties, political organisations and non-governmental organisations) agreed, after preparatory talks in Johannesburg,…",
+   "url": "https://sahistory.org.za/dated-event/date-set-constitutional-talks",
+   "cape_town": false
+  },
+  {
+   "year": 1992,
+   "title": "Amnesty Bill is approved 30 October 1996 SA judge jails former state assassin Eugene de Kock for more than 200 years",
+   "text": "During the Apartheid regime, Eugene de Kock was a colonel in the South African Police force. He acted as the commander of a counter-insurgency group located on the outskirts of Pretoria, known as…",
+   "url": "https://sahistory.org.za/dated-event/amnesty-bill-approved",
+   "cape_town": false
+  },
+  {
+   "year": 1997,
+   "title": "South Africa completes destroying its stockpile of anti-personnel mines",
+   "text": "South Africa announced that it had completed destroying its stock pile of anti-personnel mines. A total of 261 423 were destroyed, while 18 000 were retained for training purposes. 5 000 of the…",
+   "url": "https://sahistory.org.za/dated-event/south-africa-completes-destroying-its-stockpile-anti-personnel-mines",
+   "cape_town": false
+  },
+  {
+   "year": 1998,
+   "title": "Presidential Job Summit is held",
+   "text": "In response to a call by President Nelson Mandela, representatives of government, business, labour and other community and development organisations meet at the Presidential Job Summit to discuss…",
+   "url": "https://sahistory.org.za/dated-event/presidential-job-summit-held",
+   "cape_town": false
+  },
+  {
+   "year": 2002,
+   "title": "Boeremag bomb blasts rock Soweto and Bronkhorstspruit",
+   "text": "Just after midnight on 30 October 2002 eight bomb blasts rocked Soweto. Seven of the blasts occurred on main commuter railway lines running through the township. The damage to the railway lines was…",
+   "url": "https://sahistory.org.za/dated-event/boeremag-bomb-blasts-rock-soweto-and-bronkhorstspruit",
+   "cape_town": false
+  },
+  {
+   "year": 2011,
+   "title": "12 people are killed after Kenyan jets bombed Somali town",
+   "text": "At least 12 people were killed when two Kenyan jets bombed the southern Somali town of Jilib. This was an attempt by east African nation to rid Somalia of the Islamic al Shabaab rebels. Kenya…",
+   "url": "https://sahistory.org.za/dated-event/12-people-are-killed-after-kenyan-jets-bombed-somali-town",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1806,
+   "text": "War of the Fourth Coalition: Believing that they were outnumbered, the German garrison at Stettin surrendered to a much smaller French force without a fight.",
+   "url": "https://en.wikipedia.org/wiki/War_of_the_Fourth_Coalition",
+   "sa": false
+  },
+  {
+   "year": 1888,
+   "text": "Lobengula, King of Matabeleland, granted the Rudd Concession to agents of Cecil Rhodes, leading to the creation of the British South Africa Company.",
+   "url": "https://en.wikipedia.org/wiki/Lobengula",
+   "sa": true
+  },
+  {
+   "year": 1948,
+   "text": "A luzzu (Maltese fishing boat) overloaded with passengers capsized and sank in the Gozo Channel off Qala, killing 23 of the 27 people on board (monument pictured).",
+   "url": "https://en.wikipedia.org/wiki/Luzzu",
+   "sa": false
+  },
+  {
+   "year": 1968,
+   "text": "A squad of 120 North Korean Army commandos landed in boats along a 25-mile long section of the eastern coast of South Korea in a failed attempt to overthrow the dictatorship of Park Chung Hee and reunify Korea.",
+   "url": "https://en.wikipedia.org/wiki/Korean_People's_Army",
+   "sa": false
+  },
+  {
+   "year": 2001,
+   "text": "Michael Jackson released Invincible, his final studio album and the most expensive album ever produced.",
+   "url": "https://en.wikipedia.org/wiki/Michael_Jackson",
+   "sa": false
+  }
+ ]
+}
