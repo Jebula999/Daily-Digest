@@ -5,13 +5,13 @@ date: 2026-10-23
 meeting_id: 30240
 places:
   - "Constantia"
-summary: "On 20 October the City's south-western planning tribunal refused subdivisions at Glendirk Farm in Constantia and in Hout Bay, approved others in Constantia, Newlands and Southfield, rezoned a Rondebosch property for flats and set two penalties."
+summary: "On 20 October the City's south-western planning tribunal refused subdivisions at Glendirk Farm in Constantia and in Hout Bay, approved others in Constantia, Newlands and Southfield, rezoned a Rondebosch property for flats, approved a Philippi farm subdivision and set 16 penalties."
 sources:
   - name: "City of Cape Town Council Hub: MPT South Western, 20 October 2026, agenda and resolutions"
     url: https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings
 ---
 
-The **Municipal Planning Tribunal (MPT)** is the City panel of officials and outside experts that decides rezonings, subdivisions and departures from building rules, and sets penalties for building without approval. Its south-western branch, covering the southern suburbs, the far south and much of the Cape Flats, met online on Tuesday 20 October ([what was on the agenda](/stories/2026-10-15-mpt-south-western-preview/)). Every decision published so far was unanimous.
+The **Municipal Planning Tribunal (MPT)** is the City panel of officials and outside experts that decides rezonings, subdivisions and departures from building rules, and sets penalties for building without approval. Its south-western branch, covering the southern suburbs, the far south and much of the Cape Flats, met online on Tuesday 20 October ([what was on the agenda](/stories/2026-10-15-mpt-south-western-preview/)). All but one of its decisions were unanimous.
 
 ## Refused
 
@@ -37,9 +37,31 @@ When owners build or use property without permission and then apply to legalise 
 | Willow Road, Constantia | R20,000 | a 225m² parking area used by a guest house on the neighbouring property |
 | Turkey Berry Lane, Hout Bay | R15,000 | unauthorised building work |
 
-## Still to be published
+## Published later
 
-Resolutions have not yet been published for the rest of the agenda: the large subdivision and consolidation at **101 Ottery Road, Philippi**, a consent use at 96 Mpinga Street in Gugulethu, and 14 more penalties in Strandfontein, Lansdowne, Surrey Estate, Wetton, Lotus River, Bay View, Athlone, Knole Park, Highlands Estate and Schaapkraal.
+The remaining resolutions were published on 23 October:
+
+- **101 Ottery Road, Philippi (Ward 43):** the subdivisions of two farm portions (Portions 0 and 2 of Cape Farm 670) were approved, along with the related consolidation with Portion 3 of Cape Farm 729.
+- **96 Mpinga Street, Gugulethu (Ward 39):** a consent use and a departure for a freestanding telecommunications base station were refused.
+
+Fourteen more penalties were set, all unanimously except Knole Park, where the record says only "resolved":
+
+| Area | Amount | For |
+|---|---|---|
+| Williston Road, Knole Park, Philippi | R100,000 | unauthorised land use and building work |
+| Admirals Hill Drive, Strandfontein | R16,000 | R15,000 land use, R1,000 building work |
+| College Road, Surrey Estate | R12,500 | R10,000 land use, R2,500 building work |
+| Boom Street, Schaapkraal | R8,000 | not specified |
+| Athlone Street, Athlone | R7,500 | not specified |
+| Lady May Street, Athlone | R5,000 | not specified |
+| Rockford Road, Lansdowne | R5,000 | unauthorised land use |
+| Plantation Road, Wetton | R3,000 | not specified |
+| Pilot Way, Strandfontein | R2,500 | not specified |
+| Francis Road, Lotus River | R1,500 | R1,000 land use, R500 building work |
+| Highlands Estate, Philippi | R1,500 | unlawful building work |
+| Nautilus Way, Bay View | R1,500 | unlawful building work |
+| Karen Road, Lotus River | R1,000 | not specified |
+| Autumn Street, Surrey Estate | R0 | set at nil, as set out in the report |
 
 ## What happens next
 

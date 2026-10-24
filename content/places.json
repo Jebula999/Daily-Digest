@@ -14,6 +14,11 @@
   "lon": 18.50028,
   "match": "Atlantis, City of Cape Town, Western Cape, South Africa"
  },
+ "Baden Powell Drive, Khayelitsha": {
+  "lat": -34.06953,
+  "lon": 18.68951,
+  "match": "Baden Powell Drive, Endlovini, Cape Town Ward 99, Khayelitsha, City of Cape Town, Western Cape, 7748, South Africa"
+ },
  "Belgravia, Bellville": {
   "lat": -33.90111,
   "lon": 18.65,
@@ -115,6 +120,11 @@
   "lat": -33.87557,
   "lon": 18.53995,
   "match": "Edgemead, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Elsies River": {
+  "lat": -33.91061,
+  "lon": 18.56917,
+  "match": "Elsies River, 1st Avenue, Vrijzee, Cape Town Ward 26, Parow, City of Cape Town, Western Cape, 7940, South Africa"
  },
  "Fish Hoek Beach": {
   "lat": -34.13697,
@@ -245,6 +255,11 @@
   "lat": -33.87268,
   "lon": 18.64321,
   "match": "Old Oak Road, Ridgeworth, Cape Town Ward 21, Bellville, City of Cape Town, Western Cape, 7530, South Africa"
+ },
+ "Ottery Road, Philippi": {
+  "lat": -34.02045,
+  "lon": 18.53819,
+  "match": "Ottery Road, Philippi - Farmland, Cape Town Ward 43, Cape Town, City of Cape Town, Western Cape, 7805, South Africa"
  },
  "Paarden Eiland": {
   "lat": -33.91405,
