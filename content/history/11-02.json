@@ -1,0 +1,93 @@
+{
+ "day": "11-02",
+ "south_africa": [
+  {
+   "year": 1899,
+   "title": "Canada offers a second contingent of troops to the British in the South African War",
+   "text": "The Canadian government offered a second contingent of troops consisting of infantry, cavalry and field artillery to bolster British troops in the South African War. The British initially declined…",
+   "url": "https://sahistory.org.za/dated-event/canada-offers-second-contingent-troops-british-south-african-war",
+   "cape_town": false
+  },
+  {
+   "year": 1930,
+   "title": "Selassie becomes emperor",
+   "text": "Ras (Duke) Tafari was crowned as Emperor Haile Selassie in Addis Abeba, Ethiopia, after the death of Empress Zaudito. After 45 years of rule, Selassie was ousted by Marxist dictator Mengistu Haile…",
+   "url": "https://sahistory.org.za/dated-event/selassie-becomes-emperor",
+   "cape_town": false
+  },
+  {
+   "year": 1956,
+   "title": "Lucas Seage is born",
+   "text": "Lucas Seage, South African artist, was born in Newclare, Johannesburg. Seage attended Barolong High School in Gaborone, Botswana and then Damelin College in Johannesburg in 1976. In that same year he…",
+   "url": "https://sahistory.org.za/dated-event/lucas-seage-born",
+   "cape_town": false
+  },
+  {
+   "year": 1969,
+   "title": "300,000 refugees in camps near the Nigerian border are facing starvation",
+   "text": "300,000 refugees in camps near the Nigerian border were facing starvation after an argument between the Nigerian government and the Red Cross. The Red Cross had been sending supplies to relief camps…",
+   "url": "https://sahistory.org.za/dated-event/300000-refugees-camps-near-nigerian-border-are-facing-starvation",
+   "cape_town": false
+  },
+  {
+   "year": 1990,
+   "title": "A South African spy is released from jail",
+   "text": "Location: back to this day in history search archive Odile Harrington, a South African convicted and imprisoned for espionage in Zimbabwe in 1987, was released and returned to South Africa. On her…",
+   "url": "https://sahistory.org.za/dated-event/south-african-spy-released-jail",
+   "cape_town": false
+  },
+  {
+   "year": 1995,
+   "title": "Former Minister of Defence and others are charged with murder",
+   "text": "Location: back to this day in history search archive Former South African Defence Force Minister, General Magnus Malan and 19 other former senior military officers were charged in the Durban…",
+   "url": "https://sahistory.org.za/dated-event/former-minister-defence-and-others-are-charged-murder",
+   "cape_town": false
+  },
+  {
+   "year": 1999,
+   "title": "Unknown gunmen assassinate Zulu prince Cyril Zulu 2 November 2004 Soweto’s chief of police, Nkanyiso Maphanga is arrested and charged with negligent and drunken driving",
+   "text": "Soweto’s assistant chief of police, Nkanyiso Maphanga, was arrested and charged with two counts of reckless and/or negligent driving and one of drunken driving after being involved in two car…",
+   "url": "https://sahistory.org.za/dated-event/unknown-gunmen-assassinate-zulu-prince-cyril-zulu",
+   "cape_town": false
+  },
+  {
+   "year": 2007,
+   "title": "South African Actor, Henry Cele , dies",
+   "text": "Henry ”Black cat” Cele was a revered actor, most famous for his chilling portrayal of the Zulu King, Shaka in the 1985 mini-series, Shaka Zulu. Cele landed the role after he portrayed the same…",
+   "url": "https://sahistory.org.za/dated-event/south-african-actor-henry-cele-dies",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 619,
+   "text": "Emperor Gaozu of Tang allowed the assassination of a khagan of the Western Turkic Khaganate by Eastern Turkic rivals, one of the earliest events in the Tang campaigns against the Western Turks.",
+   "url": "https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Tang",
+   "sa": false
+  },
+  {
+   "year": 1932,
+   "text": "The Australian military began a \"war against emus\", flightless native birds blamed for widespread damage to crops in Western Australia.",
+   "url": "https://en.wikipedia.org/wiki/Australian_Defence_Force",
+   "sa": false
+  },
+  {
+   "year": 1943,
+   "text": "World War II: A U.S. Navy task force turned away an Imperial Japanese Navy formation at the Battle of Empress Augusta Bay, thus protecting the landings at Cape Torokina.",
+   "url": "https://en.wikipedia.org/wiki/World_War_II",
+   "sa": true
+  },
+  {
+   "year": 1963,
+   "text": "President Ngô Đình Diệm of South Vietnam was assassinated, marking the culmination of a coup d'état led by Dương Văn Minh.",
+   "url": "https://en.wikipedia.org/wiki/Ngo_Dinh_Diem",
+   "sa": false
+  },
+  {
+   "year": 1997,
+   "text": "Tropical Storm Linda made landfall in the Mekong Delta in Vietnam, causing more than 3,000 deaths.",
+   "url": "https://en.wikipedia.org/wiki/Tropical_Storm_Linda_(1997)",
+   "sa": false
+  }
+ ]
+}

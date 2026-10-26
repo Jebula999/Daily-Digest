@@ -54,6 +54,11 @@
   "lon": 18.50694,
   "match": "Bokmakierie Street, Cape Town Ward 49, Cape Town, City of Cape Town, Western Cape, 7430, South Africa"
  },
+ "Bonteheuwel": {
+  "lat": -33.9453,
+  "lon": 18.50272,
+  "match": "Bonteheuwel, Maitland Garden Village, Pinelands, Cape Town, City of Cape Town, Western Cape, 7430, South Africa"
+ },
  "Bothasig": {
   "lat": -33.85944,
   "lon": 18.54111,
@@ -211,6 +216,11 @@
   "lon": 18.6035,
   "match": "Klipkop, Cape Town Ward 10, Parow, City of Cape Town, Western Cape, South Africa"
  },
+ "Kloof Road, Camps Bay": {
+  "lat": -33.94353,
+  "lon": 18.38182,
+  "match": "Kloof Road, Camps Bay, Cape Town Ward 54, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
  "Kuyasa, Khayelitsha": {
   "lat": -34.0603,
   "lon": 18.68869,
@@ -355,6 +365,11 @@
   "lat": -33.58346,
   "lon": 18.36109,
   "match": "Silwerstroomstrand Oord, Cape Town Ward 29, City of Cape Town, Western Cape, South Africa"
+ },
+ "Sir Lowry's Pass Road, Gordon's Bay": {
+  "lat": -34.15578,
+  "lon": 18.87313,
+  "match": "Sir Lowry's Pass Road, Winslow, Gordon's Bay, Cape Town Ward 100, City of Cape Town, Western Cape, 7151, South Africa"
  },
  "Southfield": {
   "lat": -34.03472,
