@@ -1,0 +1,100 @@
+{
+ "day": "11-03",
+ "south_africa": [
+  {
+   "year": 1964,
+   "title": "South African pop queen, Brenda Fassie, is born",
+   "text": "Brenda Nokuzola Fassie, South African Pop Queen, was born in 1964 in Langa, a township near Cape Town. She was named after the American country singer Brenda Lee. The daughter of a pianist, Brenda…",
+   "url": "https://sahistory.org.za/dated-event/south-african-pop-queen-brenda-fassie-born",
+   "cape_town": true
+  },
+  {
+   "year": 1884,
+   "title": "First Black-owned newspaper is published",
+   "text": "The first Black South African newspaper, Imvo Zabantsundu (Opinion of the People), was published by Thanda Press in King William's Town as an independent political newspaper for Black people. Its…",
+   "url": "https://sahistory.org.za/dated-event/first-black-owned-newspaper-published",
+   "cape_town": false
+  },
+  {
+   "year": 1941,
+   "title": "Ahmed Timol born on the 3rd Nov 1941",
+   "text": "Ahmed Timol was born on the 3rd November 1941 in Breyten in current-day Mpumalanga. He grew up in Roodepoort and trained as a teacher. In 1964 he attended the funeral of Suliman 'Babla' Saloogee who…",
+   "url": "https://sahistory.org.za/dated-event/ahmed-timol-born-3rd-nov-1941",
+   "cape_town": false
+  },
+  {
+   "year": 1955,
+   "title": "Deputy President Phumzile Mlambo is born",
+   "text": "Phumzile Mlambo-Ngcuka, deputy president of South Africa and wife of former public prosecutor Bulelani Ngcuka, was born in Claremont, Durban. She was appointed as deputy president by President Thabo…",
+   "url": "https://sahistory.org.za/dated-event/deputy-president-phumzile-mlambo-born",
+   "cape_town": false
+  },
+  {
+   "year": 1960,
+   "title": "Felix Mounie, the Cameroon opposition leader is assassinated in Geneva.",
+   "text": "Felix Mounie was the leader of the political movement Union du Peuple Camerounnais (UPC). The UPC was a major political force demanding the end of UN Trusteeship over Cameroon and full independence…",
+   "url": "https://sahistory.org.za/dated-event/felix-mounie-cameroon-opposition-leader-assassinated-geneva",
+   "cape_town": false
+  },
+  {
+   "year": 1965,
+   "title": "Abram Fischer is struck off the roll of advocates",
+   "text": "The Johannesburg Bar Council struck Abram Fischer's name off the roll of advocates for his role in the struggle against apartheid. As an advocate Fischer defended people such as Nelson Mandela,…",
+   "url": "https://sahistory.org.za/dated-event/abram-fischer-struck-roll-advocates",
+   "cape_town": false
+  },
+  {
+   "year": 1986,
+   "title": "Joaquim Chissano succeeds Samora Machel as president of Mozambique",
+   "text": "Following almost 400 years of Portuguese presence, Mozambique became an independent state in 1975. A civil war broke out between two factions FRELIMO, backed by the Soviet Union and RENAMO, supported…",
+   "url": "https://sahistory.org.za/dated-event/joaquim-chissano-succeeds-samora-machel-president-mozambique",
+   "cape_town": false
+  },
+  {
+   "year": 2004,
+   "title": "President Thabo Mbeki congratulates his US counterpart",
+   "text": "South African President Thabo Mbeki congratulated his US counterpart, President George W. Bush on his election for a second term as president of the United States, and called for greater world peace…",
+   "url": "https://sahistory.org.za/dated-event/president-thabo-mbeki-congratulates-his-us-counterpart",
+   "cape_town": false
+  },
+  {
+   "year": 2016,
+   "title": "Clive Derby-Lewis dies",
+   "text": "On 3 November 2016 Clive Derby -Lewis, the man who was convicted for the murder of former South African Communist party leader Chris Hani, died after suffering from lung cancer. He died at the age…",
+   "url": "https://sahistory.org.za/dated-event/clive-derby-lewis-dies",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1534,
+   "text": "The Parliament of England passed the first Act of Supremacy, making King Henry VIII head of the Church of England, supplanting the pope and the Catholic Church.",
+   "url": "https://en.wikipedia.org/wiki/Parliament_of_England",
+   "sa": false
+  },
+  {
+   "year": 1812,
+   "text": "French invasion of Russia: As Napoleon's Grande Armée began its retreat, its rear guard was defeated at the Battle of Vyazma.",
+   "url": "https://en.wikipedia.org/wiki/French_invasion_of_Russia",
+   "sa": false
+  },
+  {
+   "year": 1898,
+   "text": "The Fashoda Incident ended with French forces withdrawing after several months of military stalemate with the British in Fashoda (now in South Sudan).",
+   "url": "https://en.wikipedia.org/wiki/Fashoda_Incident",
+   "sa": false
+  },
+  {
+   "year": 1943,
+   "text": "The Holocaust: The largest massacre of Jews by German forces began at Majdanek concentration camp.",
+   "url": "https://en.wikipedia.org/wiki/The_Holocaust",
+   "sa": false
+  },
+  {
+   "year": 1957,
+   "text": "The Soviet Union launched Sputnik 2, carrying the space dog Laika as the first living creature to enter orbit around Earth.",
+   "url": "https://en.wikipedia.org/wiki/Sputnik_2",
+   "sa": false
+  }
+ ]
+}

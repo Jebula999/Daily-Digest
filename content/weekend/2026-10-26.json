@@ -49,6 +49,21 @@
    "added": "2026-10-26"
   },
   {
+   "id": "m-garden-town-vineyard-run",
+   "title": "Trailfun Garden Town Vineyard Run",
+   "category": "outdoors",
+   "start": "2026-10-31T00:00+02:00",
+   "end": null,
+   "all_day": true,
+   "venue": "Neethlingshof",
+   "area": "Stellenbosch",
+   "price_from": null,
+   "url": "https://www.capetownetc.com/events/garden-town-stellenbosch-2026-wine-trails-and-conservation/",
+   "source": "Cape Town ETC",
+   "description": "Trail runs of 7km, 16km, 25km and 37km through the vineyards, part of the Garden Town Stellenbosch programme.",
+   "added": "2026-10-26"
+  },
+  {
    "id": "763d4eb66a",
    "title": "The Unlikely Candidate book launch with Koketso Molaolwe",
    "category": "film-talks",
@@ -78,7 +93,10 @@
    "description": "",
    "added": "2026-10-26",
    "highlight": true,
-   "blurb": "An afternoon-to-late festival of food, wine and live music in Strandfontein celebrating the Cape Flats; adults only, from R100."
+   "blurb": "An afternoon-to-late festival of food, wine and live music in Strandfontein celebrating the Cape Flats; adults only, from R100.",
+   "sessions": [
+    "2026-10-31T12:00+02:00"
+   ]
   },
   {
    "id": "a14adea0ba",
@@ -93,7 +111,10 @@
    "url": "https://www.quicket.co.za/events/340274-italy-in-town-2026/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-10-26"
+   "added": "2026-10-26",
+   "sessions": [
+    "2026-10-31T12:00+02:00"
+   ]
   },
   {
    "id": "89d6d3954d",
@@ -108,7 +129,10 @@
    "url": "https://www.quicket.co.za/events/387605-boon-presents-good-feeling/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-10-26"
+   "added": "2026-10-26",
+   "sessions": [
+    "2026-10-31T14:00+02:00"
+   ]
   },
   {
    "id": "995550d19e",
@@ -140,7 +164,10 @@
    "description": "",
    "added": "2026-10-26",
    "highlight": true,
-   "blurb": "A free costumed zombie walk through the city centre on Halloween evening, open to all ages and raising money for an animal rescue charity; the afterparty is 18+."
+   "blurb": "A free costumed zombie walk through the city centre on Halloween evening, open to all ages and raising money for an animal rescue charity; the afterparty is 18+.",
+   "sessions": [
+    "2026-10-31T17:00+02:00"
+   ]
   },
   {
    "id": "16bdc1f902",
@@ -155,7 +182,10 @@
    "url": "https://www.quicket.co.za/events/389140-dog-the-end/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-10-26"
+   "added": "2026-10-26",
+   "sessions": [
+    "2026-10-31T21:30+02:00"
+   ]
   },
   {
    "id": "5b2c20864c",
@@ -172,7 +202,10 @@
    "description": "The ninth edition of the Western Cape’s biggest motor show features an action-packed lineup of high-octane thrills and entertainment. Expect drifting, spinning, off-road action, karting, ...",
    "added": "2026-10-26",
    "highlight": true,
-   "blurb": "The ninth Killarney Motor Show brings drifting, spinning, off-road displays and karting to Killarney Raceway, with tickets from R50."
+   "blurb": "The ninth Killarney Motor Show brings drifting, spinning, off-road displays and karting to Killarney Raceway, with tickets from R50.",
+   "sessions": [
+    "2026-11-01T10:00+02:00"
+   ]
   },
   {
    "id": "fc129a5353",
@@ -187,7 +220,10 @@
    "url": "https://www.quicket.co.za/events/396634-people-in-colour/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-10-26"
+   "added": "2026-10-26",
+   "sessions": [
+    "2026-11-01T15:00+02:00"
+   ]
   },
   {
    "id": "772326b4aa",
@@ -202,7 +238,10 @@
    "url": "https://www.quicket.co.za/events/398828-jean-philippe-sylvestre-piano-recital/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-10-26"
+   "added": "2026-10-26",
+   "sessions": [
+    "2026-11-01T16:00+02:00"
+   ]
   },
   {
    "id": "7cf842c323",
@@ -217,21 +256,6 @@
    "url": "https://www.quicket.co.za/events/383369-henry-ate-celebrates-30-years-of-slap-in-the-face-a-summer-outdoor-concert/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-10-26"
-  },
-  {
-   "id": "m-garden-town-vineyard-run",
-   "title": "Trailfun Garden Town Vineyard Run",
-   "category": "outdoors",
-   "start": "2026-10-31T00:00+02:00",
-   "end": null,
-   "all_day": true,
-   "venue": "Neethlingshof",
-   "area": "Stellenbosch",
-   "price_from": null,
-   "url": "https://www.capetownetc.com/events/garden-town-stellenbosch-2026-wine-trails-and-conservation/",
-   "source": "Cape Town ETC",
-   "description": "Trail runs of 7km, 16km, 25km and 37km through the vineyards, part of the Garden Town Stellenbosch programme.",
    "added": "2026-10-26"
   }
  ],
@@ -276,7 +300,10 @@
   "https://www.capetownetc.com/sponsored/log-out-reconnecting-with-the-outdoors/",
   "https://www.capetownetc.com/sponsored/mineral-world-scratch-patch-cave-golf-a-gem-of-a-family-adventure/",
   "https://www.capetownetc.com/sponsored/six-travel-destinations-to-put-on-your-2027-holiday-list/",
+  "https://www.capetownetc.com/sponsored/your-summer-escape-starts-at-franschhoek-cellar/",
+  "https://www.capetownetc.com/things-to-do-cape-town/greenmarket-square-to-host-free-cape-town-concert-as-inner-city-mission-turns-one/",
   "https://www.capetownetc.com/things-to-do-cape-town/restaurants/siya-kolisi-joins-life-brand-as-stakeholder-in-restaurant-group/",
+  "https://www.capetownetc.com/things-to-do-cape-town/travel/15-of-the-best-places-to-see-wildflowers-in-the-western-cape/",
   "https://zeitzmocaa.museum/elvira-dyangani-ose-announced-as-artistic-director-of-zeitz-mocaa/",
   "https://zeitzmocaa.museum/everything-but-the-exhibition/",
   "https://zeitzmocaa.museum/zeitz-mocaa-announces-upcoming-exhibition-season-2026-2027/",

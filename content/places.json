@@ -86,10 +86,16 @@
   "lon": 18.37772,
   "match": "Camps Bay Beach, Camps Bay, Cape Town Ward 54, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
+ "Cape Town Civic Centre": null,
  "Castle of Good Hope": {
   "lat": -33.92585,
   "lon": 18.42673,
   "match": "Castle of Good Hope, Catzenellenbogen Bastion, Foreshore, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
+ },
+ "Civic Centre, Hertzog Boulevard, Foreshore": {
+  "lat": -33.92059,
+  "lon": 18.42952,
+  "match": "Civic Centre Bus Station, Hertzog Boulevard, Foreshore, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
  },
  "Clifton": {
   "lat": -33.93528,
@@ -251,6 +257,11 @@
   "lon": 18.49306,
   "match": "Maitland, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
+ "Makhaza, Khayelitsha": {
+  "lat": -34.04674,
+  "lon": 18.70234,
+  "match": "Shoprite, Japhta K. Masemola Road, Umrhabulo Triangle (Makhaza), Cape Town Ward 96, Cape Town, City of Cape Town, Western Cape, 7784, South Africa"
+ },
  "Mandela Park Stadium, Khayelitsha": {
   "lat": -34.05213,
   "lon": 18.68928,
@@ -385,6 +396,11 @@
   "lat": -34.07191,
   "lon": 18.5768,
   "match": "Strandfontein Police, Spine Road, Cape Town Ward 43, Mitchells Plain, City of Cape Town, Western Cape, 7798, South Africa"
+ },
+ "Table Mountain": {
+  "lat": -33.95906,
+  "lon": 18.40387,
+  "match": "Table Mountain, Bakoven, Cape Town Ward 54, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
  "Thornhill Road, Green Point": {
   "lat": -33.91064,

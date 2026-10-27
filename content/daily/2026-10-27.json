@@ -1,0 +1,96 @@
+{
+ "date": "2026-10-27",
+ "loadshedding": {
+  "stage": 0,
+  "label": "No load-shedding",
+  "source": "Eskom",
+  "url": "https://loadshedding.eskom.co.za/"
+ },
+ "weather": {
+  "min": 13,
+  "max": 23,
+  "rain_mm": 0.0,
+  "rain_chance": 0,
+  "wind_kmh": 16,
+  "gust_kmh": 45,
+  "wind_deg": 208,
+  "wind_from": "SSW",
+  "uv": 9,
+  "code": 3,
+  "source": "Open-Meteo"
+ },
+ "meetings": [
+  {
+   "id": 30262,
+   "title": "MPT South Eastern",
+   "date": "2026-10-27",
+   "start": "08:30",
+   "category": "MPTMeeting",
+   "venue": "Microsoft Teams",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 16992,
+   "title": "Planning Appeals Advisory Panel",
+   "date": "2026-10-27",
+   "start": "09:00",
+   "category": "ECSMeeting",
+   "venue": "Ray Alexander Simon Room Civic Centre",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 17146,
+   "title": "Special Council",
+   "date": "2026-10-29",
+   "start": "10:00",
+   "category": "ECSMeeting",
+   "venue": "Microsoft Teams",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 17148,
+   "title": "Special General Appeals Committee",
+   "date": "2026-10-30",
+   "start": "09:30",
+   "category": "ECSMeeting",
+   "venue": "Microsoft Teams",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 30272,
+   "title": "MPT North Western",
+   "date": "2026-11-03",
+   "start": "08:30",
+   "category": "MPTMeeting",
+   "venue": "Microsoft Teams",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 30251,
+   "title": "MPT North Eastern",
+   "date": "2026-11-10",
+   "start": "08:30",
+   "category": "MPTMeeting",
+   "venue": "Microsoft Teams",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 17014,
+   "title": "Municipal Public Accounts Committee",
+   "date": "2026-11-10",
+   "start": "10:00",
+   "category": "ECSMeeting",
+   "venue": "Committee Room A  5th Flr  Podium  Cape Town",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 17015,
+   "title": "Planning Appeals Advisory Panel",
+   "date": "2026-11-10",
+   "start": "11:00",
+   "category": "ECSMeeting",
+   "venue": "Ray Alexander Simon Room Civic Centre",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  }
+ ]
+}
