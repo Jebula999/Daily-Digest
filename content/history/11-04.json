@@ -1,0 +1,86 @@
+{
+ "day": "11-04",
+ "south_africa": [
+  {
+   "year": 1977,
+   "title": "UN Security Council bans arms sales to South Africa 4 November 1985 Susanna Kok, SA medical missionary whose work led to the effective diagnosis and treatment of leprosy, dies",
+   "text": "Susanna Helena Kok was born in 1911 in the Free State. She studied medicine at the Universities of Cape Town and the Witwatersrand and became a missionary for the Dutch Reformed Church (DRC). In…",
+   "url": "https://sahistory.org.za/dated-event/un-security-council-bans-arms-sales-south-africa",
+   "cape_town": true
+  },
+  {
+   "year": 1497,
+   "title": "Vasco da Gama’s expedition reaches St Helena Bay",
+   "text": "The Portuguese expedition set off from the Tagus River on 8 July 1497 with a crew of 148 men in a squadron of three square-riggers, the Sao Gabriel, the Sao Raphael, the Berrio, and a supply ship…",
+   "url": "https://sahistory.org.za/dated-event/vasco-da-gamas-expedition-reaches-st-helena-bay",
+   "cape_town": false
+  },
+  {
+   "year": 1497,
+   "title": "Portuguese sailors reach St Helena Bay",
+   "text": "Vasco da Gama's Voyage of \"Discovery\" The reason for putting \"discovery\" in inverted commas is because the land was not, as so many explorers argue, discovered by them. The land was already…",
+   "url": "https://sahistory.org.za/dated-event/portuguese-sailors-reach-st-helena-bay",
+   "cape_town": false
+  },
+  {
+   "year": 1795,
+   "title": "The Swellendam Republic accepts British rule 4 November 1873 Battle of Bushman’s Pass takes place 4 November 1893 The BSAC flag is hoisted in Bulawayo",
+   "text": "The flag of the British South Africa Company (BSAC) or Chartered Company was hoisted in Bulawayo, the Matabele capital, after the Company's forces, led by Major Patrick Forbes, drove the native…",
+   "url": "https://sahistory.org.za/dated-event/swellendam-republic-accepts-british-rule",
+   "cape_town": false
+  },
+  {
+   "year": 1960,
+   "title": "Proceedings against SA start in the International Court of Justice",
+   "text": "Location: back to this day in history search archive South Africa received a mandate from the League of Nations over South West Africa (SWA) on 17 December 1920. Under the rules of the mandate the…",
+   "url": "https://sahistory.org.za/dated-event/proceedings-against-sa-start-international-court-justice",
+   "cape_town": false
+  },
+  {
+   "year": 1974,
+   "title": "One of the most infamous murders in South Africa takes place",
+   "text": "19 year old Marlene Lehnberg hired Marthinus Choegoe to assist in the brutal murder of 48-year-old Susanna Magdalena van der Linde, wife to Christiaan van der Linde with whom Lehnberg previously had…",
+   "url": "https://sahistory.org.za/dated-event/one-most-infamous-murders-south-africa-takes-place",
+   "cape_town": false
+  },
+  {
+   "year": 1975,
+   "title": "Castro decides to send troops to Angola to fight South Africa",
+   "text": "The president of Cuba Fidel Castro decides to send Cuban troops to Angola in response to South Africa's invasion of the country. After attaining its independence, Angola provided support to…",
+   "url": "https://sahistory.org.za/dated-event/castro-decides-send-troops-angola-fight-south-africa",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1780,
+   "text": "Túpac Amaru II led a rebellion of Aymara, Quechua, and mestizo peasants in protest against the Bourbon Reforms in the Spanish Viceroyalty of Peru.",
+   "url": "https://en.wikipedia.org/wiki/T%C3%BApac_Amaru_II",
+   "sa": false
+  },
+  {
+   "year": 1912,
+   "text": "The keel of USS Nevada was laid down, beginning construction on the United States Navy's first \"super-dreadnought\".",
+   "url": "https://en.wikipedia.org/wiki/Keel",
+   "sa": false
+  },
+  {
+   "year": 1922,
+   "text": "The tomb of Tutankhamun was discovered by a team led by British Egyptologist Howard Carter.",
+   "url": "https://en.wikipedia.org/wiki/Tomb_of_Tutankhamun",
+   "sa": false
+  },
+  {
+   "year": 1952,
+   "text": "Robert A. Lovett, United States Secretary of Defense, issued a memorandum establishing the National Security Agency, with responsibility for all communications intelligence for the government.",
+   "url": "https://en.wikipedia.org/wiki/Robert_A._Lovett",
+   "sa": false
+  },
+  {
+   "year": 1995,
+   "text": "Israeli prime minister Yitzhak Rabin was assassinated by Yigal Amir, a right-wing extremist, at a peace rally at Kings of Israel Square in Tel Aviv.",
+   "url": "https://en.wikipedia.org/wiki/Yitzhak_Rabin",
+   "sa": false
+  }
+ ]
+}

@@ -44,6 +44,11 @@
   "lon": 18.48632,
   "match": "Blode Street, Cape Town Ward 68, City of Cape Town, Western Cape, 7945, South Africa"
  },
+ "Bloubergstrand": {
+  "lat": -33.79734,
+  "lon": 18.46102,
+  "match": "Bloubergstrand, Cape Town Ward 23, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
  "Blue Downs": {
   "lat": -33.9718,
   "lon": 18.7067,
@@ -53,6 +58,11 @@
   "lat": -33.95387,
   "lon": 18.50694,
   "match": "Bokmakierie Street, Cape Town Ward 49, Cape Town, City of Cape Town, Western Cape, 7430, South Africa"
+ },
+ "Bonnievale": {
+  "lat": -33.93222,
+  "lon": 20.09973,
+  "match": "Bonnievale, Langeberg Local Municipality, Cape Winelands District Municipality, Western Cape, 6730, South Africa"
  },
  "Bonteheuwel": {
   "lat": -33.9453,
@@ -251,6 +261,11 @@
   "lat": -33.90431,
   "lon": 18.65885,
   "match": "Loumar Road, Shirley Park, Cape Town Ward 3, Bellville, City of Cape Town, Western Cape, 7532, South Africa"
+ },
+ "Lower Main Road, Observatory": {
+  "lat": -33.93182,
+  "lon": 18.46598,
+  "match": "Lower Main Road, Cape Town Ward 57, Cape Town, City of Cape Town, Western Cape, 7925, South Africa"
  },
  "Maitland": {
   "lat": -33.9225,
