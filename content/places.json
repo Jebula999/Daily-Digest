@@ -39,6 +39,11 @@
   "lon": 18.44667,
   "match": "Bishopscourt, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
+ "Blode Street, Lavender Hill": {
+  "lat": -34.07144,
+  "lon": 18.48632,
+  "match": "Blode Street, Cape Town Ward 68, City of Cape Town, Western Cape, 7945, South Africa"
+ },
  "Blode Street, Steenberg": {
   "lat": -34.07144,
   "lon": 18.48632,
@@ -90,6 +95,11 @@
   "lat": -33.92333,
   "lon": 18.67389,
   "match": "Brantwood, Cape Town Ward 8, Kuilsrivier, City of Cape Town, Western Cape, 7580, South Africa"
+ },
+ "Camps Bay": {
+  "lat": -33.95477,
+  "lon": 18.38185,
+  "match": "Camps Bay, Cape Town Ward 54, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
  "Camps Bay Beach": {
   "lat": -33.95091,
@@ -292,6 +302,11 @@
   "lon": 18.62946,
   "match": "Middestad Mall, Charl Malan Street, Cape Town Ward 10, Bellville, City of Cape Town, Western Cape, 7530, South Africa"
  },
+ "Military Road, Steenberg": {
+  "lat": -34.07524,
+  "lon": 18.47591,
+  "match": "Military Road, Steenberg, City of Cape Town, Western Cape, 7945, South Africa"
+ },
  "Monte Vista, Goodwood": {
   "lat": -33.89156,
   "lon": 18.54902,
@@ -426,6 +441,12 @@
   "lat": -33.92361,
   "lon": 18.53528,
   "match": "Thornton, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Tuynhuis": null,
+ "Tuynhuys, Cape Town": {
+  "lat": -33.92785,
+  "lon": 18.41801,
+  "match": "Tuynhuys, Bouquet Street, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
  },
  "Vredelust, Bellville": {
   "lat": -33.89768,

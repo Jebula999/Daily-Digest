@@ -1,0 +1,79 @@
+{
+ "day": "11-05",
+ "south_africa": [
+  {
+   "year": 1984,
+   "title": "Thelma Gutsche, a South African scholar, historian and film critic, dies",
+   "text": "Thelma Gutsche a South African scholar, historian and film critic dies in the Cape. Thelma Gutsche was born to Dr and Mrs J Gutsche in Somerset West in the Cape Province in 1915. She did not attend…",
+   "url": "https://sahistory.org.za/dated-event/thelma-gutsche-south-african-scholar-historian-and-film-critic-dies",
+   "cape_town": true
+  },
+  {
+   "year": 1987,
+   "title": "ANC stalwart and Rivonia Trialist, Govan Mbeki, is released from Robben Island Prison",
+   "text": "On 5 November 1987, Govan Mbeki, member of African National Congress (ANC) National Executive Committee and Umkhonto we Sizwe (MK) High Command, was released from Robben Island after twenty-three…",
+   "url": "https://sahistory.org.za/dated-event/anc-stalwart-and-rivonia-trialist-govan-mbeki-released-robben-island-prison",
+   "cape_town": true
+  },
+  {
+   "year": 1908,
+   "title": "Cullinan diamond is cut into two",
+   "text": "The Cullinan diamond was cut into two big stones, The Star of Africa and the Cullinan 2, as well as seven fairly big stones and ninety-six small stones. The cutting of the diamond was a major event…",
+   "url": "https://sahistory.org.za/dated-event/cullinan-diamond-cut-two",
+   "cape_town": false
+  },
+  {
+   "year": 1965,
+   "title": "Rhodesian Prime Minister, Ian Douglas Smith, declares a state of emergency",
+   "text": "On 5 November 1965 Rhodesian( now Zimbabwe) Prime Minister,Ian Douglas Smith, declared a state of emergency. This was prompted by the United Kingdom’s (UK) refusal to grant Zimbabwe independence…",
+   "url": "https://sahistory.org.za/dated-event/rhodesian-prime-minister-ian-douglas-smith-declares-state-emergency",
+   "cape_town": false
+  },
+  {
+   "year": 1969,
+   "title": "South African Springbok rugby tour in UK is disrupted by anti-apartheid demonstration.",
+   "text": "The South African Springbok rugby tour in the United Kingdom (UK) was disrupted by an anti-Apartheid demonstration. The team was made up entirely of Afrikaners. Once the tour was announced, the…",
+   "url": "https://sahistory.org.za/dated-event/south-african-springbok-rugby-tour-uk-disrupted-anti-apartheid-demonstration",
+   "cape_town": false
+  },
+  {
+   "year": 1984,
+   "title": "Call for a stay-away in Black townships",
+   "text": "A stay-away by Black workers in the industrial areas of the Witwatersrand and the Vaal Triangle is called by Black unions and civic groups in protest over increases in rent and utility charges and…",
+   "url": "https://sahistory.org.za/dated-event/call-stay-away-black-townships",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1138,
+   "text": "Lý Anh Tông was enthroned as the emperor of Đại Việt at the age of two, beginning a 37-year reign.",
+   "url": "https://en.wikipedia.org/wiki/L%C3%BD_Anh_T%C3%B4ng",
+   "sa": false
+  },
+  {
+   "year": 1757,
+   "text": "Seven Years' War: Prussian forces led by Frederick the Great defeated the allied French and Habsburg armies at the Battle of Rossbach.",
+   "url": "https://en.wikipedia.org/wiki/Seven_Years'_War",
+   "sa": false
+  },
+  {
+   "year": 1943,
+   "text": "World War II: An unknown aircraft dropped four bombs on Vatican City, which maintained neutrality during the war.",
+   "url": "https://en.wikipedia.org/wiki/World_War_II",
+   "sa": false
+  },
+  {
+   "year": 1952,
+   "text": "An earthquake struck the Kamchatka Peninsula, triggering a major tsunami that affected the Kuril Islands and other parts of the Pacific Ocean.",
+   "url": "https://en.wikipedia.org/wiki/1952_Severo-Kurilsk_earthquake",
+   "sa": false
+  },
+  {
+   "year": 2003,
+   "text": "American serial killer Gary Ridgway pleaded guilty to 48 counts of first-degree murder.",
+   "url": "https://en.wikipedia.org/wiki/Gary_Ridgway",
+   "sa": false
+  }
+ ]
+}
