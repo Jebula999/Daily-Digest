@@ -1,0 +1,100 @@
+{
+ "day": "11-06",
+ "south_africa": [
+  {
+   "year": 1929,
+   "title": "Ray Alexander Simons, founder of Food and Canning Workers Union, arrives in South Africa",
+   "text": "Ray Alexander Simons nee Alexandrowich arrives in South Africa from Latvia where she was born on 12 January 1913. After her arrival in the country she realized that many workers in the Cape Town…",
+   "url": "https://sahistory.org.za/dated-event/ray-alexander-simons-founder-food-and-canning-workers-union-arrives-south-africa",
+   "cape_town": true
+  },
+  {
+   "year": 1938,
+   "title": "Feminist writer and activist, Diana E. H. Russell is born",
+   "text": "Diana E.H. Russell was born in Cape Town on 6 November 1938. Her mother was British and her father South African. After completing her bachelors degree at the University of Cape Town, Russell left…",
+   "url": "https://sahistory.org.za/dated-event/feminist-writer-and-activist-diana-e-h-russell-born",
+   "cape_town": true
+  },
+  {
+   "year": 1860,
+   "title": "Abraham Lincoln is elected president of the United States. 6 November 1900 General De Wet is defeated by British forces",
+   "text": "At the height of the South African War 1899-1902 (Anglo-Boer War), General Christiaan Rudolph De Wet was defeated at Bothaville, South Africa by British forces. In 1899-1902, the South African War…",
+   "url": "https://sahistory.org.za/dated-event/abraham-lincoln-elected-president-united-states",
+   "cape_town": false
+  },
+  {
+   "year": 1913,
+   "title": "Mohandas K. Gandhi is arrested as he leads a march of Indian miners in South Africa",
+   "text": "On his journey to South Africa in 1893, Mohandas Gandhi had first -hand experience of the discrimination faced by people of colour. His response to this was the establishment of the Natal Indian…",
+   "url": "https://sahistory.org.za/dated-event/mohandas-k-gandhi-arrested-he-leads-march-indian-miners-south-africa",
+   "cape_town": false
+  },
+  {
+   "year": 1964,
+   "title": "Names of 303 banned people are published",
+   "text": "A government notice published on 6 November 1964 gave the names of 303 persons on whom banning notices under the General Laws Amendment Act of 1963 (the so-called 90 Day Act), consisting largely of…",
+   "url": "https://sahistory.org.za/dated-event/names-303-banned-people-are-published",
+   "cape_town": false
+  },
+  {
+   "year": 1964,
+   "title": "Vuyisile Mini, Trade unionist and uMkhonto we Sizwe (MK) activist is hanged",
+   "text": "Vuyisile Mini a trade unionist and uMkhonto we Sizwe (MK) activist was hanged for his role in the MK and anti-apartheid resistance. As a member of the South African Congress of Trade Unions (SACTU),…",
+   "url": "https://sahistory.org.za/dated-event/vuyisile-mini-trade-unionist-and-umkhonto-we-sizwe-mk-activist-hanged",
+   "cape_town": false
+  },
+  {
+   "year": 1982,
+   "title": "Paul Biya becomes president of Cameroon",
+   "text": "Ahmadou Ahidjo resigned as president of Cameroon, he was replaced by Paul Biya, the current Prime Minister. Ahidjo handpicked Biya to replace him after he had handed his resignation letter to the…",
+   "url": "https://sahistory.org.za/dated-event/paul-biya-becomes-president-cameroon",
+   "cape_town": false
+  },
+  {
+   "year": 1982,
+   "title": "Ellen Phyllis Hellmann, social anthropologist and executive member of the SAIRR, dies in Johannesburg",
+   "text": "Ellen Phyllis Hellmann was born in Johannesburg in 1908. Her father had immigrated to South Africa from Germany in 1894. She studied Social Anthropology at the University of Witwatersrand. For her…",
+   "url": "https://sahistory.org.za/dated-event/ellen-phyllis-hellmann-social-anthropologist-and-executive-member-sairr-dies",
+   "cape_town": false
+  },
+  {
+   "year": 1986,
+   "title": "General Motors fails to leave RSA quietly",
+   "text": "General Motors (GM), the American owned automobile industry in South Africa, pulled out of the country amidst a series of disputes and strikes from workers fearing for their future. The decision to…",
+   "url": "https://sahistory.org.za/dated-event/general-motors-fails-leave-rsa-quietly",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1217,
+   "text": "King Henry III of England issued the Charter of the Forest, re-establishing the rights of access of free men to royal forests.",
+   "url": "https://en.wikipedia.org/wiki/Henry_III_of_England",
+   "sa": false
+  },
+  {
+   "year": 1863,
+   "text": "American Civil War: A Union brigade defeated a Confederate force at the Battle of Droop Mountain in Pocahontas County, West Virginia.",
+   "url": "https://en.wikipedia.org/wiki/American_Civil_War",
+   "sa": false
+  },
+  {
+   "year": 1924,
+   "text": "The Spanish anarchist group Los Solidarios unsuccessfully attempted to launch an insurrection against the dictatorship of Miguel Primo de Rivera.",
+   "url": "https://en.wikipedia.org/wiki/Los_Solidarios",
+   "sa": false
+  },
+  {
+   "year": 1963,
+   "text": "Nguyễn Ngọc Thơ was appointed by the junta of General Dương Văn Minh to head the South Vietnamese government, five days after Minh deposed and assassinated President Ngô Đình Diệm.",
+   "url": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ng%E1%BB%8Dc_Th%C6%A1",
+   "sa": false
+  },
+  {
+   "year": 2004,
+   "text": "A man committing suicide parked his car on the railway tracks in Ufton Nervet, Berkshire, England, causing a derailment that also killed six people on the train.",
+   "url": "https://en.wikipedia.org/wiki/Ufton_Nervet",
+   "sa": false
+  }
+ ]
+}
