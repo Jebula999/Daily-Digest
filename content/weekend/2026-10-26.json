@@ -49,21 +49,6 @@
    "added": "2026-10-26"
   },
   {
-   "id": "m-garden-town-vineyard-run",
-   "title": "Trailfun Garden Town Vineyard Run",
-   "category": "outdoors",
-   "start": "2026-10-31T00:00+02:00",
-   "end": null,
-   "all_day": true,
-   "venue": "Neethlingshof",
-   "area": "Stellenbosch",
-   "price_from": null,
-   "url": "https://www.capetownetc.com/events/garden-town-stellenbosch-2026-wine-trails-and-conservation/",
-   "source": "Cape Town ETC",
-   "description": "Trail runs of 7km, 16km, 25km and 37km through the vineyards, part of the Garden Town Stellenbosch programme.",
-   "added": "2026-10-26"
-  },
-  {
    "id": "m-newlands-test-day-five",
    "title": "South Africa v Australia: third Test, final day",
    "category": "sport",
@@ -79,6 +64,21 @@
    "added": "2026-10-31",
    "highlight": true,
    "blurb": "The final day of the deciding Test, with Australia needing 288 to win after the Proteas made 387 in their second innings."
+  },
+  {
+   "id": "m-garden-town-vineyard-run",
+   "title": "Trailfun Garden Town Vineyard Run",
+   "category": "outdoors",
+   "start": "2026-10-31T00:00+02:00",
+   "end": null,
+   "all_day": true,
+   "venue": "Neethlingshof",
+   "area": "Stellenbosch",
+   "price_from": null,
+   "url": "https://www.capetownetc.com/events/garden-town-stellenbosch-2026-wine-trails-and-conservation/",
+   "source": "Cape Town ETC",
+   "description": "Trail runs of 7km, 16km, 25km and 37km through the vineyards, part of the Garden Town Stellenbosch programme.",
+   "added": "2026-10-26"
   },
   {
    "id": "763d4eb66a",
@@ -292,6 +292,7 @@
   "https://www.capetown.travel/8-best-streets-for-a-cape-town-night-out/",
   "https://www.capetown.travel/cape-town-creeps-into-the-worlds-top-50-halloween-destinations/",
   "https://www.capetown.travel/cape-town-market-guide/",
+  "https://www.capetown.travel/cape-town-restaurants-serving-up-a-feast-for-christmas-lunch/",
   "https://www.capetown.travel/cape-town-tourism-honours-the-frontline-teams-supporting-visitors-across-the-city/",
   "https://www.capetown.travel/cape-towns-hottest-new-hotels-and-stays-to-check-into/",
   "https://www.capetown.travel/guardians-of-the-deep-your-passport-to-cape-towns-coastline/",

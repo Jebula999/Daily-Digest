@@ -1,0 +1,86 @@
+{
+ "day": "11-08",
+ "south_africa": [
+  {
+   "year": 1895,
+   "title": "Dr Ernst Gideon Malherbe, SA educationist, is born in Luckhoff, OFS.",
+   "text": "Dr Ernst Gideon Malherbe was born on 8 November 1895 at Luckhoff. He studied at the Stellenbosch University and the University of Columbia and was a founding member of the National Commission of…",
+   "url": "https://sahistory.org.za/dated-event/dr-ernst-gideon-malherbe-sa-educationist-born-luckhoff-ofs",
+   "cape_town": true
+  },
+  {
+   "year": 1922,
+   "title": "Dr. Chris Barnard, medical practitioner who performed the first heart transplant, is born",
+   "text": "Dr. Chris Barnard is born Christiaan Neethling Barnard, medical practioner who performed the first heart transplant, was born in Beaufort West, Western Cape. Dr. Barnard studied medicine at the…",
+   "url": "https://sahistory.org.za/dated-event/dr-chris-barnard-medical-practitioner-who-performed-first-heart-transplant-born",
+   "cape_town": true
+  },
+  {
+   "year": 1887,
+   "title": "The Johannesburg Stock Exchange is established",
+   "text": "The Johannesburg's Stock Exchange (JSE) is established in Johannesburg to facilitate the explosion of trade sparked by the discovery of gold in the Witwatersrand. The discovery of gold in 1886…",
+   "url": "https://sahistory.org.za/dated-event/johannesburg-stock-exchange-established",
+   "cape_town": false
+  },
+  {
+   "year": 1952,
+   "title": "Mayibuye Uprising-black South Africans, slaves in the land of their birth, rose up to peacefully throw off their shackles 8 November 1958 All African People Conference is held in Accra, Ghana",
+   "text": "A year after Ghana gained Independence from Britain under the presidency of Kwame Nkrumah the All African People Conference was held in the capital city Accra in December 1958. Nkrumah felt that…",
+   "url": "https://sahistory.org.za/dated-event/mayibuye-uprising-black-south-africans-slaves-land-their-birth-rose-peacefully-throw",
+   "cape_town": false
+  },
+  {
+   "year": 1974,
+   "title": "Penny Heyns, South African swimming star, is born.",
+   "text": "Penelope Heyns, was born on the 8th of November 1974 in Springs, Transvaal. Her parents later moved to the Natal South Coast. She attended Doon Heights Primary and then later Amanzimtoti High. She…",
+   "url": "https://sahistory.org.za/dated-event/penny-heyns-south-african-swimming-star-born",
+   "cape_town": false
+  },
+  {
+   "year": 1985,
+   "title": "Nigeria cuts its diplomatic missions",
+   "text": "Faced with growing international debt, the Nigerian government announced that it would cut its international diplomatic missions by half. Nigeria hoped that this measure would save it from further…",
+   "url": "https://sahistory.org.za/dated-event/nigeria-cuts-its-diplomatic-missions",
+   "cape_town": false
+  },
+  {
+   "year": 1989,
+   "title": "Mandela meets PAC leader Jeff Masemola 8 November 1991 Minister of Law and Order Hernus Kriel announced the formation of a new police unit 8 November 1999 A painting by SA painter Irma Stern is auctioned for the record price of R1.1 million in Johannesburg",
+   "text": "South African prolific painter Irma Stern was born in 1894. She studied art in Germany where she was influenced by Pechstein’s expressionist style. Stern gained master status in her chosen still life…",
+   "url": "https://sahistory.org.za/dated-event/mandela-meets-pac-leader-jeff-masemola",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 960,
+   "text": "Arab–Byzantine wars: Having been the target of many raids by the Emirate of Aleppo, Byzantine forces led by Leo Phokas the Younger ambushed the Hamdanids and annihilated their army.",
+   "url": "https://en.wikipedia.org/wiki/Arab%E2%80%93Byzantine_wars",
+   "sa": false
+  },
+  {
+   "year": 1520,
+   "text": "After his coronation as king of Sweden, Christian II gave the order to execute nearly 100 people, mostly noblemen, despite promises of general amnesty.",
+   "url": "https://en.wikipedia.org/wiki/Monarchy_of_Sweden",
+   "sa": false
+  },
+  {
+   "year": 1940,
+   "text": "The Italian invasion of Greece failed as outnumbered Greek units repulsed the Italians at the Battle of Elaia–Kalamas.",
+   "url": "https://en.wikipedia.org/wiki/Greco-Italian_War",
+   "sa": false
+  },
+  {
+   "year": 1966,
+   "text": "Former Massachusetts attorney general Edward Brooke became the first African American elected to the United States Senate since Reconstruction.",
+   "url": "https://en.wikipedia.org/wiki/Massachusetts",
+   "sa": false
+  },
+  {
+   "year": 1999,
+   "text": "German newspaper Der Spiegel publishes a report by the Federal Intelligence Service accusing figures in Liechtenstein of cooperating with organized crime.",
+   "url": "https://en.wikipedia.org/wiki/Der_Spiegel",
+   "sa": false
+  }
+ ]
+}
