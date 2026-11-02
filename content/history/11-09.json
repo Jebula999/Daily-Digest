@@ -1,0 +1,100 @@
+{
+ "day": "11-09",
+ "south_africa": [
+  {
+   "year": 1927,
+   "title": "Carel Boshoff, former chairman of the Afrikaner Broederbond, is born 9 November 1934 Ronald Harwood , Oscar winning screenwriter, is born in Cape Town, South Africa",
+   "text": "Born Ronald Horwitz in in 1934, he moved to from South Africa to London in 1951 to pursue a career in the theater. He changed his name to Harwood after an English master told him it was too foreign…",
+   "url": "https://sahistory.org.za/dated-event/carel-boshoff-former-chairman-afrikaner-broederbond-born",
+   "cape_town": true
+  },
+  {
+   "year": 1934,
+   "title": "Author and playwright Ronald Harwood is born in Cape Town",
+   "text": "Ronald Harwood was born Ronald Horwitz in Cape Town on 9 November 1934. He left Cape Town for London to pursue a career on stage. In London, he received stage training at the Royal Academy of…",
+   "url": "https://sahistory.org.za/dated-event/author-and-playwright-ronald-harwood-born-cape-town",
+   "cape_town": true
+  },
+  {
+   "year": 1952,
+   "title": "Over 400 Kikuyu suspected to be part of the Mau Mau movement are arrested in Kenya",
+   "text": "Mali was once part of the Great Songhay Empire, but came under French rule in 1892. After almost seventy years of colonial rule, Mali was renamed the Sudanese Republic, gaining full autonomy and…",
+   "url": "https://sahistory.org.za/dated-event/over-400-kikuyu-suspected-be-part-mau-mau-movement-are-arrested-kenya",
+   "cape_town": false
+  },
+  {
+   "year": 1952,
+   "title": "Riots erupt in East London, Eastern Cape",
+   "text": "Riots erupted in East London, Eastern Cape after strike meetings were banned by the government. 17 protesters were killed, as well as an Irish Nun who was stoned to death by the mob. The riots…",
+   "url": "https://sahistory.org.za/dated-event/riots-erupt-east-london-eastern-cape",
+   "cape_town": false
+  },
+  {
+   "year": 1962,
+   "title": "Minister reports 23 acts of sabotage in RSA",
+   "text": "Location: back to this day in history search archive Two years after the formation of Poqo and a year after the formation of Mkhonto we Sizwe (MK), liberation armies of the Pan Africanist Congress …",
+   "url": "https://sahistory.org.za/dated-event/minister-reports-23-acts-sabotage-rsa",
+   "cape_town": false
+  },
+  {
+   "year": 1988,
+   "title": "Mpho Mathibela, one of the Siamese twins separated in an operation six months earlier, leaves hospital for the first time",
+   "text": "Mpho and Mphonyana Mathibela made headlines when they were born conjoined at Chris Hani Baragwanath Hospital on 7 December 1986.The twin girls were joined at the head and a decision was made for them…",
+   "url": "https://sahistory.org.za/dated-event/mpho-mathibela-one-siamese-twins-separated-operation-six-months-earlier-leaves-hospital",
+   "cape_town": false
+  },
+  {
+   "year": 1989,
+   "title": "The fall of the Berlin wall",
+   "text": "In the aftermath of World War 2 Germany was partitioned into East and West Germany. The East was placed under the control of the Soviet Union while West Germany was under the control of the USA and…",
+   "url": "https://sahistory.org.za/dated-event/fall-berlin-wall",
+   "cape_town": false
+  },
+  {
+   "year": 1992,
+   "title": "NP Secretary-General Stoffel Van der Merwe resigns",
+   "text": "Former Minister of Education and professor of political science at the Rand Afrikaans University, Stoffel van der Merwe (52), who left the cabinet at the request of President F.W. de Klerk to take up…",
+   "url": "https://sahistory.org.za/dated-event/np-secretary-general-stoffel-van-der-merwe-resigns",
+   "cape_town": false
+  },
+  {
+   "year": 1993,
+   "title": "Homeland leader Qqozo stands trial",
+   "text": "Brigadier Joshua Oupa Qqozo, military leader of Ciskei homeland, went on trial in the Ciskei Supreme Court. He faced charges of murder or incitement to murder, relating to the killing of Lieutenant…",
+   "url": "https://sahistory.org.za/dated-event/homeland-leader-qqozo-stands-trial",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1822,
+   "text": "USS Alligator engaged three pirate schooners off the coast of Cuba in one of the West Indies anti-piracy operations of the United States.",
+   "url": "https://en.wikipedia.org/wiki/USS_Alligator_(1820)",
+   "sa": false
+  },
+  {
+   "year": 1913,
+   "text": "A severe blizzard reached its maximum intensity in the Great Lakes Basin of North America, destroying 19 ships and 68,300 tons of cargo, and killing more than 250 people.",
+   "url": "https://en.wikipedia.org/wiki/Great_Lakes_Storm_of_1913",
+   "sa": false
+  },
+  {
+   "year": 1928,
+   "text": "The Great Mecca Feast, the first documentary film on the Hajj, premiered in the Netherlands.",
+   "url": "https://en.wikipedia.org/wiki/The_Great_Mecca_Feast",
+   "sa": false
+  },
+  {
+   "year": 1939,
+   "text": "World War II: A covert Sicherheitsdienst operation captured two British agents of the Secret Intelligence Service near Venlo in the Netherlands.",
+   "url": "https://en.wikipedia.org/wiki/World_War_II",
+   "sa": false
+  },
+  {
+   "year": 2016,
+   "text": "A tram derailment in Croydon, London, killed seven people.",
+   "url": "https://en.wikipedia.org/wiki/2016_Croydon_tram_derailment",
+   "sa": false
+  }
+ ]
+}

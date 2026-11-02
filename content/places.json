@@ -4,6 +4,11 @@
   "lon": 18.59374,
   "match": "35th Avenue, Bishop Lavis, Cape Town Ward 24, Elsiesriver, City of Cape Town, Western Cape, 7490, South Africa"
  },
+ "Artscape Theatre Centre": {
+  "lat": -33.91969,
+  "lon": 18.43045,
+  "match": "Artscape Theatre Centre, D.F. Malan Street, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
+ },
  "Athlone": {
   "lat": -33.96667,
   "lon": 18.505,
@@ -28,6 +33,11 @@
   "lat": -33.91279,
   "lon": 18.66254,
   "match": "Bellville Hoër Tegniese Skool, College Road, Labiance, Cape Town Ward 9, Cape Town, City of Cape Town, Western Cape, 7530, South Africa"
+ },
+ "Betty's Bay": {
+  "lat": -34.35361,
+  "lon": 18.91778,
+  "match": "Betty's Bay, Overstrand Local Municipality, Overberg District Municipality, Western Cape, 7141, South Africa"
  },
  "Bikini Beach": {
   "lat": -34.16679,
@@ -412,6 +422,7 @@
   "lon": 18.7246,
   "match": "Scottsdene High School, 12, Koopmans Avenue, Scottsdene, Cape Town Ward 7, Cape Town, City of Cape Town, Western Cape, 7570, South Africa"
  },
+ "Silver Sands Beach, Betty's Bay": null,
  "Silwerstroomstrand": {
   "lat": -33.58346,
   "lon": 18.36109,
