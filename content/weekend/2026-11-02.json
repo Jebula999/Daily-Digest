@@ -16,7 +16,10 @@
    "url": "https://www.quicket.co.za/events/381623-playcoza-winelands-10s/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-11-02"
+   "added": "2026-11-02",
+   "sessions": [
+    "2026-11-06T07:00+02:00"
+   ]
   },
   {
    "id": "a15eabe7d5",
@@ -31,7 +34,10 @@
    "url": "https://www.quicket.co.za/events/388760-into-wonderland/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-11-02"
+   "added": "2026-11-02",
+   "sessions": [
+    "2026-11-06T19:00+02:00"
+   ]
   },
   {
    "id": "4e350e10ed",
@@ -63,7 +69,10 @@
    "url": "https://www.quicket.co.za/events/399580-cattle-baron-westlake-wine-tasting-live-music/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-11-02"
+   "added": "2026-11-02",
+   "sessions": [
+    "2026-11-07T14:00+02:00"
+   ]
   },
   {
    "id": "933837c2fa",
@@ -80,7 +89,10 @@
    "description": "",
    "added": "2026-11-02",
    "highlight": true,
-   "blurb": "Up-and-coming Cape Town musicians play a live evening at the Woodstock Hub, with seating on a first-come basis."
+   "blurb": "Up-and-coming Cape Town musicians play a live evening at the Woodstock Hub, with seating on a first-come basis.",
+   "sessions": [
+    "2026-11-07T18:00+02:00"
+   ]
   },
   {
    "id": "112f90f3ad",
@@ -95,7 +107,10 @@
    "url": "https://www.quicket.co.za/events/395911-the-rouge-revue-presents-voltage-vixens/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-11-02"
+   "added": "2026-11-02",
+   "sessions": [
+    "2026-11-07T19:00+02:00"
+   ]
   },
   {
    "id": "c271ea1385",
@@ -109,6 +124,24 @@
    "price_from": null,
    "url": "https://www.quicket.co.za/events/400512-arktiq-sessions-the-address-edition/",
    "source": "Quicket",
+   "description": "",
+   "added": "2026-11-02",
+   "sessions": [
+    "2026-11-07T20:00+02:00"
+   ]
+  },
+  {
+   "id": "m-daniella-rossouw-jazz-club",
+   "title": "Daniella Rossouw at Cape Town Jazz Club",
+   "category": "music",
+   "start": "2026-11-08T00:00+02:00",
+   "end": null,
+   "all_day": true,
+   "venue": "Bokeh, 11 Warwick Street",
+   "area": "Claremont",
+   "price_from": null,
+   "url": "https://www.capetownetc.com/events/cape-town-jazz-club-november-2026-events/",
+   "source": "Cape Town ETC",
    "description": "",
    "added": "2026-11-02"
   },
@@ -128,21 +161,6 @@
    "added": "2026-11-02",
    "highlight": true,
    "blurb": "Artscape marks 55 years with a black-tie concert joining Cape jazz, choirs, dance and the Cape Town Philharmonic Youth Orchestra with artists including Vicky Sampson and Coenie de Villiers."
-  },
-  {
-   "id": "m-daniella-rossouw-jazz-club",
-   "title": "Daniella Rossouw at Cape Town Jazz Club",
-   "category": "music",
-   "start": "2026-11-08T00:00+02:00",
-   "end": null,
-   "all_day": true,
-   "venue": "Bokeh, 11 Warwick Street",
-   "area": "Claremont",
-   "price_from": null,
-   "url": "https://www.capetownetc.com/events/cape-town-jazz-club-november-2026-events/",
-   "source": "Cape Town ETC",
-   "description": "",
-   "added": "2026-11-02"
   }
  ],
  "skipped": [
@@ -188,14 +206,17 @@
   "https://www.capetownetc.com/events/star-studded-line-up-set-to-light-up-cape-towns-festive-season/",
   "https://www.capetownetc.com/events/stellenbosch-street-soirees-2026-2027/",
   "https://www.capetownetc.com/food-and-drink/monatea-gives-rooibos-a-sparkling-new-identity/",
+  "https://www.capetownetc.com/lifestyle/5-south-african-destinations-to-consider-for-a-solo-trip/",
   "https://www.capetownetc.com/lifestyle/a-glowing-reindeer-classic-vws-and-a-cape-town-night-drive/",
   "https://www.capetownetc.com/olivers-travels/bangbroek-honey-badger-south-african-cocktail/",
   "https://www.capetownetc.com/sponsored/acrobranch-south-africas-leading-treetop-adventure-parks/",
   "https://www.capetownetc.com/sponsored/coastal-bliss-the-morea-house-way/",
   "https://www.capetownetc.com/sponsored/log-out-reconnecting-with-the-outdoors/",
+  "https://www.capetownetc.com/sponsored/six-travel-destinations-to-put-on-your-2027-holiday-list/",
   "https://www.capetownetc.com/sponsored/your-summer-escape-starts-at-franschhoek-cellar/",
   "https://www.capetownetc.com/things-to-do-cape-town/afternoon-tea-the-president-honey/",
   "https://www.capetownetc.com/things-to-do-cape-town/greenmarket-square-to-host-free-cape-town-concert-as-inner-city-mission-turns-one/",
+  "https://www.capetownetc.com/things-to-do-cape-town/restaurants/dineplan-awards-2026-western-cape-leads/",
   "https://www.capetownetc.com/things-to-do-cape-town/restaurants/siya-kolisi-joins-life-brand-as-stakeholder-in-restaurant-group/",
   "https://www.capetownetc.com/things-to-do-cape-town/travel/15-of-the-best-places-to-see-wildflowers-in-the-western-cape/",
   "https://zeitzmocaa.museum/elvira-dyangani-ose-announced-as-artistic-director-of-zeitz-mocaa/",

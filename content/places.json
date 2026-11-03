@@ -247,6 +247,11 @@
   "lon": 18.70818,
   "match": "Cape Town Ward 96, Khayelitsha, City of Cape Town, Western Cape, South Africa"
  },
+ "Kleinvlei": {
+  "lat": -33.98583,
+  "lon": 18.71444,
+  "match": "Kleinvlei, Cape Town Ward 14, Eersterivier, City of Cape Town, Western Cape, 7129, South Africa"
+ },
  "Klipfontein Road, Athlone": {
   "lat": -33.96231,
   "lon": 18.51157,
@@ -306,6 +311,11 @@
   "lat": -34.05213,
   "lon": 18.68928,
   "match": "Mandela Park Stadium, Solomon Mahlangu Crescent, Kuyasa, Cape Town Ward 97, Khayelitsha, City of Cape Town, Western Cape, 7748, South Africa"
+ },
+ "Mandela Park, Khayelitsha": {
+  "lat": -34.04865,
+  "lon": 18.68355,
+  "match": "Mandela Park (Makaya), Cape Town Ward 94, Khayelitsha, City of Cape Town, Western Cape, 7748, South Africa"
  },
  "Melkbosstrand": {
   "lat": -33.72222,
@@ -432,6 +442,11 @@
   "lat": -34.15578,
   "lon": 18.87313,
   "match": "Sir Lowry's Pass Road, Winslow, Gordon's Bay, Cape Town Ward 100, City of Cape Town, Western Cape, 7151, South Africa"
+ },
+ "Somerset West": {
+  "lat": -34.06797,
+  "lon": 18.83001,
+  "match": "Cape Town Ward 15, Somerset West, City of Cape Town, Western Cape, South Africa"
  },
  "Southfield": {
   "lat": -34.03472,
