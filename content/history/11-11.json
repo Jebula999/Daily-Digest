@@ -1,0 +1,107 @@
+{
+ "day": "11-11",
+ "south_africa": [
+  {
+   "year": 1865,
+   "title": "SA cartoonist, Daniel Cornelis Boonzaaier is born",
+   "text": "South African cartoonist Daniël Cornelis Boonzaaier was born at Patatsrivier in the Cape Province in 1865. Boonzaaier became famous for his caricatures and political cartoons. He came to Cape Town in…",
+   "url": "https://sahistory.org.za/dated-event/sa-cartoonist-daniel-cornelis-boonzaaier-born",
+   "cape_town": true
+  },
+  {
+   "year": 1918,
+   "title": "Armistice day 11th Nov 1918",
+   "text": "At 11am on the 11th November 1918 a truce came into effect between Germany and the Entente forces. This was supposed to be the war that 'ends all wars'. Yet by 1919 there were still between 20 and 30…",
+   "url": "https://sahistory.org.za/dated-event/armistice-day-11th-nov-1918",
+   "cape_town": false
+  },
+  {
+   "year": 1965,
+   "title": "Rhodesian Prime Minister, Ian Smith, issues a Unilateral Declaration of Independence",
+   "text": "Ian Smith became prime minister of the self-governing British colony of Rhodesia in 1964. In keeping with the postwar trend toward de-colonisation, British authorities were prepared to permit…",
+   "url": "https://sahistory.org.za/dated-event/rhodesian-prime-minister-ian-smith-issues-unilateral-declaration-independence",
+   "cape_town": false
+  },
+  {
+   "year": 1969,
+   "title": "Rand Daily Mail publishes exposé of conditions in Homelands",
+   "text": "The English-language opposition paper, The Rand Daily Mail, covered a feature article dealing with the appalling conditions in one of the government’s Bantu Homelands. In addition to the…",
+   "url": "https://sahistory.org.za/dated-event/rand-daily-mail-publishes-expose-conditions-homelands",
+   "cape_town": false
+  },
+  {
+   "year": 1972,
+   "title": "Joseph Lekganyane of the ZCC (Dove) dies",
+   "text": "Joseph Engenas Matlhakanye Lekganyane, leader of the St Engenas Zion Christian Church (the Dove) with support spanning rural and urban areas, died in Warmberg, Pietersburg district. Upon the death of…",
+   "url": "https://sahistory.org.za/dated-event/joseph-lekganyane-zcc-dove-dies",
+   "cape_town": false
+  },
+  {
+   "year": 1975,
+   "title": "Angola becomes independent of Portuguese colonial rule",
+   "text": "Angola becomes independent after 14 years of armed resistance to Portuguese colonial rule. The three major movements fighting the war, the Movimiento Popular de Liberación de Angola, (MPLA), the…",
+   "url": "https://sahistory.org.za/dated-event/angola-becomes-independent-portuguese-colonial-rule",
+   "cape_town": false
+  },
+  {
+   "year": 1983,
+   "title": "Ivorian Footballer, Arouna Kone, is born in Anyama, Ivory Coast",
+   "text": "Arouna Kone was born in Anyama, CÁ´te d'Ivoire on 11 November 1983. Kone began his football career as a player for his hometown team Rio Sport d'Anyama. In 2002 he was signed by Belgian team Lierse S…",
+   "url": "https://sahistory.org.za/dated-event/ivorian-footballer-arouna-kone-born-anyama-ivory-coast",
+   "cape_town": false
+  },
+  {
+   "year": 1989,
+   "title": "Thousands form a human chain in a symbolic protest against the Group Areas Act",
+   "text": "Thousands of people form a human chain linking Soweto to Johannesburg in a symbolic protest against the Group Areas Act.",
+   "url": "https://sahistory.org.za/dated-event/thousands-form-human-chain-symbolic-protest-against-group-areas-act",
+   "cape_town": false
+  },
+  {
+   "year": 1993,
+   "title": "Abolition of Internal Security Act",
+   "text": "The multiparty negotiating forum agreed to repeal section 29 of the Internal Security Act (ISA), which allowed for detention without trial. This measure had been one of the most hated pieces of…",
+   "url": "https://sahistory.org.za/dated-event/abolition-internal-security-act",
+   "cape_town": false
+  },
+  {
+   "year": 1995,
+   "title": "Ken Saro-Wiwa, Nigerian author and environmental activist, is executed",
+   "text": "Born in the Ogani District of Nigeria, Ken Saro Wiwa studied English at the Government College Umuahia. He took up a post as a Civil Administrator during the Nigerian Civil War and wrote a novel…",
+   "url": "https://sahistory.org.za/dated-event/ken-saro-wiwa-nigerian-author-and-environmental-activist-executed",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1778,
+   "text": "American Revolutionary War: British forces and their Iroquois allies attacked a fort and the village of Cherry Valley, New York, killing 14 soldiers and 30 civilians.",
+   "url": "https://en.wikipedia.org/wiki/American_Revolutionary_War",
+   "sa": false
+  },
+  {
+   "year": 1813,
+   "text": "War of 1812: British–Canadian forces repelled an American attack at the Battle of Crysler's Farm, forcing the United States to give up their attempt to capture Montreal.",
+   "url": "https://en.wikipedia.org/wiki/War_of_1812",
+   "sa": false
+  },
+  {
+   "year": 1920,
+   "text": "In London, the Cenotaph was unveiled and the Unknown Warrior was buried in Westminster Abbey in remembrance of the First World War.",
+   "url": "https://en.wikipedia.org/wiki/The_Cenotaph",
+   "sa": false
+  },
+  {
+   "year": 1934,
+   "text": "The Shrine of Remembrance, a memorial to all Australians who have served in war, opened in Melbourne.",
+   "url": "https://en.wikipedia.org/wiki/Shrine_of_Remembrance",
+   "sa": false
+  },
+  {
+   "year": 1960,
+   "text": "A coup attempt by the Army of the Republic of Vietnam against President Ngô Đình Diệm was crushed after he falsely promised reform, allowing loyalists to rescue him.",
+   "url": "https://en.wikipedia.org/wiki/1960_South_Vietnamese_coup_attempt",
+   "sa": false
+  }
+ ]
+}

@@ -232,6 +232,11 @@
   "lon": 18.34751,
   "match": "Hout Bay Yacht Club Marina, Harbour Road, The Spinnaker, Cape Town Ward 74, Hout Bay, City of Cape Town, Western Cape, 7872, South Africa"
  },
+ "Joostenbergvlakte": {
+  "lat": -33.82861,
+  "lon": 18.73272,
+  "match": "Joostenbergvlakte, Cape Town Ward 105, Kraaifontein, City of Cape Town, Western Cape, 7500, South Africa"
+ },
  "Keerom Street, Cape Town": {
   "lat": -33.92548,
   "lon": 18.41685,
@@ -316,6 +321,11 @@
   "lat": -34.04865,
   "lon": 18.68355,
   "match": "Mandela Park (Makaya), Cape Town Ward 94, Khayelitsha, City of Cape Town, Western Cape, 7748, South Africa"
+ },
+ "Manenberg": {
+  "lat": -33.98972,
+  "lon": 18.55444,
+  "match": "Manenberg, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
  "Melkbosstrand": {
   "lat": -33.72222,
@@ -416,6 +426,21 @@
   "lat": -33.96806,
   "lon": 18.48778,
   "match": "Rondebosch, Cape Town, City of Cape Town, Western Cape, 7700, South Africa"
+ },
+ "Ruimte Road, Manenberg": {
+  "lat": -33.98156,
+  "lon": 18.55226,
+  "match": "Ruimte Road, Primrose Park, Manenberg, Cape Town, City of Cape Town, Western Cape, 7764, South Africa"
+ },
+ "Samora Machel": {
+  "lat": -34.02119,
+  "lon": 18.5847,
+  "match": "Samora Machel Primary School, 11, Langa Massacre Road, Cape Town Ward 33, Cape Town, City of Cape Town, Western Cape, 7750, South Africa"
+ },
+ "Samora Machel, Philippi": {
+  "lat": -34.02119,
+  "lon": 18.5847,
+  "match": "Samora Machel Primary School, 11, Langa Massacre Road, Cape Town Ward 33, Cape Town, City of Cape Town, Western Cape, 7750, South Africa"
  },
  "Sarel Cilliers Street, Strand": {
   "lat": -34.11277,
