@@ -1,0 +1,93 @@
+{
+ "day": "11-12",
+ "south_africa": [
+  {
+   "year": 1780,
+   "title": "Piet Retief, Voortrekker leader, is born",
+   "text": "On 12 October 1780 Voortrekker leader, Piet Retief was born at Wagenmakers Vallei, now known as Wellington. Retief grew up on the vineyard, Welvanpas, in what became the Cape Colony under British…",
+   "url": "https://sahistory.org.za/dated-event/piet-retief-voortrekker-leader-born",
+   "cape_town": true
+  },
+  {
+   "year": 2007,
+   "title": "Dr Piet Koornhof, one of the most controversial figures in South African history, dies",
+   "text": "Dr Piet Koornhof, one of the most controversial figures from South Africa's apartheid era, died in a Stellenbosch frail care centre at the age of 82, following a stroke. Early in his life, as a…",
+   "url": "https://sahistory.org.za/dated-event/dr-piet-koornhof-one-most-controversial-figures-south-african-history-dies-0",
+   "cape_town": true
+  },
+  {
+   "year": 1920,
+   "title": "Cellist and music teacher Betty Pack is born",
+   "text": "Cellist and music teacher Betty Pack, who started several youth orchestras, was born in Nylstroom, Transvaal. At the age of 16, she gave her first public performance of the Dvorak cello concert. A…",
+   "url": "https://sahistory.org.za/dated-event/cellist-and-music-teacher-betty-pack-born",
+   "cape_town": false
+  },
+  {
+   "year": 1930,
+   "title": "Political activist Molly Blackburn is born",
+   "text": "Political activist and civil rights campaigner Molly Blackburn, widely respected by Blacks, was born in Port Elizabeth. In 1981 she started her political career by winning the Provincial Council seat…",
+   "url": "https://sahistory.org.za/dated-event/political-activist-molly-blackburn-born",
+   "cape_town": false
+  },
+  {
+   "year": 1938,
+   "title": "Steve Tshwete is born",
+   "text": "Steve Tshwete (1938 - 2002) was born in Springs on 12 November. He spent his childhood in the village of Peelton, and later in King William's Town and East London. His parents, Vuyelwa Nolayiti and…",
+   "url": "https://sahistory.org.za/dated-event/steve-tshwete-born",
+   "cape_town": false
+  },
+  {
+   "year": 1980,
+   "title": "Minister announces compulsory education for Black children",
+   "text": "The minister of (Black) education and training, Dr Ferdinand Hartzenberg, announced that compulsory education for Black children would be introduced in stages, with a first programme beginning near…",
+   "url": "https://sahistory.org.za/dated-event/minister-announces-compulsory-education-black-children",
+   "cape_town": false
+  },
+  {
+   "year": 1985,
+   "title": "Coup attempt on S Doe’s government in Liberia",
+   "text": "A coup attempt headed by Brigadier-General Thomas Quiwonkpa, a faction of the Liberian military failed to take power from Samuel Doe. It was a third coup attempt since Samuel Doe took power in 1980…",
+   "url": "https://sahistory.org.za/dated-event/coup-attempt-s-does-government-liberia",
+   "cape_town": false
+  },
+  {
+   "year": 1992,
+   "title": "Professor Hlalanathi Sibankulu, ANC’s regional executive committee member, is found dead 12 November 1996 A memorandum of understanding between RSA and Malaysia",
+   "text": "A memorandum of understanding between RSA and Malaysia The Defence ministers of South Africa and Malaysia, Joe Modise and D S H Alban respectively, signed a memorandum of understanding on military…",
+   "url": "https://sahistory.org.za/dated-event/professor-hlalanathi-sibankulu-ancs-regional-executive-committee-member-found-dead",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1330,
+   "text": "Led by the voivode Basarab I, Wallachian forces defeated the Hungarian army in an ambush at the Battle of Posada.",
+   "url": "https://en.wikipedia.org/wiki/Voivode",
+   "sa": false
+  },
+  {
+   "year": 1928,
+   "text": "The British ocean liner SS Vestris sank in the western Atlantic Ocean, killing 111 people.",
+   "url": "https://en.wikipedia.org/wiki/Ocean_liner",
+   "sa": false
+  },
+  {
+   "year": 1942,
+   "text": "World War II: The Naval Battle of Guadalcanal, the decisive engagement in a series of sea battles between Allied and Japanese forces during the months-long Guadalcanal campaign in the Solomon Islands, began.",
+   "url": "https://en.wikipedia.org/wiki/World_War_II",
+   "sa": false
+  },
+  {
+   "year": 1970,
+   "text": "The deadliest tropical cyclone in history made landfall on the coast of East Pakistan (present-day Bangladesh), killing at least 250,000 people.",
+   "url": "https://en.wikipedia.org/wiki/1970_Bhola_cyclone",
+   "sa": false
+  },
+  {
+   "year": 2001,
+   "text": "American Airlines Flight 587 crashed into residential buildings five minutes after takeoff from John F. Kennedy International Airport in New York, killing a total of 265 people.",
+   "url": "https://en.wikipedia.org/wiki/American_Airlines_Flight_587",
+   "sa": false
+  }
+ ]
+}

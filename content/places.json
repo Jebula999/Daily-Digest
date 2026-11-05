@@ -167,6 +167,11 @@
   "lon": 18.64985,
   "match": "Delft Primary School, Voorbrug Road, Voorbrug, Cape Town Ward 20, Cape Town, City of Cape Town, Western Cape, 7100, South Africa"
  },
+ "Duinefontein Road, Phola Park": {
+  "lat": -33.97845,
+  "lon": 18.55563,
+  "match": "Duinefontein Road, Primrose Park, Manenberg, Cape Town, City of Cape Town, Western Cape, 7764, South Africa"
+ },
  "Dunoon": {
   "lat": -33.81731,
   "lon": 18.53842,
@@ -341,6 +346,11 @@
   "lat": -34.07524,
   "lon": 18.47591,
   "match": "Military Road, Steenberg, City of Cape Town, Western Cape, 7945, South Africa"
+ },
+ "Milnerton Lagoon": {
+  "lat": -33.87882,
+  "lon": 18.48987,
+  "match": "Milnerton Lagoon, Milnerton, City of Cape Town, Western Cape, South Africa"
  },
  "Monte Vista, Goodwood": {
   "lat": -33.89156,
