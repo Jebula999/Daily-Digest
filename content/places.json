@@ -122,6 +122,16 @@
   "match": "Camps Bay Beach, Camps Bay, Cape Town Ward 54, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
  "Cape Town Civic Centre": null,
+ "Cape Town International Airport": {
+  "lat": -33.97185,
+  "lon": 18.60211,
+  "match": "Cape Town International Airport, Borcherds Quarry Road, Bishop Lavis, Cape Town Ward 24, Elsiesriver, City of Cape Town, Western Cape, 7490, South Africa"
+ },
+ "Cape Town city centre": {
+  "lat": -33.92242,
+  "lon": 18.42635,
+  "match": "Cape Town Station, 1, Adderley Street, Foreshore, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8000, South Africa"
+ },
  "Castle of Good Hope": {
   "lat": -33.92585,
   "lon": 18.42673,
@@ -216,6 +226,11 @@
   "lat": -33.90873,
   "lon": 18.69892,
   "match": "Haasendal Boulevard, Soneike, Cape Town Ward 8, Kuilsrivier, City of Cape Town, Western Cape, 7560, South Africa"
+ },
+ "Hanover Park": {
+  "lat": -33.99222,
+  "lon": 18.53306,
+  "match": "Hanover Park, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
  "Helderberg High School, Somerset West": {
   "lat": -34.05328,

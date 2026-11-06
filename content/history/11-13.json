@@ -1,0 +1,86 @@
+{
+ "day": "11-13",
+ "south_africa": [
+  {
+   "year": 1925,
+   "title": "Initial experiments on the body of Egyptian King,Tutankhamen, conclude he is a fifteen year old boy",
+   "text": "Tutankhamen (also spelled Tutankhamun/Tutankhamon) was an Egyptian Pharoah who ruled in the period known as the 18th Dynasty, the years between 1332 and 1323 BC. Tutankhamen became King around the…",
+   "url": "https://sahistory.org.za/dated-event/initial-experiments-body-egyptian-kingtutankhamen-conclude-he-fifteen-year-old-boy",
+   "cape_town": false
+  },
+  {
+   "year": 1950,
+   "title": "Seretse Khama is asked to renounce chieftaincy",
+   "text": "Seretse Khama was the chief of the Bama-Ngwato tribe, Bechuanaland (now Botswana). Khama's problems with the British started when he married an English woman, Ruth Williams in September 1948, in…",
+   "url": "https://sahistory.org.za/dated-event/seretse-khama-asked-renounce-chieftaincy",
+   "cape_town": false
+  },
+  {
+   "year": 1961,
+   "title": "Ahmed Ben Bella is moved to a French hospital after 11 days of hunger strike",
+   "text": "Ahmed Ben Bella is moved to a French hospital after 11 days of hunger strike in Algiers, Algeria. Bella became Algeria’s Prime Minister in 1962 and was elected President in 1963. In March 1962,…",
+   "url": "https://sahistory.org.za/dated-event/ahmed-ben-bella-moved-french-hospital-after-11-days-hunger-strike",
+   "cape_town": false
+  },
+  {
+   "year": 1967,
+   "title": "Bonnie Ntshalintshali, SA artist, is born",
+   "text": "Bonnie Mayvee Ntshalintshali was born in Winterton, Natal. She fell into art when she apprenticed as a studio assistant for ceramics artist Fèe Halsted-Berning. Her talent in ceramics and painting…",
+   "url": "https://sahistory.org.za/dated-event/bonnie-ntshalintshali-sa-artist-born",
+   "cape_town": false
+  },
+  {
+   "year": 1970,
+   "title": "Maria Groesbeek is hanged for the murder of her husband, Christian Buys",
+   "text": "Maria Groesbeek and Christian Buys were married in the 1950's. During their seventeen years of marriage they lived with Buys' mother and six brothers for seven years, after which they moved house…",
+   "url": "https://sahistory.org.za/dated-event/maria-groesbeek-hanged-murder-her-husband-christian-buys",
+   "cape_town": false
+  },
+  {
+   "year": 1977,
+   "title": "Bishop Desmond Tutu resigns 13 November 1980 Medical Association agrees to investigate Biko’s death",
+   "text": "After a two week judicial inquest under presiding magistrate Mr. Marthinus Prins, it was found that no particular person could be blamed for the death of Steve Biko. The case was then submitted to…",
+   "url": "https://sahistory.org.za/dated-event/bishop-desmond-tutu-resigns",
+   "cape_town": false
+  },
+  {
+   "year": 1990,
+   "title": "Harms releases his report",
+   "text": "The one-man Harms commission released its report on its investigations in the activities of South African Defence Force Army and South African Police counter insurgency units. Supreme Court judge,…",
+   "url": "https://sahistory.org.za/dated-event/harms-releases-his-report",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1002,
+   "text": "King Æthelred II ordered the massacre of all Danes in England.",
+   "url": "https://en.wikipedia.org/wiki/%C3%86thelred_the_Unready",
+   "sa": false
+  },
+  {
+   "year": 1809,
+   "text": "A British flotilla arrived at Ras Al Khaimah and launched an amphibious assault on the town, as a part of the Persian Gulf campaign of 1809.",
+   "url": "https://en.wikipedia.org/wiki/Ras_Al_Khaimah",
+   "sa": false
+  },
+  {
+   "year": 1940,
+   "text": "Walt Disney's Fantasia, the first commercial film shown with stereophonic sound, premiered at the Broadway Theatre in New York City.",
+   "url": "https://en.wikipedia.org/wiki/Walt_Disney",
+   "sa": false
+  },
+  {
+   "year": 1966,
+   "text": "Arab–Israeli conflict: In response to a Fatah landmine incident, the Israeli military conducted a large cross-border assault on the Jordanian-controlled West Bank village of Samu.",
+   "url": "https://en.wikipedia.org/wiki/Arab%E2%80%93Israeli_conflict",
+   "sa": false
+  },
+  {
+   "year": 1985,
+   "text": "The volcano Nevado del Ruiz erupted, causing a volcanic mudslide that buried the town of Armero, Colombia, killing approximately 23,000 people.",
+   "url": "https://en.wikipedia.org/wiki/Nevado_del_Ruiz",
+   "sa": false
+  }
+ ]
+}
