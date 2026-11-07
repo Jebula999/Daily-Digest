@@ -197,6 +197,11 @@
   "lon": 18.56917,
   "match": "Elsies River, 1st Avenue, Vrijzee, Cape Town Ward 26, Parow, City of Cape Town, Western Cape, 7940, South Africa"
  },
+ "Factreton": {
+  "lat": -33.91374,
+  "lon": 18.51814,
+  "match": "Factreton Primary School, Albury Crescent, Windermere, Cape Town Ward 56, Cape Town, City of Cape Town, Western Cape, 7446, South Africa"
+ },
  "False Bay": {
   "lat": -34.22703,
   "lon": 18.65549,
@@ -437,10 +442,20 @@
   "lon": 18.57038,
   "match": "Philippi, Cape Town Ward 80, Cape Town, City of Cape Town, Western Cape, 7755, South Africa"
  },
+ "Pinelands": {
+  "lat": -33.93167,
+  "lon": 18.51278,
+  "match": "Pinelands, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
  "Protea Park, Atlantis": {
   "lat": -33.57417,
   "lon": 18.49471,
   "match": "Protea Park, Atlantis, City of Cape Town, Western Cape, South Africa"
+ },
+ "Red Hill, Simon's Town": {
+  "lat": -34.18896,
+  "lon": 18.41899,
+  "match": "Red Hill, Simon's Town, City of Cape Town, Western Cape, 7995, South Africa"
  },
  "Robben Island": {
   "lat": -33.8053,
@@ -487,6 +502,11 @@
   "lat": -33.58346,
   "lon": 18.36109,
   "match": "Silwerstroomstrand Oord, Cape Town Ward 29, City of Cape Town, Western Cape, South Africa"
+ },
+ "Simon's Town": {
+  "lat": -34.19318,
+  "lon": 18.43327,
+  "match": "Simon's Town, City of Cape Town, Western Cape, 7995, South Africa"
  },
  "Sir Lowry's Pass Road, Gordon's Bay": {
   "lat": -34.15578,
