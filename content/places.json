@@ -523,6 +523,11 @@
   "lon": 18.48333,
   "match": "Southfield, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
+ "St Helena Close, Strandfontein": {
+  "lat": -34.07223,
+  "lon": 18.54851,
+  "match": "St. Helena Close Park, 16, Cape Town Ward 43, City of Cape Town, Western Cape, South Africa"
+ },
  "Strand Street, Cape Town": {
   "lat": -33.92502,
   "lon": 18.42889,
