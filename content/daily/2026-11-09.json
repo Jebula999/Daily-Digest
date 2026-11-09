@@ -1,0 +1,51 @@
+{
+ "date": "2026-11-09",
+ "loadshedding": {
+  "stage": 0,
+  "label": "No load-shedding",
+  "source": "Eskom",
+  "url": "https://loadshedding.eskom.co.za/"
+ },
+ "weather": {
+  "min": 16,
+  "max": 32,
+  "rain_mm": 0.0,
+  "rain_chance": 0,
+  "wind_kmh": 17,
+  "gust_kmh": 48,
+  "wind_deg": 175,
+  "wind_from": "S",
+  "uv": 9,
+  "code": 45,
+  "source": "Open-Meteo"
+ },
+ "meetings": [
+  {
+   "id": 30251,
+   "title": "MPT North Eastern",
+   "date": "2026-11-10",
+   "start": "08:30",
+   "category": "MPTMeeting",
+   "venue": "Microsoft Teams",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 17021,
+   "title": "General Appeals Committee",
+   "date": "2026-11-13",
+   "start": "10:00",
+   "category": "ECSMeeting",
+   "venue": "Committee Room D  5th Floor  Podium",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 30241,
+   "title": "MPT South Western",
+   "date": "2026-11-17",
+   "start": "08:30",
+   "category": "MPTMeeting",
+   "venue": "Microsoft Teams",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  }
+ ]
+}

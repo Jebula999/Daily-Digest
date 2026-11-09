@@ -1,0 +1,100 @@
+{
+ "day": "11-16",
+ "south_africa": [
+  {
+   "year": 1966,
+   "title": "Siamese twins are separated in Cape Town",
+   "text": "Siamese twins have successfully been separated in the Red Cross Children's Hospital in Cape Town. The operation, which was conducted by surgeon Syd Cywes, was the first of its kind in the medical…",
+   "url": "https://sahistory.org.za/dated-event/siamese-twins-are-separated-cape-town",
+   "cape_town": true
+  },
+  {
+   "year": 1855,
+   "title": "David Livingstone reaches the Victoria Falls 16 November 1855 Pretoria is proposed as the new capital of ZAR",
+   "text": "The seat of government of the Zuid Afrikaansche Republiek (ZAR), or the old Transvaal, was transferred from Potchefstroom to Pretoria in 1860. With the city becoming the capital, it marked the end to…",
+   "url": "https://sahistory.org.za/dated-event/david-livingstone-reaches-victoria-falls",
+   "cape_town": false
+  },
+  {
+   "year": 1860,
+   "title": "The first Indian people, 197 men, 89 women and 54 children, arrive in Natal",
+   "text": "The first Indian people in South Africa are reported to have arrived on board the Truro from Madras to work in the sugar cane plantation in Port-Natal. The group was made up of 197 men, 89 women and…",
+   "url": "https://sahistory.org.za/dated-event/first-indian-people-197-men-89-women-and-54-children-arrive-natal",
+   "cape_town": false
+  },
+  {
+   "year": 1860,
+   "title": "First Indian workers arrive in South Africa",
+   "text": "Sugar farming grew rapidly in the late 1800s in Natal as a result of very cheap “indentured labour” sourced from India. The first group of Indian workers arrived in Durban harbour on 16 November 1860…",
+   "url": "https://sahistory.org.za/dated-event/first-indian-workers-arrive-south-africa",
+   "cape_town": false
+  },
+  {
+   "year": 1930,
+   "title": "Renowned Nigerian writer, Chinua Achebe, is born in Ogidi, Nigeria",
+   "text": "Chinua Achebe (1930-) is a prominent Igbo (Ibo) writer, famous for his novels describing the effects of Western customs and values on traditional African society. Achebe's knack for satire and his…",
+   "url": "https://sahistory.org.za/dated-event/renowned-nigerian-writer-chinua-achebe-born-ogidi-nigeria",
+   "cape_town": false
+  },
+  {
+   "year": 1973,
+   "title": "Beyers Naude refuses to testify before the Schlebusch Commission",
+   "text": "Dr. Beyers Naude, former Director of the Christian Institute, defied an order to appear before the parliamentary Schlebusch Commission. The reason for his refusal was that the commission was not open…",
+   "url": "https://sahistory.org.za/dated-event/beyers-naude-refuses-testify-schlebusch-commission",
+   "cape_town": false
+  },
+  {
+   "year": 1984,
+   "title": "More than 2,250 people are arrested in the township of Sebokeng",
+   "text": "Police arrested 2,300 people in the township of Sebokeng in the Vaal in what was believed to be the biggest raid against black people living in the townships and hostels. The arrest came at the…",
+   "url": "https://sahistory.org.za/dated-event/more-2250-people-are-arrested-township-sebokeng",
+   "cape_town": false
+  },
+  {
+   "year": 1989,
+   "title": "SA beaches are opened to all racial groups",
+   "text": "President F.W de Klerk announced that South African beaches would be opened to all people across the racial lines. The decision to open the beaches was made after a number of protest multiracial swim…",
+   "url": "https://sahistory.org.za/dated-event/sa-beaches-are-opened-all-racial-groups",
+   "cape_town": false
+  },
+  {
+   "year": 1992,
+   "title": "Notorious role of Ferdi Barnard is disclosed",
+   "text": "After the Goldstone Commission's first disclosure of the complicity of elements of the South African Defence Force (SADF) in violence in South Africa on 16 October 1992, they released a press…",
+   "url": "https://sahistory.org.za/dated-event/notorious-role-ferdi-barnard-disclosed",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 534,
+   "text": "The second edition of the Code of Justinian, a codification of Roman law by Byzantine emperor Justinian I, was published.",
+   "url": "https://en.wikipedia.org/wiki/Code_of_Justinian",
+   "sa": false
+  },
+  {
+   "year": 1632,
+   "text": "King Gustavus Adolphus of Sweden was killed at the Battle of Lützen during the Thirty Years' War.",
+   "url": "https://en.wikipedia.org/wiki/Gustavus_Adolphus",
+   "sa": false
+  },
+  {
+   "year": 1885,
+   "text": "After a five-day trial following the North-West Rebellion, Louis Riel, a Canadian Métis leader and \"Father of Manitoba\", was hanged for high treason.",
+   "url": "https://en.wikipedia.org/wiki/Trial_of_Louis_Riel",
+   "sa": false
+  },
+  {
+   "year": 1944,
+   "text": "World War II: Operation Queen commenced with one of the heaviest Allied tactical bombings of the war, attacking German targets in the Rur valley.",
+   "url": "https://en.wikipedia.org/wiki/World_War_II",
+   "sa": false
+  },
+  {
+   "year": 1981,
+   "text": "About 30 million people watched the fictional couple Luke Spencer and Laura Webber wed on the television show General Hospital in the highest-rated hour in American soap opera history.",
+   "url": "https://en.wikipedia.org/wiki/Luke_and_Laura",
+   "sa": false
+  }
+ ]
+}

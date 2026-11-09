@@ -242,6 +242,11 @@
   "lon": 18.84178,
   "match": "Helderberg High School, Annandale Drive, Spanish Farm, Cape Town Ward 15, Somerset West, City of Cape Town, Western Cape, 7130, South Africa"
  },
+ "High Court, Keerom Street, Cape Town": {
+  "lat": -33.9251,
+  "lon": 18.41762,
+  "match": "Western Cape Division of the High Court, Keerom Street, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
+ },
  "Highbury, Kuils River": {
   "lat": -33.94871,
   "lon": 18.68067,
