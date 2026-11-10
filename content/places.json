@@ -217,6 +217,11 @@
   "lon": 18.53663,
   "match": "Fisher Avenue, Epping 1, Cape Town Ward 53, Cape Town, City of Cape Town, Western Cape, 7455, South Africa"
  },
+ "Glen Close, Grassy Park": {
+  "lat": -34.03927,
+  "lon": 18.49851,
+  "match": "Glen Close, Cape Town Ward 65, Cape Town, City of Cape Town, Western Cape, 7941, South Africa"
+ },
  "Grassy Park": {
   "lat": -34.04513,
   "lon": 18.50325,
@@ -317,6 +322,11 @@
   "lon": 18.50689,
   "match": "Lansdowne, Cape Town, City of Cape Town, Western Cape, 7780, South Africa"
  },
+ "Leiden, Delft": {
+  "lat": -33.96785,
+  "lon": 18.64143,
+  "match": "Leiden Primary School, Hartbees Street, Delft, Cape Town Ward 13, Cape Town, City of Cape Town, Western Cape, 7100, South Africa"
+ },
  "Llandudno Beach": {
   "lat": -34.00812,
   "lon": 18.34126,
@@ -362,6 +372,7 @@
   "lon": 18.44583,
   "match": "Melkbosstrand, City of Cape Town, Western Cape, South Africa"
  },
+ "Mfuli Road, Delft": null,
  "Middestad Mall, Bellville": {
   "lat": -33.90353,
   "lon": 18.62946,
@@ -527,6 +538,11 @@
   "lat": -34.03472,
   "lon": 18.48333,
   "match": "Southfield, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "St George's Cathedral, Cape Town": {
+  "lat": -33.92487,
+  "lon": 18.41942,
+  "match": "St. George's Cathedral, Wale Street, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
  },
  "St Helena Close, Strandfontein": {
   "lat": -34.07223,

@@ -19,6 +19,23 @@
    "added": "2026-11-09"
   },
   {
+   "id": "m-celestial-bodies",
+   "title": "Joburg Ballet: Celestial Bodies",
+   "category": "stage",
+   "start": "2026-11-13T19:00+02:00",
+   "end": null,
+   "all_day": false,
+   "venue": "Pam Golding Theatre, Baxter Theatre",
+   "area": "Rondebosch",
+   "price_from": 250,
+   "url": "https://www.capetownetc.com/events/joburg-ballets-celestial-bodies-comes-to-cape-town/",
+   "source": "Cape Town ETC",
+   "description": "Also Saturday 14 November at 14:00 and 19:00, and Sunday 15 November at 14:00.",
+   "added": "2026-11-09",
+   "highlight": true,
+   "blurb": "Joburg Ballet's short Cape Town run of a production that combines classical ballet with live piano, with shows on Friday, Saturday and Sunday."
+  },
+  {
    "id": "84947ef2fd",
    "title": "Night at the Musical",
    "category": "stage",
@@ -34,6 +51,23 @@
    "added": "2026-11-09"
   },
   {
+   "id": "m-taste-of-belgium",
+   "title": "A Taste of Belgium",
+   "category": "festivals",
+   "start": "2026-11-14T10:00+02:00",
+   "end": "2026-11-14T17:00+02:00",
+   "all_day": false,
+   "venue": "Belgian Residence, 29 Boshof Avenue",
+   "area": "Newlands",
+   "price_from": 0,
+   "url": "https://www.capetownetc.com/events/a-taste-of-belgium-cape-town-2026/",
+   "source": "Cape Town ETC",
+   "description": "",
+   "added": "2026-11-09",
+   "highlight": true,
+   "blurb": "The 15th edition of this free one-day festival brings Belgian food, frites, waffles, a beer garden and live music to the Belgian Residence, with shuttles from off-site parking."
+  },
+  {
    "id": "b3e8b5dfb5",
    "title": "Woodstock Wine Festival",
    "category": "food",
@@ -46,7 +80,10 @@
    "url": "https://www.quicket.co.za/events/401312-woodstock-wine-festival/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-11-09"
+   "added": "2026-11-09",
+   "sessions": [
+    "2026-11-14T10:00+02:00"
+   ]
   },
   {
    "id": "cf9ce013cb",
@@ -76,56 +113,10 @@
    "url": "https://www.quicket.co.za/events/405357-cape-town-open-nights/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-11-09"
-  },
-  {
-   "id": "8995c51ace",
-   "title": "It Takes a Gogo – Relate Bracelets Bead-Off",
-   "category": "other",
-   "start": "2026-11-15T10:00+02:00",
-   "end": "2026-11-15T15:00+02:00",
-   "all_day": false,
-   "venue": "Amphitheatre V&A Waterfront",
-   "area": "Cape Town",
-   "price_from": null,
-   "url": "https://www.capetown.travel/event/it-takes-a-gogo-relate-bracelets-bead-off/",
-   "source": "Cape Town Tourism",
-   "description": "This November, Relate Bracelets is hosting It Takes a Gogo, an event dedicated to shining a spotlight on the remarkable women behind every Relate cause ...",
-   "added": "2026-11-09"
-  },
-  {
-   "id": "m-taste-of-belgium",
-   "title": "A Taste of Belgium",
-   "category": "festivals",
-   "start": "2026-11-14T10:00+02:00",
-   "end": "2026-11-14T17:00+02:00",
-   "all_day": false,
-   "venue": "Belgian Residence, 29 Boshof Avenue",
-   "area": "Newlands",
-   "price_from": 0,
-   "url": "https://www.capetownetc.com/events/a-taste-of-belgium-cape-town-2026/",
-   "source": "Cape Town ETC",
-   "description": "",
    "added": "2026-11-09",
-   "highlight": true,
-   "blurb": "The 15th edition of this free one-day festival brings Belgian food, frites, waffles, a beer garden and live music to the Belgian Residence, with shuttles from off-site parking."
-  },
-  {
-   "id": "m-celestial-bodies",
-   "title": "Joburg Ballet: Celestial Bodies",
-   "category": "stage",
-   "start": "2026-11-13T19:00+02:00",
-   "end": null,
-   "all_day": false,
-   "venue": "Pam Golding Theatre, Baxter Theatre",
-   "area": "Rondebosch",
-   "price_from": 250,
-   "url": "https://www.capetownetc.com/events/joburg-ballets-celestial-bodies-comes-to-cape-town/",
-   "source": "Cape Town ETC",
-   "description": "Also Saturday 14 November at 14:00 and 19:00, and Sunday 15 November at 14:00.",
-   "added": "2026-11-09",
-   "highlight": true,
-   "blurb": "Joburg Ballet's short Cape Town run of a production that combines classical ballet with live piano, with shows on Friday, Saturday and Sunday."
+   "sessions": [
+    "2026-11-14T20:00+02:00"
+   ]
   },
   {
    "id": "m-gavin-minter-quartet",
@@ -141,6 +132,24 @@
    "source": "Cape Town ETC",
    "description": "Jazz standards. Check the club for time and ticket prices.",
    "added": "2026-11-09"
+  },
+  {
+   "id": "8995c51ace",
+   "title": "It Takes a Gogo – Relate Bracelets Bead-Off",
+   "category": "other",
+   "start": "2026-11-15T10:00+02:00",
+   "end": "2026-11-15T15:00+02:00",
+   "all_day": false,
+   "venue": "Amphitheatre V&A Waterfront",
+   "area": "Cape Town",
+   "price_from": null,
+   "url": "https://www.capetown.travel/event/it-takes-a-gogo-relate-bracelets-bead-off/",
+   "source": "Cape Town Tourism",
+   "description": "This November, Relate Bracelets is hosting It Takes a Gogo, an event dedicated to shining a spotlight on the remarkable women behind every Relate cause ...",
+   "added": "2026-11-09",
+   "sessions": [
+    "2026-11-15T10:00+02:00"
+   ]
   }
  ],
  "skipped": [
