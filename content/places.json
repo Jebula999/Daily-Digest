@@ -142,6 +142,11 @@
   "lon": 18.42952,
   "match": "Civic Centre Bus Station, Hertzog Boulevard, Foreshore, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
  },
+ "Claremont": {
+  "lat": -33.98472,
+  "lon": 18.4625,
+  "match": "Claremont, Cape Town, City of Cape Town, Western Cape, 7708, South Africa"
+ },
  "Clifton": {
   "lat": -33.93528,
   "lon": 18.37907,
@@ -221,6 +226,11 @@
   "lat": -34.03927,
   "lon": 18.49851,
   "match": "Glen Close, Cape Town Ward 65, Cape Town, City of Cape Town, Western Cape, 7941, South Africa"
+ },
+ "Gordon's Bay": {
+  "lat": -34.16112,
+  "lon": 18.86869,
+  "match": "Gordon's Bay, Cape Town Ward 100, City of Cape Town, Western Cape, 7151, South Africa"
  },
  "Grassy Park": {
   "lat": -34.04513,
@@ -322,6 +332,11 @@
   "lon": 18.50689,
   "match": "Lansdowne, Cape Town, City of Cape Town, Western Cape, 7780, South Africa"
  },
+ "Lansdowne Road, Khayelitsha": {
+  "lat": -34.02208,
+  "lon": 18.67141,
+  "match": "Japhta K. Masemola Road, Sabata Dalindyebo Square (Green Point), Cape Town Ward 93, Khayelitsha, City of Cape Town, Western Cape, 7783, South Africa"
+ },
  "Leiden, Delft": {
   "lat": -33.96785,
   "lon": 18.64143,
@@ -387,6 +402,11 @@
   "lat": -33.87882,
   "lon": 18.48987,
   "match": "Milnerton Lagoon, Milnerton, City of Cape Town, Western Cape, South Africa"
+ },
+ "Mitchells Plain": {
+  "lat": -34.05056,
+  "lon": 18.61806,
+  "match": "Mitchells Plain, City of Cape Town, Western Cape, 7786, South Africa"
  },
  "Monte Vista, Goodwood": {
   "lat": -33.89156,
@@ -512,6 +532,16 @@
   "lat": -33.86097,
   "lon": 18.7246,
   "match": "Scottsdene High School, 12, Koopmans Avenue, Scottsdene, Cape Town Ward 7, Cape Town, City of Cape Town, Western Cape, 7570, South Africa"
+ },
+ "Section Street, Paarden Eiland": {
+  "lat": -33.91405,
+  "lon": 18.47486,
+  "match": "Section Street, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 7425, South Africa"
+ },
+ "Signal Hill": {
+  "lat": -33.917,
+  "lon": 18.40391,
+  "match": "Signal Hill, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
  "Silver Sands Beach, Betty's Bay": null,
  "Silwerstroomstrand": {

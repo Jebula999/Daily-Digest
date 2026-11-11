@@ -1,0 +1,93 @@
+{
+ "day": "11-18",
+ "south_africa": [
+  {
+   "year": 1932,
+   "title": "Amy Johnson, a female aviator, lands in Cape Town in record time",
+   "text": "Amy Johnson obtained her pilot's license from the London Aeroplane Club in 1929. After purchasing a second-hand aircraft, she made history by becoming the first woman to fly solo from Britain to…",
+   "url": "https://sahistory.org.za/dated-event/amy-johnson-female-aviator-lands-cape-town-record-time",
+   "cape_town": true
+  },
+  {
+   "year": 1914,
+   "title": "Bettie Cilliers, famous SA painter, is born",
+   "text": "Bettie Cilliers-Barnard, famed SA painter and mother of actress Jana Celliers was born in Rustenburg, Transvaal. Though Cilliers-Bernard was at one time one of South Africa's underestimated artists,…",
+   "url": "https://sahistory.org.za/dated-event/bettie-cilliers-famous-sa-painter-born",
+   "cape_town": false
+  },
+  {
+   "year": 1969,
+   "title": "Ahmed Helmy, Egyptian actor, is born",
+   "text": "Ahmed Helmy was born on 18 November 1969 in Banha, Egypt. His career as an actor began when Sherif Arafa noticed Helmy in a children’s programme and was impressed by his comic skills. Arafa cast…",
+   "url": "https://sahistory.org.za/dated-event/ahmed-helmy-egyptian-actor-born",
+   "cape_town": false
+  },
+  {
+   "year": 1988,
+   "title": "The Big Three are convicted of treason",
+   "text": "Popo Molefe, Patrick Lekota and Moses (Moss) Chikane, collectively known as the \"Big Three\", were arrested in April 1989 and charged with treason. At the time of their arrest the country was rife…",
+   "url": "https://sahistory.org.za/dated-event/big-three-are-convicted-treason",
+   "cape_town": false
+  },
+  {
+   "year": 1988,
+   "title": "Three Zimbabwean intelligence officers stand trial for a bomb attack on an ANC house",
+   "text": "Kevin Woods, Michael Smith and Philip Conjwayo were arrested in Zimbabwe in connection with the bombing that killed the driver of the car transporting the bomb and injured several ANC members. Woods,…",
+   "url": "https://sahistory.org.za/dated-event/three-zimbabwean-intelligence-officers-stand-trial-bomb-attack-anc-house",
+   "cape_town": false
+  },
+  {
+   "year": 1992,
+   "title": "F.W. De Klerk appoints Lt-Gen. Pierre Steyn 18 November 1993 Multi-party delegates endorses the Interim constitution",
+   "text": "Delegates at the multiparty Convention for a Democratic South Africa (CODESA) negotiation endorsed the Interim Constitution according to which SA would have a Government of National Unity (GNU) for 5…",
+   "url": "https://sahistory.org.za/dated-event/fw-de-klerk-appoints-lt-gen-pierre-steyn",
+   "cape_town": false
+  },
+  {
+   "year": 1995,
+   "title": "Jacob Matlala, SA junior flyweight, wins the WBO world champion title",
+   "text": "Jacob \"Baby Jake\" Matlala was born on 8 January 1962 in Soweto, Johannesburg. He began his professional boxing career in 1980. Matlala’s first crack at a world title, the IBF flyweight title, in…",
+   "url": "https://sahistory.org.za/dated-event/jacob-matlala-sa-junior-flyweight-wins-wbo-world-champion-title",
+   "cape_town": false
+  },
+  {
+   "year": 2004,
+   "title": "African Statistics Day is observed 18 November 2007 The Reburial of Mapungubwe Human Remains",
+   "text": "The reburial of the human skeletal remains at Mapungubwe an Iron Age archaeological site located in Limpopo Province, was preceded by a handover and cleansing ceremony involving traditional healers…",
+   "url": "https://sahistory.org.za/dated-event/african-statistics-day-observed",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1210,
+   "text": "Otto IV, Holy Roman Emperor, was ex­com­mu­ni­cated by Pope Innocent III after Otto commanded him to annul the Concordat of Worms.",
+   "url": "https://en.wikipedia.org/wiki/Otto_IV%2C_Holy_Roman_Emperor",
+   "sa": false
+  },
+  {
+   "year": 1865,
+   "text": "\"The Celebrated Jumping Frog of Calaveras County\" was published, becoming the first great success of American author Mark Twain.",
+   "url": "https://en.wikipedia.org/wiki/The_Celebrated_Jumping_Frog_of_Calaveras_County",
+   "sa": false
+  },
+  {
+   "year": 1977,
+   "text": "Solomon Islands ratified the adoption of a new flag.",
+   "url": "https://en.wikipedia.org/wiki/Flag_of_Solomon_Islands",
+   "sa": false
+  },
+  {
+   "year": 1991,
+   "text": "The current flag of Uzbekistan was adopted, making the country the first newly independent republic in Central Asia to choose a new flag.",
+   "url": "https://en.wikipedia.org/wiki/Flag_of_Uzbekistan",
+   "sa": false
+  },
+  {
+   "year": 2003,
+   "text": "With its ruling in Goodridge v. Department of Public Health, the Massachusetts Supreme Judicial Court made the state the first in the U.S. to legalize same-sex marriage.",
+   "url": "https://en.wikipedia.org/wiki/Goodridge_v._Department_of_Public_Health",
+   "sa": false
+  }
+ ]
+}
