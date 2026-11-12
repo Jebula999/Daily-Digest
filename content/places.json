@@ -202,6 +202,11 @@
   "lon": 18.56917,
   "match": "Elsies River, 1st Avenue, Vrijzee, Cape Town Ward 26, Parow, City of Cape Town, Western Cape, 7940, South Africa"
  },
+ "Eversdal Road, Stellenberg": {
+  "lat": -33.85943,
+  "lon": 18.66666,
+  "match": "Eversdal Road, Chantecler, Cape Town Ward 102, Bellville, City of Cape Town, Western Cape, 7561, South Africa"
+ },
  "Factreton": {
   "lat": -33.91374,
   "lon": 18.51814,
@@ -427,6 +432,11 @@
   "lat": -33.97339,
   "lon": 18.46918,
   "match": "Newlands Cricket Ground, 146, Campground Road, Newlands, Cape Town, City of Cape Town, Western Cape, 7780, South Africa"
+ },
+ "Nyanga": {
+  "lat": -33.99297,
+  "lon": 18.55989,
+  "match": "Nyanga, Duinefontein Road, Cape Town Ward 42, Cape Town, City of Cape Town, Western Cape, 7755, South Africa"
  },
  "Observatory": {
   "lat": -33.93694,

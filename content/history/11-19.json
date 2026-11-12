@@ -1,0 +1,79 @@
+{
+ "day": "11-19",
+ "south_africa": [
+  {
+   "year": 1909,
+   "title": "Moses Josiah Madiba is born",
+   "text": "Moses Josiah Madiba, the author, educationist and first African chancellor of the University of the North, was born at Uitvlucht, Pietersburg (now Polokwane) district. He was the first secretary of…",
+   "url": "https://sahistory.org.za/dated-event/moses-josiah-madiba-born",
+   "cape_town": false
+  },
+  {
+   "year": 1926,
+   "title": "The Balfour Declaration is accepted",
+   "text": "The 1926 Imperial Conference, held in London from 25 October, accepted the Balfour Declaration, named after Lord Arthur Balfour who chaired the drafting Committee of the Declaration. It granted…",
+   "url": "https://sahistory.org.za/dated-event/balfour-declaration-accepted",
+   "cape_town": false
+  },
+  {
+   "year": 1930,
+   "title": "South African veteran journalist and author Doc Bikitsha is born 19 November 1968 President Modibo Keita of Mali is deposed by the army",
+   "text": "President Modibo Keita of Mali is deposed by the army in a bloodless coup. Modibo was the first president of the Republic of Mali after it gained independence from France in 1960. Five years earlier,…",
+   "url": "https://sahistory.org.za/dated-event/south-african-veteran-journalist-and-author-doc-bikitsha-born",
+   "cape_town": false
+  },
+  {
+   "year": 1981,
+   "title": "Griffiths Mxenge is murdered",
+   "text": "Griffiths Mxenge, an African National Congress (ANC) veteran and apartheid activist, was assassinated and his body was severely mutilated in an act of barbaric brutality on 19 November 1981. His…",
+   "url": "https://sahistory.org.za/dated-event/griffiths-mxenge-murdered",
+   "cape_town": false
+  },
+  {
+   "year": 1994,
+   "title": "Springboks wallop Scotland",
+   "text": "After the demise of Apartheid, the South African rugby team, (Springboks/Amabokoboko) went to Murrayfield, Edinburgh in Scotland to engage their Scottish counterparts. The last time the team made a…",
+   "url": "https://sahistory.org.za/dated-event/springboks-wallop-scotland",
+   "cape_town": false
+  },
+  {
+   "year": 2003,
+   "title": "President Hosni Mubarak collapses",
+   "text": "Mr Hosni Mubarak, Egyptian president, collapsed in parliament while delivering a speech broadcasted live on television in Cairo. After forty-five minutes of medical attention, Mubarak returned to…",
+   "url": "https://sahistory.org.za/dated-event/president-hosni-mubarak-collapses",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1794,
+   "text": "The United States and Great Britain signed the Jay Treaty, the basis for ten years of peaceful trade between the two nations.",
+   "url": "https://en.wikipedia.org/wiki/Jay_Treaty",
+   "sa": false
+  },
+  {
+   "year": 1863,
+   "text": "American Civil War: U.S. president Abraham Lincoln delivered the Gettysburg Address at the dedication of the Soldiers' National Cemetery in Gettysburg, Pennsylvania.",
+   "url": "https://en.wikipedia.org/wiki/American_Civil_War",
+   "sa": false
+  },
+  {
+   "year": 1941,
+   "text": "World War II: The Australian light cruiser HMAS Sydney and the German auxiliary cruiser Kormoran destroyed each other in the Indian Ocean.",
+   "url": "https://en.wikipedia.org/wiki/World_War_II",
+   "sa": false
+  },
+  {
+   "year": 1985,
+   "text": "The first of five summits between Soviet general secretary Mikhail Gorbachev and U.S. president Ronald Reagan began in Geneva.",
+   "url": "https://en.wikipedia.org/wiki/Geneva_Summit_(1985)",
+   "sa": false
+  },
+  {
+   "year": 2005,
+   "text": "Iraq War: A group of United States Marines massacred 25 people in the town of Haditha.",
+   "url": "https://en.wikipedia.org/wiki/Iraq_War",
+   "sa": false
+  }
+ ]
+}
