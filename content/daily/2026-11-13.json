@@ -1,0 +1,60 @@
+{
+ "date": "2026-11-13",
+ "loadshedding": {
+  "stage": 0,
+  "label": "No load-shedding",
+  "source": "Eskom",
+  "url": "https://loadshedding.eskom.co.za/"
+ },
+ "weather": {
+  "min": 14,
+  "max": 23,
+  "rain_mm": 0.4,
+  "rain_chance": 12,
+  "wind_kmh": 24,
+  "gust_kmh": 71,
+  "wind_deg": 166,
+  "wind_from": "SSE",
+  "uv": 9,
+  "code": 51,
+  "source": "Open-Meteo"
+ },
+ "meetings": [
+  {
+   "id": 17021,
+   "title": "General Appeals Committee",
+   "date": "2026-11-13",
+   "start": "10:00",
+   "category": "ECSMeeting",
+   "venue": "Committee Room D  5th Floor  Podium",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 30241,
+   "title": "MPT South Western",
+   "date": "2026-11-17",
+   "start": "08:30",
+   "category": "MPTMeeting",
+   "venue": "Microsoft Teams",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 17150,
+   "title": "Council (Inaugural Meeting)",
+   "date": "2026-11-19",
+   "start": "10:00",
+   "category": "ECSMeeting",
+   "venue": "Council Chamber Cape Town Civic Centre",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 30263,
+   "title": "MPT South Eastern",
+   "date": "2026-11-24",
+   "start": "08:30",
+   "category": "MPTMeeting",
+   "venue": "Microsoft Teams",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  }
+ ]
+}

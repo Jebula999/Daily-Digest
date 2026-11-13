@@ -1,0 +1,86 @@
+{
+ "day": "11-20",
+ "south_africa": [
+  {
+   "year": 1923,
+   "title": "SA author, Nadine Gordimer, is born",
+   "text": "South African author and winner of the 1991 Nobel Prize for Literature, Nadine Gordimer, was born in Springs, Transvaal (now known as Gauteng).One of South Africa’s most prolific novelists she has…",
+   "url": "https://sahistory.org.za/dated-event/sa-author-nadine-gordimer-born",
+   "cape_town": false
+  },
+  {
+   "year": 1944,
+   "title": "The Transvaal Indian Congress takes a stand on Fietas removals",
+   "text": "The Transvaal Indian Congress (TIC) passed a resolution on the Johannesburg area \"Fietas\", (the name by which Pageview and Vrededorp was known).They objected to a Johannesburg City Council meeting…",
+   "url": "https://sahistory.org.za/dated-event/transvaal-indian-congress-takes-stand-fietas-removals",
+   "cape_town": false
+  },
+  {
+   "year": 1964,
+   "title": "Trial of South African Communist party members begins",
+   "text": "The trial of Abram Fischer QC, and thirteen others, charged with being members of the Communist Party and conspiracy to commit sabotage begins. The Communist Party was banned at that stage.",
+   "url": "https://sahistory.org.za/dated-event/trial-south-african-communist-party-members-begins",
+   "cape_town": false
+  },
+  {
+   "year": 1970,
+   "title": "Natasha Kate Sutherland, actress in the SA soap opera Egoli, is born.",
+   "text": "Natasha Sutherland began her career in the early 1990’s as presenter of children’s show Kideo. She then joined the cast of the soapie, Egoli, launching her acting career. This led to other shows such…",
+   "url": "https://sahistory.org.za/dated-event/natasha-kate-sutherland-actress-sa-soap-opera-egoli-born",
+   "cape_town": false
+  },
+  {
+   "year": 1988,
+   "title": "UN passes resolutions on South Africa",
+   "text": "The United Nations General Assembly (UNGA) passed resolutions condemning South Africa's relations with its Southern African neighbours. The UN General Assembly re-affirmed the legitimacy of the…",
+   "url": "https://sahistory.org.za/dated-event/un-passes-resolutions-south-africa",
+   "cape_town": false
+  },
+  {
+   "year": 1992,
+   "title": "De Klerk rejects Goldstone’s request 20 November 1993 John Lawrence, Winnie Mandela’s bodyguard, dies after a shoot",
+   "text": "On the evening of 10 November 1993, Winnie Mandela and her bodyguard, John Lawrence, were driving through the centre of Johannesburg, when Lawrence had an altercation with a pedestrian. According…",
+   "url": "https://sahistory.org.za/dated-event/de-klerk-rejects-goldstones-request",
+   "cape_town": false
+  },
+  {
+   "year": 2004,
+   "title": "Pandemonium breaks out at Carnival City 20 November 2005 A Pretoria biker is caught doing 284km/h on his Suzuki motorcycle on the R59",
+   "text": "On 20 November 2005 at 6:42, a Pretoria biker made news when he was caught travelling at a speed of 284km/h on the R59 south near Kliprivier in Ekurhuleni. The biker’s excuse for travelling at such…",
+   "url": "https://sahistory.org.za/dated-event/pandemonium-breaks-out-carnival-city",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1739,
+   "text": "War of Jenkins' Ear: A British naval force arrived at the settlement of Portobello in the Spanish Main, capturing it the next day.",
+   "url": "https://en.wikipedia.org/wiki/War_of_Jenkins'_Ear",
+   "sa": false
+  },
+  {
+   "year": 1820,
+   "text": "The American whaleship Essex sank 2,000 nautical miles (3,700 km) west of the western coast of South America after it was attacked by a sperm whale, an event which inspired the novel Moby-Dick.",
+   "url": "https://en.wikipedia.org/wiki/Essex_(whaleship)",
+   "sa": false
+  },
+  {
+   "year": 1947,
+   "text": "Princess Elizabeth, daughter of King George VI, married Lieutenant Philip Mountbatten, who was given the title Duke of Edinburgh.",
+   "url": "https://en.wikipedia.org/wiki/Elizabeth_II",
+   "sa": false
+  },
+  {
+   "year": 1979,
+   "text": "Armed insurgents attacked and took over the Masjid al-Haram in Mecca, declaring that one of their leaders was the Mahdi, the prophesied redeemer of Islam.",
+   "url": "https://en.wikipedia.org/wiki/Grand_Mosque_seizure",
+   "sa": false
+  },
+  {
+   "year": 1991,
+   "text": "First Nagorno-Karabakh War: An Azerbaijani military helicopter carrying a peacekeeping mission team was shot down in Nagorno-Karabakh, disrupting ongoing peace talks.",
+   "url": "https://en.wikipedia.org/wiki/First_Nagorno-Karabakh_War",
+   "sa": false
+  }
+ ]
+}

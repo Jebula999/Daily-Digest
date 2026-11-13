@@ -108,15 +108,17 @@
    "end": "2026-11-28T22:00+02:00",
    "all_day": false,
    "venue": "SAAO Cape Town",
-   "area": "Cape Town",
-   "price_from": null,
+   "area": "Observatory",
+   "price_from": 50,
    "url": "https://www.quicket.co.za/events/405357-cape-town-open-nights/",
    "source": "Quicket",
    "description": "",
    "added": "2026-11-09",
    "sessions": [
     "2026-11-14T20:00+02:00"
-   ]
+   ],
+   "highlight": true,
+   "blurb": "An evening at the historic observatory in Observatory with an astronomy talk, a look at the McClean telescope and stargazing if the sky is clear; R50, booking required."
   },
   {
    "id": "m-gavin-minter-quartet",
@@ -182,6 +184,7 @@
   "https://www.artscape.co.za/youth-classical-concert/",
   "https://www.capetown.travel/8-best-streets-for-a-cape-town-night-out/",
   "https://www.capetown.travel/cape-town-creeps-into-the-worlds-top-50-halloween-destinations/",
+  "https://www.capetown.travel/cape-town-named-one-of-the-worlds-most-desirable-cities-by-wanderlust-readers/",
   "https://www.capetown.travel/cape-town-restaurants-serving-up-a-feast-for-christmas-lunch/",
   "https://www.capetown.travel/cape-town-tourism-honours-the-frontline-teams-supporting-visitors-across-the-city/",
   "https://www.capetown.travel/cape-towns-hottest-new-hotels-and-stays-to-check-into/",
@@ -205,7 +208,9 @@
   "https://www.capetownetc.com/lifestyle/bon-courage-cap-classique-legacy-passes-from-father-to-daughter/",
   "https://www.capetownetc.com/lifestyle/sweet-orr-brings-155-years-of-workwear-heritage-into-fashion/",
   "https://www.capetownetc.com/sponsored/six-travel-destinations-to-put-on-your-2027-holiday-list/",
+  "https://www.capetownetc.com/sponsored/your-summer-escape-starts-at-franschhoek-cellar/",
   "https://www.capetownetc.com/things-to-do-cape-town/outdoors/rmb-utct-2026-launches-prestigious-award-for-africas-best-trail-runners/",
+  "https://www.capetownetc.com/things-to-do-cape-town/restaurants/cape-town-in-december-a-summer-weekend-built-around-the-2026-hsbc-svns/",
   "https://www.capetownetc.com/things-to-do-cape-town/restaurants/la-colombe-named-best-restaurant-in-africa-at-the-50-best-restaurants-2026/",
   "https://www.capetownetc.com/things-to-do-cape-town/restaurants/siya-kolisi-sauce-nandos-launches-limited-edition-flavour/",
   "https://www.capetownetc.com/things-to-do-cape-town/restaurants/where-to-find-the-best-wagyu-burgers-in-cape-town/",

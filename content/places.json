@@ -232,6 +232,11 @@
   "lon": 18.49851,
   "match": "Glen Close, Cape Town Ward 65, Cape Town, City of Cape Town, Western Cape, 7941, South Africa"
  },
+ "Goodwood Estate": {
+  "lat": -33.90508,
+  "lon": 18.55112,
+  "match": "Goodwood Estate, Cape Town Ward 27, Parow, City of Cape Town, Western Cape, 7460, South Africa"
+ },
  "Gordon's Bay": {
   "lat": -34.16112,
   "lon": 18.86869,
@@ -418,6 +423,11 @@
   "lon": 18.54902,
   "match": "Monte Vista, N1, Goodwood, Parow, City of Cape Town, Western Cape, 7640, South Africa"
  },
+ "Mowbray": {
+  "lat": -33.94833,
+  "lon": 18.47417,
+  "match": "Mowbray, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
  "Muizenberg Beach": {
   "lat": -34.09738,
   "lon": 18.50435,
@@ -488,6 +498,11 @@
   "lon": 18.57038,
   "match": "Philippi, Cape Town Ward 80, Cape Town, City of Cape Town, Western Cape, 7755, South Africa"
  },
+ "Philippi railway station": {
+  "lat": -34.01334,
+  "lon": 18.58531,
+  "match": "Philippi, Zongothi Street, Cape Town Ward 34, City of Cape Town, Western Cape, 7755, South Africa"
+ },
  "Pinelands": {
   "lat": -33.93167,
   "lon": 18.51278,
@@ -543,6 +558,11 @@
   "lon": 18.7246,
   "match": "Scottsdene High School, 12, Koopmans Avenue, Scottsdene, Cape Town Ward 7, Cape Town, City of Cape Town, Western Cape, 7570, South Africa"
  },
+ "Searle Street, District Six": {
+  "lat": -33.93,
+  "lon": 18.4407,
+  "match": "Searle Street, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 7925, South Africa"
+ },
  "Section Street, Paarden Eiland": {
   "lat": -33.91405,
   "lon": 18.47486,
@@ -588,6 +608,11 @@
   "lat": -34.07223,
   "lon": 18.54851,
   "match": "St. Helena Close Park, 16, Cape Town Ward 43, City of Cape Town, Western Cape, South Africa"
+ },
+ "Strand Beach, Strand": {
+  "lat": -34.11583,
+  "lon": 18.82434,
+  "match": "Grasso Strand, 106, Beach Road, Die Vlakte, Cape Town Ward 83, Strand, City of Cape Town, Western Cape, 7140, South Africa"
  },
  "Strand Street, Cape Town": {
   "lat": -33.92502,
