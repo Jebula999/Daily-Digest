@@ -14,6 +14,11 @@
   "lon": 18.505,
   "match": "Athlone, Cape Town, City of Cape Town, Western Cape, 7770, South Africa"
  },
+ "Atlantic Road, Muizenberg": {
+  "lat": -34.10669,
+  "lon": 18.47013,
+  "match": "Atlantic Road, Marina Da Gama, Cape Town Ward 64, City of Cape Town, Western Cape, 7945, South Africa"
+ },
  "Atlantis": {
   "lat": -33.56722,
   "lon": 18.50028,
@@ -326,6 +331,11 @@
   "lat": -33.94353,
   "lon": 18.38182,
   "match": "Kloof Road, Camps Bay, Cape Town Ward 54, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Koeberg Interchange": {
+  "lat": -33.92093,
+  "lon": 18.47874,
+  "match": "Koeberg Interchange, Black River Parkway, Cape Town Ward 56, Cape Town, City of Cape Town, Western Cape, 7425, South Africa"
  },
  "Kuyasa, Khayelitsha": {
   "lat": -34.0603,

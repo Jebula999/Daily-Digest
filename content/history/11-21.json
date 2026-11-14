@@ -1,0 +1,86 @@
+{
+ "day": "11-21",
+ "south_africa": [
+  {
+   "year": 1942,
+   "title": "General Barry Hertzog, former South African Prime Minister, dies",
+   "text": "James Barry Munnick Hertzog was born into a German immigrant family in 1866. He attended school in Kimberly and Stellenbosch, and completed a Bachelor's degree in England, as well as degree in law at…",
+   "url": "https://sahistory.org.za/dated-event/general-barry-hertzog-former-south-african-prime-minister-dies",
+   "cape_town": true
+  },
+  {
+   "year": 1984,
+   "title": "Demonstrations begin outside the South African Embassy in Washington D.C.",
+   "text": "Demonstrations began outside the South African Embassy in Washington DC and continued on an almost daily basis as anti-apartheid protesters demanded a stronger anti-South Africa policy from the…",
+   "url": "https://sahistory.org.za/dated-event/demonstrations-begin-outside-south-african-embassy-washington-dc",
+   "cape_town": false
+  },
+  {
+   "year": 1985,
+   "title": "Thirteen residents are gunned down in Mamelodi by South African police",
+   "text": "Thirteen residents were gunned down in Mamelodi by South African police. This followed the declaration of a State of emergency on 25 July 1985 by President PW Botha in 36 of South Africa’s 260…",
+   "url": "https://sahistory.org.za/dated-event/thirteen-residents-are-gunned-down-mamelodi-south-african-police",
+   "cape_town": false
+  },
+  {
+   "year": 1986,
+   "title": "SA President P.W Botha meets with leaders of independent homelands",
+   "text": "The leaders of the four 'independent' homelands, namely; Bophuthatswana, Ciskei, Transkei, and Venda, attended a five-nation summit in Pretoria, chaired by the South African State President P. W…",
+   "url": "https://sahistory.org.za/dated-event/sa-president-pw-botha-meets-leaders-independent-homelands",
+   "cape_town": false
+  },
+  {
+   "year": 1989,
+   "title": "Last remaining SA troops have been withdrawn from Namibia",
+   "text": "The Citizen reported that the remaining 1 500 South African troops in South West Africa (Namibia) had been withdrawn during November. While the Namibian political parties and the South African…",
+   "url": "https://sahistory.org.za/dated-event/last-remaining-sa-troops-have-been-withdrawn-namibia",
+   "cape_town": false
+  },
+  {
+   "year": 2004,
+   "title": "Millions of Zim refugees cross into SA 21 November 2004 Joyce Kgoali dies",
+   "text": "The Chairperson of the National Council of Provinces (NCOP), Joyce Kgoali, passed away following complications after a minor operation. Kgoali was also a National Executive Committee (NEC) member of…",
+   "url": "https://sahistory.org.za/dated-event/millions-zim-refugees-cross-sa",
+   "cape_town": false
+  },
+  {
+   "year": 2025,
+   "title": "South Africa Declares Gender-Based Violence a National Disaster",
+   "text": "On this day in 2025, South Africa officially classified gender-based violence and femicide as a national disaster, following nationwide protests where women across the country lay down for 15 minutes…",
+   "url": "https://sahistory.org.za/dated-event/south-africa-declares-gender-based-violence-national-disaster",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1386,
+   "text": "Turco-Mongol conqueror Timur captured and sacked the Georgian capital Tbilisi and forced King Bagrat V to convert to Islam.",
+   "url": "https://en.wikipedia.org/wiki/Turco-Mongol_tradition",
+   "sa": false
+  },
+  {
+   "year": 1894,
+   "text": "First Sino-Japanese War: After capturing the Chinese city of Port Arthur, the Japanese army began a massacre of the city's soldiers and civilians.",
+   "url": "https://en.wikipedia.org/wiki/First_Sino-Japanese_War",
+   "sa": false
+  },
+  {
+   "year": 1950,
+   "text": "Two trains collided near Valemount, Canada, killing 21 people.",
+   "url": "https://en.wikipedia.org/wiki/Canoe_River_train_crash",
+   "sa": false
+  },
+  {
+   "year": 1964,
+   "text": "The Verrazzano–Narrows Bridge, connecting Staten Island and Brooklyn in New York City, opened to traffic as the longest suspension bridge in the world at the time.",
+   "url": "https://en.wikipedia.org/wiki/Verrazzano%E2%80%93Narrows_Bridge",
+   "sa": false
+  },
+  {
+   "year": 1980,
+   "text": "A fire broke out at the MGM Grand Hotel on the Las Vegas Strip in Paradise, Nevada, killing 85 people and injuring 650 others.",
+   "url": "https://en.wikipedia.org/wiki/MGM_Grand_fire",
+   "sa": false
+  }
+ ]
+}
