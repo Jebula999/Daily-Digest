@@ -1,0 +1,86 @@
+{
+ "day": "11-22",
+ "south_africa": [
+  {
+   "year": 1962,
+   "title": "Violence erupts in Paarl",
+   "text": "Violence erupted when Poqo members from Mbekweni, Paarl, met and resolved to attack the White town of Paarl. Over 200 men armed with axes, pangas, sticks, sabres and possibly a few revolvers gathered…",
+   "url": "https://sahistory.org.za/dated-event/violence-erupts-paarl",
+   "cape_town": true
+  },
+  {
+   "year": 1977,
+   "title": "Wiseman Khuzwayo, reporter for the Durban Daily News hands himself over to the police",
+   "text": "Wiseman Khuzwayo, reporter for the Durban Daily News surrendered to police after he heard they were looking for him. Khuzwayo brought with him a lawyer who asked the police to note that he was fully…",
+   "url": "https://sahistory.org.za/dated-event/wiseman-khuzwayo-reporter-durban-daily-news-hands-himself-over-police",
+   "cape_town": false
+  },
+  {
+   "year": 1979,
+   "title": "P.W. Botha launches CONSAS at the Carlton Conference to eliminate “Marxist threat”",
+   "text": "On 22 November 1979 South African prime minister P. W. Botha gathered business leaders together in a conference at the Carlton Hotel in Johannesburg. Here he announced his plan to launch the…",
+   "url": "https://sahistory.org.za/dated-event/pw-botha-launches-consas-carlton-conference-eliminate-marxist-threat",
+   "cape_town": false
+  },
+  {
+   "year": 1983,
+   "title": "Keith McFadden and Zwelakhe Nyanda are killed 22 November 1986 Oscar Pistorius South African sprint runner is born",
+   "text": "Sprinter, Oscar Leonard Carl Pistorius (also known as the “Blade Runner”) was born on 22 November 1986 in Sandton, Johannesburg. He was born with fibular hemimelia, which is a congenital absence of…",
+   "url": "https://sahistory.org.za/dated-event/keith-mcfadden-and-zwelakhe-nyanda-are-killed",
+   "cape_town": false
+  },
+  {
+   "year": 1988,
+   "title": "Prof. Raymond Arthur Dart, SA anthropologist and expert on the Taung skull, dies in Sandton, Johannesburg",
+   "text": "Raymond Dart was born in Queensland Australia in 1893. One of nine siblings, he grew up on a farm herding cattle. He won a scholarship to study at the University of Queensland in Brisbane and later…",
+   "url": "https://sahistory.org.za/dated-event/prof-raymond-arthur-dart-sa-anthropologist-and-expert-taung-skull-dies-sandton",
+   "cape_town": false
+  },
+  {
+   "year": 1989,
+   "title": "Independent Board of Inquiry issues report 22 November 1990 A group of six White and several Black rebel army troops mounted another coup attempt on 21/22 November in Transkei, a Black ‘homeland’",
+   "text": "A group of six White and several Black rebel army troops mounted another coup attempt on 21/22 November in Transkei, a Black 'homeland'. The dissidents attacked the main army camp in Umtata, capital…",
+   "url": "https://sahistory.org.za/dated-event/independent-board-inquiry-issues-report",
+   "cape_town": false
+  },
+  {
+   "year": 1994,
+   "title": "South Africa signs agreement with Switzerland to support the Reconstruction and Development Programme (RDP)",
+   "text": "The legacy of apartheid is characterized by great political and socio-economic inequality. In order to address this, the African National Congress (ANC) along with the Congress of South African Trade…",
+   "url": "https://sahistory.org.za/dated-event/south-africa-signs-agreement-switzerland-support-reconstruction-and-development",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1574,
+   "text": "Juan Fernández, a Spanish explorer, discovered an archipelago that now bears his name off the coast of Chile.",
+   "url": "https://en.wikipedia.org/wiki/Juan_Fern%C3%A1ndez_(explorer)",
+   "sa": false
+  },
+  {
+   "year": 1797,
+   "text": "The Geisel School of Medicine, the fourth oldest medical school in the United States, was founded by the physician Nathan Smith.",
+   "url": "https://en.wikipedia.org/wiki/Geisel_School_of_Medicine",
+   "sa": false
+  },
+  {
+   "year": 1963,
+   "text": "John F. Kennedy was assassinated in Dallas; hours later, Vice President Lyndon B. Johnson was sworn in as the 36th president of the United States aboard Air Force One.",
+   "url": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+   "sa": false
+  },
+  {
+   "year": 1971,
+   "text": "In Britain's worst mountaineering disaster, five teenage students and one of their leaders were found dead from exposure on the Cairngorm Plateau in the Scottish Highlands.",
+   "url": "https://en.wikipedia.org/wiki/Cairngorm_Plateau_disaster",
+   "sa": false
+  },
+  {
+   "year": 1987,
+   "text": "Two television stations in Chicago had their broadcast signals hijacked with footage of an unknown person wearing a Max Headroom mask and costume.",
+   "url": "https://en.wikipedia.org/wiki/Max_Headroom_signal_hijackings",
+   "sa": false
+  }
+ ]
+}
