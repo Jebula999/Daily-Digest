@@ -1,0 +1,72 @@
+{
+ "day": "11-23",
+ "south_africa": [
+  {
+   "year": 1848,
+   "title": "Sir John Barrow (84), explorer of the interior of SA, dies in London 23 November 1887 Dr Hendrik Johannes van der Bijl, SA industrialist who laid the foundation for the establishment of Escom and Iscor, is born in Pretoria",
+   "text": "Hendrik Johannes van der Bijl, was born on 23 November 1887 in Pretoria. Van der Bijl was born into a very influential family as his father was a produce merchant and a property investor who…",
+   "url": "https://sahistory.org.za/dated-event/sir-john-barrow-84-explorer-interior-sa-dies-london",
+   "cape_town": false
+  },
+  {
+   "year": 1957,
+   "title": "Moroccan Army of Liberation attacks Spanish enclave of Ifni",
+   "text": "Morocco had been ruled by the Alaouite Dynasty since 1631. In 1859, a war was waged against Spain in an attempt to remain independent. Following this war, the French extended great influence and by…",
+   "url": "https://sahistory.org.za/dated-event/moroccan-army-liberation-attacks-spanish-enclave-ifni",
+   "cape_town": false
+  },
+  {
+   "year": 1982,
+   "title": "Lesotho and Swaziland threatened with sanctions",
+   "text": "The government of South Africa threatened Lesotho and Swaziland with economic sanctions if they continued to harbour African National Congress (ANC) insurgents. Their refusal to co-operate in this…",
+   "url": "https://sahistory.org.za/dated-event/lesotho-and-swaziland-threatened-sanctions",
+   "cape_town": false
+  },
+  {
+   "year": 1988,
+   "title": "P. W. Botha grants reprieve to the “Sharpeville Six”",
+   "text": "South African President P. W. Botha granted a reprieve to the \"Sharpeville Six\" (Reginald Sefatsa, Reid Mokoena, Moses Diniso, Theresa Ramashamole, Duma Khumalo and Francis Mokhesi), who were…",
+   "url": "https://sahistory.org.za/dated-event/p-w-botha-grants-reprieve-sharpeville-six",
+   "cape_town": false
+  },
+  {
+   "year": 2004,
+   "title": "Schalk Burger wins two International Awards",
+   "text": "The twenty-one year old South African rugby flanker, Schalk Burger, picked up two major international awards, the International Rugby Players' Association (IRPA) Player of the Year award and the…",
+   "url": "https://sahistory.org.za/dated-event/schalk-burger-wins-two-international-awards",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1635,
+   "text": "Dutch pacification campaign on Formosa: Soldiers from the Dutch East India Company (flag depicted) razed the village of Mattau, now part of modern-day Tainan, Taiwan.",
+   "url": "https://en.wikipedia.org/wiki/Dutch_pacification_campaign_on_Formosa",
+   "sa": false
+  },
+  {
+   "year": 1733,
+   "text": "African slaves in the Danish West Indies began an insurrection in one of the earliest and longest slave revolts in the Americas.",
+   "url": "https://en.wikipedia.org/wiki/Danish_West_Indies",
+   "sa": false
+  },
+  {
+   "year": 1924,
+   "text": "The New York Times published evidence from Edwin Hubble stating that the Andromeda Nebula, previously believed to be part of the Milky Way, is in fact another galaxy.",
+   "url": "https://en.wikipedia.org/wiki/The_New_York_Times",
+   "sa": false
+  },
+  {
+   "year": 1980,
+   "text": "An earthquake struck the Irpinia region of Italy, killing at least 2,483 people, injuring more than 7,700 and leaving 250,000 homeless.",
+   "url": "https://en.wikipedia.org/wiki/1980_Irpinia_earthquake",
+   "sa": false
+  },
+  {
+   "year": 2007,
+   "text": "MS Explorer became the first cruise ship to sink in the Southern Ocean.",
+   "url": "https://en.wikipedia.org/wiki/MV_Explorer_(1969)",
+   "sa": false
+  }
+ ]
+}
