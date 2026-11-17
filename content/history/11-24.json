@@ -1,0 +1,107 @@
+{
+ "day": "11-24",
+ "south_africa": [
+  {
+   "year": 1989,
+   "title": "President F. W. de Klerk announced the opening of four hitherto Whites-only residential areas to mixed settlement",
+   "text": "President F. W. de Klerk announced the opening of four hitherto Whites-only residential areas to mixed settlement. They included two districts in Johannesburg, one in Durban, and Cape Town's District…",
+   "url": "https://sahistory.org.za/dated-event/president-f-w-de-klerk-announced-opening-four-hitherto-whites-only-residential-areas",
+   "cape_town": true
+  },
+  {
+   "year": 1905,
+   "title": "Hansi Pauline Pollak, welfare worker and social activist, is born",
+   "text": "Hansi Pauline Pollak was born in Johannesburg in 1905. She served as an officer in command of the Women Army Auxiliary Services during the World War II. In 1944 she was seconded to undertake welfare…",
+   "url": "https://sahistory.org.za/dated-event/hansi-pauline-pollak-welfare-worker-and-social-activist-born",
+   "cape_town": false
+  },
+  {
+   "year": 1948,
+   "title": "SA artist Vuminkosi Zulu is born",
+   "text": "Former graduate of the famous Rorke's Drift School of Art, South African artist Vuminkosi Zulu, was born in Mapumulo in KwaZulu-Natal. He left school at standard VII to concentrate on his calling…",
+   "url": "https://sahistory.org.za/dated-event/sa-artist-vuminkosi-zulu-born",
+   "cape_town": false
+  },
+  {
+   "year": 1948,
+   "title": "Vuminkosi Zulu, S.A. sculptor is born in Mapumulo, Natal",
+   "text": "Vuminkosi Zulu was born in Mapumulo, Natal on 24 November 1948.He studied art at Rocke’s drift art school and completed his course in 1972. He decided to stay on as a resident artist until 1974. Zulu…",
+   "url": "https://sahistory.org.za/dated-event/vuminkosi-zulu-sa-sculptor-born-mapumulo-natal",
+   "cape_town": false
+  },
+  {
+   "year": 1977,
+   "title": "Ian Smith announced that he is ready to yield to majority rule in Rhodesia",
+   "text": "Ian Smith announced that he is ready to yield to majority rule in Rhodesia (now known as Zimbabwe). This represented an about turn from his announcement of the Unilateral Declaration of Independence…",
+   "url": "https://sahistory.org.za/dated-event/ian-smith-announced-he-ready-yield-majority-rule-rhodesia",
+   "cape_town": false
+  },
+  {
+   "year": 1983,
+   "title": "Carl Niehaus is sentenced to 15 years in prison for high treason for being a member of ANC underground",
+   "text": "Carl Niehaus grew up in Zeerust, North West Province, and completed his higher education at Rand Afrikaans University (RAU). A student of theology, Niehaus was months away from his final exams in…",
+   "url": "https://sahistory.org.za/dated-event/carl-niehaus-sentenced-15-years-prison-high-treason-being-member-anc-underground",
+   "cape_town": false
+  },
+  {
+   "year": 1985,
+   "title": "The hijacking of an Egypt Air passenger jet to Malta ends in bloodshed.",
+   "text": "The crisis began after gunmen took control of the passenger jet ten minutes after take off from Athens airport. The terrorists, calling themselves the Egypt Revolution, were heavily armed with guns…",
+   "url": "https://sahistory.org.za/dated-event/hijacking-egypt-air-passenger-jet-malta-ends-bloodshed",
+   "cape_town": false
+  },
+  {
+   "year": 1986,
+   "title": "Disinvestment moves by two major companies",
+   "text": "In a shocking move a major European company, Barclays Bank, announced that it was selling its remaining 40 per cent holding in its South African associate, Barclays National Bank Limited of South…",
+   "url": "https://sahistory.org.za/dated-event/disinvestment-moves-two-major-companies",
+   "cape_town": false
+  },
+  {
+   "year": 1995,
+   "title": "Pretoria’s first Black mayor",
+   "text": "Johannes Lebone Slo Ramokhoase was born in 1951 in Eesterus before the residents were moved to Mamelodi. He was the headmaster of Mamelodi High School and chairman of the South African Democratic…",
+   "url": "https://sahistory.org.za/dated-event/pretorias-first-black-mayor",
+   "cape_town": false
+  },
+  {
+   "year": 2005,
+   "title": "South African President Thabo Mbeki hails Liberian President Ellen Johnson-Sirleaf for making history by becoming Africa’s first elected woman president in post-war elections",
+   "text": "South African President Thabo Mbeki hails Liberian President Ellen Johnson-Sirleaf for making history by becoming Africa's first elected woman president in post-war elections. Mbeki said Sirleaf's…",
+   "url": "https://sahistory.org.za/dated-event/south-african-president-thabo-mbeki-hails-liberian-president-ellen-johnson-sirleaf",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1221,
+   "text": "Mongol invasion of the Khwarazmian Empire: Genghis Khan defeated the renegade Khwarazmian prince Jalal al-Din at the Battle of the Indus.",
+   "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire",
+   "sa": false
+  },
+  {
+   "year": 1859,
+   "text": "British naturalist Charles Darwin's On the Origin of Species was first published, and sold out its initial print run on the first day.",
+   "url": "https://en.wikipedia.org/wiki/Charles_Darwin",
+   "sa": false
+  },
+  {
+   "year": 1922,
+   "text": "Irish Civil War: Irish nationalist author Erskine Childers was executed by the Irish Free State for illegally carrying a semi-automatic pistol.",
+   "url": "https://en.wikipedia.org/wiki/Irish_Civil_War",
+   "sa": false
+  },
+  {
+   "year": 1943,
+   "text": "World War II: Following the American capture of Makin Atoll, USS Liscome Bay was sunk by a torpedo from Japanese submarine I-175, killing 644.",
+   "url": "https://en.wikipedia.org/wiki/World_War_II",
+   "sa": false
+  },
+  {
+   "year": 1976,
+   "text": "A magnitude-7.3 earthquake struck eastern Turkey, destroying most of buildings in the area and causing at least 4,000 casualties.",
+   "url": "https://en.wikipedia.org/wiki/1976_%C3%87ald%C4%B1ran%E2%80%93Muradiye_earthquake",
+   "sa": false
+  }
+ ]
+}

@@ -16,7 +16,10 @@
    "url": "https://www.quicket.co.za/events/405357-cape-town-open-nights/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-11-16"
+   "added": "2026-11-16",
+   "sessions": [
+    "2026-11-14T20:00+02:00"
+   ]
   },
   {
    "id": "b08fe04868",
@@ -31,51 +34,6 @@
    "url": "https://www.quicket.co.za/events/363702-sarie-kersfeesetes-2026-aangebied-deur-today/",
    "source": "Quicket",
    "description": "",
-   "added": "2026-11-16"
-  },
-  {
-   "id": "5bd774efaa",
-   "title": "Simon's Town Wine Festival",
-   "category": "food",
-   "start": "2026-11-20T18:00+02:00",
-   "end": "2026-11-20T20:30+02:00",
-   "all_day": false,
-   "venue": "Lord Charles Hotel",
-   "area": "Cape Town",
-   "price_from": 200.0,
-   "url": "https://www.capetown.travel/event/simons-town-wine-festival/",
-   "source": "Cape Town Tourism",
-   "description": "Hosted at the newly renovated Lord Nelson Inn Boutique Hotel, this special evening will bring together a selection of South African wine estates, offering guests ...",
-   "added": "2026-11-16"
-  },
-  {
-   "id": "d412af3fa5",
-   "title": "Healing Hike - Orange Kloof",
-   "category": "outdoors",
-   "start": "2026-11-21T08:00+02:00",
-   "end": "2026-11-21T13:30+02:00",
-   "all_day": false,
-   "venue": "Constantia Nek",
-   "area": "Cape Town",
-   "price_from": null,
-   "url": "https://www.quicket.co.za/events/403494-healing-hike-orange-kloof/",
-   "source": "Quicket",
-   "description": "",
-   "added": "2026-11-16"
-  },
-  {
-   "id": "b52cffb29c",
-   "title": "Red Bull King of the Air 2026",
-   "category": "other",
-   "start": "2026-11-21T08:00+02:00",
-   "end": "2026-12-06T17:00+02:00",
-   "all_day": false,
-   "venue": "Kite Beach",
-   "area": "Cape Town",
-   "price_from": null,
-   "url": "https://www.capetown.travel/event/red-bull-king-of-the-air-2026/",
-   "source": "Cape Town Tourism",
-   "description": "Cape Town’s famous summer winds set the stage for the return of Red Bull King of the Air, bringing the world’s best Big Air kitesurfers ...",
    "added": "2026-11-16"
   },
   {
@@ -96,21 +54,58 @@
    "blurb": "Trail runners race distances from 16km to 100 miles across Table Mountain National Park; good for cheering from the trails over the three days."
   },
   {
-   "id": "m-kirstenbosch-mi-casa",
-   "title": "Kirstenbosch Summer Sunset Concert: Mi Casa",
-   "category": "music",
-   "start": "2026-11-22T17:15+02:00",
-   "end": "2026-11-22T19:00+02:00",
+   "id": "5bd774efaa",
+   "title": "Simon's Town Wine Festival",
+   "category": "food",
+   "start": "2026-11-20T18:00+02:00",
+   "end": "2026-11-20T20:30+02:00",
    "all_day": false,
-   "venue": "Kirstenbosch National Botanical Garden",
-   "area": "Newlands",
-   "price_from": null,
-   "url": "https://www.capetownetc.com/events/kirstenbosch-unveils-19-concert-line-up-for-summer-sunset-season/",
-   "source": "Cape Town ETC",
-   "description": "Gates open 16:00. Tickets via Webtickets or the Kirstenbosch Ticket Office.",
+   "venue": "Lord Charles Hotel",
+   "area": "Cape Town",
+   "price_from": 200.0,
+   "url": "https://www.capetown.travel/event/simons-town-wine-festival/",
+   "source": "Cape Town Tourism",
+   "description": "Hosted at the newly renovated Lord Nelson Inn Boutique Hotel, this special evening will bring together a selection of South African wine estates, offering guests ...",
    "added": "2026-11-16",
-   "highlight": true,
-   "blurb": "Mi Casa opens the 19-concert summer season on the lawns at Kirstenbosch; gates open at 16:00."
+   "sessions": [
+    "2026-11-20T18:00+02:00"
+   ]
+  },
+  {
+   "id": "d412af3fa5",
+   "title": "Healing Hike - Orange Kloof",
+   "category": "outdoors",
+   "start": "2026-11-21T08:00+02:00",
+   "end": "2026-11-21T13:30+02:00",
+   "all_day": false,
+   "venue": "Constantia Nek",
+   "area": "Cape Town",
+   "price_from": null,
+   "url": "https://www.quicket.co.za/events/403494-healing-hike-orange-kloof/",
+   "source": "Quicket",
+   "description": "",
+   "added": "2026-11-16",
+   "sessions": [
+    "2026-11-21T08:00+02:00"
+   ]
+  },
+  {
+   "id": "b52cffb29c",
+   "title": "Red Bull King of the Air 2026",
+   "category": "other",
+   "start": "2026-11-21T08:00+02:00",
+   "end": "2026-12-06T17:00+02:00",
+   "all_day": false,
+   "venue": "Kite Beach",
+   "area": "Cape Town",
+   "price_from": null,
+   "url": "https://www.capetown.travel/event/red-bull-king-of-the-air-2026/",
+   "source": "Cape Town Tourism",
+   "description": "Cape Town’s famous summer winds set the stage for the return of Red Bull King of the Air, bringing the world’s best Big Air kitesurfers ...",
+   "added": "2026-11-16",
+   "sessions": [
+    "2026-11-21T08:00+02:00"
+   ]
   },
   {
    "id": "m-future-ghoema",
@@ -128,6 +123,23 @@
    "added": "2026-11-16",
    "highlight": true,
    "blurb": "Blake Hellaby and Hlelo Zungu present Future Ghoema with an eight-piece band at Bokeh in Claremont, a Cape Town Jazz Club show."
+  },
+  {
+   "id": "m-kirstenbosch-mi-casa",
+   "title": "Kirstenbosch Summer Sunset Concert: Mi Casa",
+   "category": "music",
+   "start": "2026-11-22T17:15+02:00",
+   "end": "2026-11-22T19:00+02:00",
+   "all_day": false,
+   "venue": "Kirstenbosch National Botanical Garden",
+   "area": "Newlands",
+   "price_from": null,
+   "url": "https://www.capetownetc.com/events/kirstenbosch-unveils-19-concert-line-up-for-summer-sunset-season/",
+   "source": "Cape Town ETC",
+   "description": "Gates open 16:00. Tickets via Webtickets or the Kirstenbosch Ticket Office.",
+   "added": "2026-11-16",
+   "highlight": true,
+   "blurb": "Mi Casa opens the 19-concert summer season on the lawns at Kirstenbosch; gates open at 16:00."
   }
  ],
  "skipped": [
@@ -149,6 +161,7 @@
   "https://www.artscape.co.za/the-bodyguard-the-musical-makes-its-sa-debut-in-march-2027/",
   "https://www.artscape.co.za/youth-classical-concert/",
   "https://www.capetown.travel/8-best-streets-for-a-cape-town-night-out/",
+  "https://www.capetown.travel/all-aboard-cruises-to-and-from-cape-town/",
   "https://www.capetown.travel/cape-town-creeps-into-the-worlds-top-50-halloween-destinations/",
   "https://www.capetown.travel/cape-town-named-one-of-the-worlds-most-desirable-cities-by-wanderlust-readers/",
   "https://www.capetown.travel/cape-town-restaurants-serving-up-a-feast-for-christmas-lunch/",
@@ -171,6 +184,7 @@
   "https://www.capetownetc.com/lifestyle/5-south-african-destinations-to-consider-for-a-solo-trip/",
   "https://www.capetownetc.com/lifestyle/major-cape-town-road-to-reopen-after-three-year-closure/",
   "https://www.capetownetc.com/lifestyle/sweet-orr-brings-155-years-of-workwear-heritage-into-fashion/",
+  "https://www.capetownetc.com/sponsored/omri-at-morea-house-a-table-at-the-lands-edge/",
   "https://www.capetownetc.com/sponsored/your-summer-escape-starts-at-franschhoek-cellar/",
   "https://www.capetownetc.com/things-to-do-cape-town/outdoors/rmb-utct-2026-launches-prestigious-award-for-africas-best-trail-runners/",
   "https://www.capetownetc.com/things-to-do-cape-town/restaurants/cape-town-in-december-a-summer-weekend-built-around-the-2026-hsbc-svns/",
