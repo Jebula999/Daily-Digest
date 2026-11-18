@@ -1,0 +1,100 @@
+{
+ "day": "11-25",
+ "south_africa": [
+  {
+   "year": 2004,
+   "title": "It is announced that a child prostitution and trafficking task team rescues 14 underage prostitutes in downtown Johannesburg",
+   "text": "Child kidnapping, trafficking and prostitution has become rife in the syndicates of Cape Town, Johannesburg and Durban. Children who are trafficked for sexual purposes are forced into prostitution by…",
+   "url": "https://sahistory.org.za/dated-event/it-announced-child-prostitution-and-trafficking-task-team-rescues-14-underage",
+   "cape_town": true
+  },
+  {
+   "year": 2004,
+   "title": "Acclaimed South African poet Sheila Cussons dies",
+   "text": "Acclaimed South African poet Sheila Cussons died in Cape Town. Cussons was known for her poetry works in Afrikaans, produced in ten volumes. Cussons was born on 9 August 1922 in Moravia, near…",
+   "url": "https://sahistory.org.za/dated-event/acclaimed-south-african-poet-sheila-cussons-dies",
+   "cape_town": true
+  },
+  {
+   "year": 1943,
+   "title": "SA Prime Minister speaks before the British Parliament",
+   "text": "In believing that his policies had finally been accepted by White South Africans, Prime Minister Jan Christiaan Smuts started to redirect his energy to world peace. In a somewhat moving speech to the…",
+   "url": "https://sahistory.org.za/dated-event/sa-prime-minister-speaks-british-parliament",
+   "cape_town": false
+  },
+  {
+   "year": 1945,
+   "title": "Stanley Bongani Nkosi, SA artist, is born in Newcastle, Natal",
+   "text": "Stanley Bongani Nkosi was born on 25 November 1945 in Newcastle, Natal (now kwaZulu Natal). When Nkosi was three years old his family moved to Dukathole near Germiston in the Transvaal (now Gauteng)…",
+   "url": "https://sahistory.org.za/dated-event/stanley-bongani-nkosi-sa-artist-born-newcastle-natal",
+   "cape_town": false
+  },
+  {
+   "year": 1957,
+   "title": "Mining Magnate Oppenheimer dies",
+   "text": "Financier, and mining and industrial magnate, Sir Ernest Oppenheimer, who founded the Anglo American Corporation, died in Johannesburg at the age of 77. Oppenheimer was credited with the creation of…",
+   "url": "https://sahistory.org.za/dated-event/mining-magnate-oppenheimer-dies",
+   "cape_town": false
+  },
+  {
+   "year": 1980,
+   "title": "Aaron Mokoena, SA footballer is born in Boipatong",
+   "text": "Footballer, Tebogo Aaron Mokoena was born on 25 November 1980 in Boipatong Johannesburg. In his early career, he played for local teams such as Jomo Cosmos. He later moved on to teams like Ajax…",
+   "url": "https://sahistory.org.za/dated-event/aaron-mokoena-sa-footballer-born-boipatong",
+   "cape_town": false
+  },
+  {
+   "year": 1981,
+   "title": "Mercenaries from South Africa led by Colonel “Mad Mike” Hoare, attempt an unsuccessful coup in Seychelles",
+   "text": "The armed mercenaries entered the Seychelles disguised as a beer-drinking tourist party, \"The Ancient Order of Froth-Blowers.\" Hoare's objective was to return to power ex-President James Mancham, 49,…",
+   "url": "https://sahistory.org.za/dated-event/mercenaries-south-africa-led-colonel-mad-mike-hoare-attempt-unsuccessful-coup",
+   "cape_town": false
+  },
+  {
+   "year": 1982,
+   "title": "SA government fails to integrate KaNgwane into Swaziland 25 November 1992 ANC Constitutional proposals are disclosed",
+   "text": "After a three day meeting of the National Executive Committee (NEC) of the African National Congress (ANC), the meeting adopted a new strategic policy, which offered a number of proposals to the…",
+   "url": "https://sahistory.org.za/dated-event/sa-government-fails-integrate-kangwane-swaziland",
+   "cape_town": false
+  },
+  {
+   "year": 1997,
+   "title": "Former member of the Mandela United Football Club, Katiza Cebekhulu appears before the TRC",
+   "text": "A former member of the Mandela United Football Club, Katiza Cebekhulu, who disappeared on the eve of the 1991 trial in which he was expected to testify, appeared before the Truth and Reconciliation…",
+   "url": "https://sahistory.org.za/dated-event/former-member-mandela-united-football-club-katiza-cebekhulu-appears-trc",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1491,
+   "text": "Reconquista: The signing of the Treaty of Granada effectively concluded the Granada War between Castile-Aragon and the Emirate of Granada.",
+   "url": "https://en.wikipedia.org/wiki/Reconquista",
+   "sa": false
+  },
+  {
+   "year": 1795,
+   "text": "Stanisław II Augustus, the last king of Poland, was forced to abdicate after the Third Partition of the Polish–Lithuanian Commonwealth.",
+   "url": "https://en.wikipedia.org/wiki/Stanis%C5%82aw_August_Poniatowski",
+   "sa": false
+  },
+  {
+   "year": 1901,
+   "text": "Gustav Mahler's Symphony No. 4 premiered in Munich.",
+   "url": "https://en.wikipedia.org/wiki/Gustav_Mahler",
+   "sa": false
+  },
+  {
+   "year": 1947,
+   "text": "McCarthyism: Executives from movie studios agreed to blacklist ten screenwriters and directors who were jailed for refusing to give testimony to the House Un-American Activities Committee.",
+   "url": "https://en.wikipedia.org/wiki/McCarthyism",
+   "sa": false
+  },
+  {
+   "year": 1970,
+   "text": "After failing to instigate a military coup to restore the powers of the Emperor of Japan, author Yukio Mishima and a member of his militia committed ritual suicide.",
+   "url": "https://en.wikipedia.org/wiki/Mishima_incident",
+   "sa": false
+  }
+ ]
+}

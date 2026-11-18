@@ -147,6 +147,11 @@
   "lon": 18.42673,
   "match": "Castle of Good Hope, Catzenellenbogen Bastion, Foreshore, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
  },
+ "Cavendish Square, Claremont": {
+  "lat": -33.98052,
+  "lon": 18.46323,
+  "match": "Cavendish Square, Warwick Street, Cape Town Ward 59, Cape Town, City of Cape Town, Western Cape, 7708, South Africa"
+ },
  "Civic Centre, Hertzog Boulevard, Foreshore": {
   "lat": -33.92059,
   "lon": 18.42952,
@@ -633,6 +638,11 @@
   "lat": -34.07223,
   "lon": 18.54851,
   "match": "St. Helena Close Park, 16, Cape Town Ward 43, City of Cape Town, Western Cape, South Africa"
+ },
+ "St James Tidal Pool, St James": {
+  "lat": -34.11873,
+  "lon": 18.45955,
+  "match": "St James Tidal Pool, Main Road, St. James, City of Cape Town, Western Cape, 7990, South Africa"
  },
  "Strand Beach, Strand": {
   "lat": -34.11583,
