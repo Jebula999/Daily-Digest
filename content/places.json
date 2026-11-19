@@ -34,6 +34,12 @@
   "lon": 18.65,
   "match": "Belgravia, Cape Town Ward 3, Bellville, City of Cape Town, Western Cape, 7532, South Africa"
  },
+ "Belhar": {
+  "lat": -33.94502,
+  "lon": 18.6105,
+  "match": "Belhar Secondary School, 2, Suikerbos Road, Belhar, Cape Town Ward 22, Cape Town, City of Cape Town, Western Cape, 7493, South Africa"
+ },
+ "Belhar Fire Station, Belhar": null,
  "Bellville": {
   "lat": -33.91279,
   "lon": 18.66254,
@@ -337,6 +343,11 @@
   "lon": 18.71444,
   "match": "Kleinvlei, Cape Town Ward 14, Eersterivier, City of Cape Town, Western Cape, 7129, South Africa"
  },
+ "Klip Road, Grassy Park": {
+  "lat": -34.04574,
+  "lon": 18.48752,
+  "match": "Klip Road, Cafda Village, Grassy Park, Cape Town, City of Cape Town, Western Cape, 7941, South Africa"
+ },
  "Klipfontein Road, Athlone": {
   "lat": -33.96231,
   "lon": 18.51157,
@@ -396,6 +407,11 @@
   "lat": -33.93182,
   "lon": 18.46598,
   "match": "Lower Main Road, Cape Town Ward 57, Cape Town, City of Cape Town, Western Cape, 7925, South Africa"
+ },
+ "Lower Tokai Park, Tokai": {
+  "lat": -34.05596,
+  "lon": 18.43415,
+  "match": "Lower Tokai, Cape Town Ward 71, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
  "Maitland": {
   "lat": -33.9225,
@@ -528,6 +544,12 @@
   "lon": 18.57038,
   "match": "Philippi, Cape Town Ward 80, Cape Town, City of Cape Town, Western Cape, 7755, South Africa"
  },
+ "Philippi East": {
+  "lat": -34.01041,
+  "lon": 18.60687,
+  "match": "Philippi East police station, 1, Ngqwangi Drive, Klipfontein, Cape Town Ward 35, Cape Town, City of Cape Town, Western Cape, 7100, South Africa"
+ },
+ "Philippi Village, Philippi": null,
  "Philippi railway station": {
   "lat": -34.01334,
   "lon": 18.58531,
@@ -593,6 +615,12 @@
   "lon": 18.4407,
   "match": "Searle Street, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 7925, South Africa"
  },
+ "Seawinds, Cape Town": {
+  "lat": -34.07812,
+  "lon": 18.48793,
+  "match": "Seawinds, City of Cape Town, Western Cape, South Africa"
+ },
+ "Seawinds, Lavender Hill": null,
  "Section Street, Paarden Eiland": {
   "lat": -33.91405,
   "lon": 18.47486,
@@ -613,6 +641,11 @@
   "lat": -34.19318,
   "lon": 18.43327,
   "match": "Simon's Town, City of Cape Town, Western Cape, 7995, South Africa"
+ },
+ "Sir Lowry Road, Woodstock": {
+  "lat": -33.92812,
+  "lon": 18.43805,
+  "match": "Kaospilot Cape Town, 176, Sir Lowry Road, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
  },
  "Sir Lowry's Pass Road, Gordon's Bay": {
   "lat": -34.15578,

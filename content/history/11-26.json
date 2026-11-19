@@ -1,0 +1,93 @@
+{
+ "day": "11-26",
+ "south_africa": [
+  {
+   "year": 1984,
+   "title": "Ramaphosa is arrested 26 November 1988 Liberation struggle activists, Gwala and Mothopeng are released from Robben Island",
+   "text": "Two members of the banned liberation movements, Harry Gwala, a member of the African National Congress (ANC) and Zephania Mothopeng a member of the Pan Africanist Congress (PAC) were released from…",
+   "url": "https://sahistory.org.za/dated-event/ramaphosa-arrested",
+   "cape_town": true
+  },
+  {
+   "year": 1910,
+   "title": "The corner stone of the Union Buildings in Pretoria is laid",
+   "text": "The Union Buildings is the seat of the South African government and is situated in the capital city, Pretoria, now known as Tshwane. It was designed by Sir Herbert Baker in 1908 and the building…",
+   "url": "https://sahistory.org.za/dated-event/corner-stone-union-buildings-pretoria-laid-0",
+   "cape_town": false
+  },
+  {
+   "year": 1943,
+   "title": "WW2: A German bomb fired off Algeria’s coast sinks British transport ship (HMT Rohna) carrying US soldiers.",
+   "text": "Built in 1926, the aging steam ship was pressed into service as a troop transport by the Royal Navy and had already carried thousands allied of troops to various war-zone destinations during World…",
+   "url": "https://sahistory.org.za/dated-event/ww2-german-bomb-fired-algerias-coast-sinks-british-transport-ship-hmt-rohna-carrying-us",
+   "cape_town": false
+  },
+  {
+   "year": 1953,
+   "title": "Desire Wilson is born",
+   "text": "Desiré Randall Wilson was born on 26 November 1953 in Brakpan. Wilson is a former racing driver who is one of only five women to have competed in Formula One. In 1980 she won the Formula One race at…",
+   "url": "https://sahistory.org.za/dated-event/desire-wilson-born",
+   "cape_town": false
+  },
+  {
+   "year": 1971,
+   "title": "The Black Affairs Administration Act comes into force",
+   "text": "The Black Affairs Administration Act No 45 commences. This Act provided for black self-government in townships. It was repealed by section 69 of the Black Communities Development Act No 4 of 1984.",
+   "url": "https://sahistory.org.za/dated-event/black-affairs-administration-act-comes-force",
+   "cape_town": false
+  },
+  {
+   "year": 1975,
+   "title": "Afrikaans Writer Breytenbach is sentenced",
+   "text": "On an illegal trip to South Africa with a false passport, a well-known Afrikaans writer Breyten Breytenbach was betrayed, arrested and sentenced to nine years imprisonment for high treason under the…",
+   "url": "https://sahistory.org.za/dated-event/afrikaans-writer-breytenbach-sentenced",
+   "cape_town": false
+  },
+  {
+   "year": 1980,
+   "title": "ANC calls on International community to save lives",
+   "text": "At the end of the Soekmekaar and Silverton trial in Pretoria, three young Black men, Noimbithi Johnson Lubisi 28, Petrus Tsepo Mashigo 20, and Naphtali Manani were found guilty of high treason, the…",
+   "url": "https://sahistory.org.za/dated-event/anc-calls-international-community-save-lives",
+   "cape_town": false
+  },
+  {
+   "year": 1998,
+   "title": "Zimbabwean ex-President found guilty of sex offences 26 November 1999 The Ncome Museum is opened",
+   "text": "The premier of KwaZulu-Natal, Mr L. Mtshali, welcomed guests at the opening of Ncome Museum, situated at the Ncome-Blood River Heritage Site. The Site is named after a nearby river known as Ncome in…",
+   "url": "https://sahistory.org.za/dated-event/zimbabwean-ex-president-found-guilty-sex-offences",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1835,
+   "text": "Texas Revolution: Texian forces attacked a Mexican pack train, capturing 40 saddlebags of grass.",
+   "url": "https://en.wikipedia.org/wiki/Texas_Revolution",
+   "sa": false
+  },
+  {
+   "year": 1914,
+   "text": "A large internal explosion destroyed HMS Bulwark near Sheerness, killing 741 people on board.",
+   "url": "https://en.wikipedia.org/wiki/HMS_Bulwark_(1899)",
+   "sa": false
+  },
+  {
+   "year": 1942,
+   "text": "A riot involving infantrymen, military police, and local law enforcement officers killed three people in Phoenix, Arizona.",
+   "url": "https://en.wikipedia.org/wiki/1942_Phoenix_Thanksgiving_Day_riot",
+   "sa": false
+  },
+  {
+   "year": 1977,
+   "text": "A speaker claiming to represent the \"Intergalactic Association\" interrupted a broadcast of Southern Television in South East England.",
+   "url": "https://en.wikipedia.org/wiki/Southern_Television_broadcast_interruption",
+   "sa": false
+  },
+  {
+   "year": 2011,
+   "text": "The Mars Science Laboratory mission, carrying the Curiosity rover on board, was launched from Cape Canaveral.",
+   "url": "https://en.wikipedia.org/wiki/Mars_Science_Laboratory",
+   "sa": true
+  }
+ ]
+}
