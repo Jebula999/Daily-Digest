@@ -155,6 +155,81 @@
    "added": "2026-11-16",
    "highlight": true,
    "blurb": "Mi Casa opens the 19-concert summer season on the lawns at Kirstenbosch; gates open at 16:00."
+  },
+  {
+   "id": "m-italy-in-town",
+   "title": "Italy in Town",
+   "category": "festivals",
+   "start": "2026-11-21T09:00+02:00",
+   "end": "2026-11-22T17:00+02:00",
+   "all_day": false,
+   "venue": "Castle of Good Hope",
+   "area": "Foreshore",
+   "price_from": 120,
+   "url": "https://www.capetownetc.com/things-to-do-cape-town/cape-town-this-weekend-kirstenbosch-opening-night-italian-piazza-vibes-and-more/",
+   "source": "Cape Town ETC",
+   "description": "Saturday 09:00–22:00, Sunday until 17:00. Early-bird tickets R150 (Saturday) and R120 (Sunday) via Quicket; wine-tasting cards extra (18+).",
+   "added": "2026-11-20",
+   "sessions": [
+    "2026-11-21T09:00+02:00",
+    "2026-11-22T09:00+02:00"
+   ],
+   "highlight": true,
+   "blurb": "An Italian-themed festival with food and wine tasting at the Castle of Good Hope on Saturday and Sunday."
+  },
+  {
+   "id": "m-kommetjie-festival",
+   "title": "Kommetjie Festival",
+   "category": "festivals",
+   "start": "2026-11-21T06:00+02:00",
+   "end": "2026-11-21T23:00+02:00",
+   "all_day": false,
+   "venue": "Beach Road",
+   "area": "Kommetjie",
+   "price_from": 20,
+   "url": "https://www.capetownetc.com/things-to-do-cape-town/cape-town-this-weekend-kirstenbosch-opening-night-italian-piazza-vibes-and-more/",
+   "source": "Cape Town ETC",
+   "description": "From R20 via Quicket; activities sold separately.",
+   "added": "2026-11-20"
+  },
+  {
+   "id": "m-cape-town-coffee-show",
+   "title": "Cape Town Coffee Show",
+   "category": "food",
+   "start": "2026-11-21T10:00+02:00",
+   "end": "2026-11-22T17:00+02:00",
+   "all_day": false,
+   "venue": "Newlands Cricket Ground, 146 Campground Road",
+   "area": "Newlands",
+   "price_from": 183,
+   "url": "https://www.capetownetc.com/things-to-do-cape-town/cape-town-this-weekend-kirstenbosch-opening-night-italian-piazza-vibes-and-more/",
+   "source": "Cape Town ETC",
+   "description": "First edition. Saturday Roasters Village session 10:00–13:00 (R183); check Sunday session times when booking via Fixr.",
+   "added": "2026-11-20",
+   "sessions": [
+    "2026-11-21T10:00+02:00",
+    "2026-11-22T10:00+02:00"
+   ]
+  },
+  {
+   "id": "m-lumenocity-norval",
+   "title": "The Art of Light by LUMENOCITY",
+   "category": "art",
+   "start": "2026-11-20T17:00+02:00",
+   "end": "2026-11-29T22:30+02:00",
+   "all_day": false,
+   "venue": "Norval Foundation Sculpture Garden, 4 Steenberg Road",
+   "area": "Tokai",
+   "price_from": 150,
+   "url": "https://www.capetownetc.com/lifestyle/lumenocity-brings-a-new-glow-to-cape-towns-norval-foundation-this-november/",
+   "source": "Cape Town ETC",
+   "description": "Evenings 17:00–22:30 (last entry 22:00), closed 23 and 24 November. R250, R150 for pensioners and under-16s, via Quicket. No dogs; limited parking.",
+   "added": "2026-11-20",
+   "sessions": [
+    "2026-11-20T17:00+02:00",
+    "2026-11-21T17:00+02:00",
+    "2026-11-22T17:00+02:00"
+   ]
   }
  ],
  "skipped": [
