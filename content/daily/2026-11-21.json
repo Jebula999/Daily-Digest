@@ -1,0 +1,69 @@
+{
+ "date": "2026-11-21",
+ "loadshedding": {
+  "stage": 0,
+  "label": "No load-shedding",
+  "source": "Eskom",
+  "url": "https://loadshedding.eskom.co.za/"
+ },
+ "weather": {
+  "min": 14,
+  "max": 21,
+  "rain_mm": 0.2,
+  "rain_chance": 10,
+  "wind_kmh": 16,
+  "gust_kmh": 53,
+  "wind_deg": 286,
+  "wind_from": "WNW",
+  "uv": 9,
+  "code": 51,
+  "source": "Open-Meteo"
+ },
+ "meetings": [
+  {
+   "id": 30263,
+   "title": "MPT South Eastern",
+   "date": "2026-11-24",
+   "start": "08:30",
+   "category": "MPTMeeting",
+   "venue": "Microsoft Teams",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 30277,
+   "title": "MPT North Western",
+   "date": "2026-11-30",
+   "start": "08:30",
+   "category": "MPTMeeting",
+   "venue": "Microsoft Teams",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 17149,
+   "title": "Mayoral Committee",
+   "date": "2026-11-30",
+   "start": "11:00",
+   "category": "ECSMeeting",
+   "venue": "Council Chamber Cape Town Civic Centre",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 30273,
+   "title": "MPT North Western",
+   "date": "2026-12-01",
+   "start": "08:30",
+   "category": "MPTMeeting",
+   "venue": "Microsoft Teams",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  },
+  {
+   "id": 17040,
+   "title": "Planning Appeals Advisory Panel",
+   "date": "2026-12-02",
+   "start": "09:00",
+   "category": "ECSMeeting",
+   "venue": "Ray Alexander Simon Room Civic Centre",
+   "url": "https://web1.capetown.gov.za/web1/councilhubonline/councilandCommitteemeetings"
+  }
+ ]
+}

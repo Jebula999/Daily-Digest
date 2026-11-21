@@ -1,0 +1,65 @@
+{
+ "day": "11-28",
+ "south_africa": [
+  {
+   "year": 1879,
+   "title": "Pedi chief is defeated by the British in the Battle of Sekhukhune 28 November 1904 The first woman to be executed in South Africa 28 November 1907 King Leopold II of Belgium hands over the administration of the Congo to the Belgian parliament",
+   "text": "From the beginning of colonialism in the 1880s following the 'scramble for Africa', the Congo had been regarded as Leopold II's personal fiefdom. Leopold's administration of the Congo is reputed to…",
+   "url": "https://sahistory.org.za/dated-event/pedi-chief-defeated-british-battle-sekhukhune",
+   "cape_town": false
+  },
+  {
+   "year": 1924,
+   "title": "Dennis Brutus is born",
+   "text": "Dennis Vincent Brutus was born on 8 November 1924 in Salisbury, Southern Rhodesia (now Harare, Zimbabwe) to South African parents. His parents moved back to South Africa and settled in Port Elizabeth…",
+   "url": "https://sahistory.org.za/dated-event/dennis-brutus-born",
+   "cape_town": false
+  },
+  {
+   "year": 1951,
+   "title": "Trade unionist Clements Kadalie dies in East London",
+   "text": "Trade unionist, Lameck Koniwaka Kadali Muwamba, known by his adopted name, Clements Kadalie, was born in April 1896, near the Bandawe mission station in Nyasaland, now Malawi. After being educated at…",
+   "url": "https://sahistory.org.za/dated-event/trade-unionist-clements-kadalie-dies-east-london",
+   "cape_town": false
+  },
+  {
+   "year": 1985,
+   "title": "Two strategic saboteurs attack in Secunda 28 November 1987 SAA Helderberg 747 crashes",
+   "text": "The South African Airways Helderberg 747 jet aircraft crashed into the Indian Ocean near Mauritius, killing all 159 people on board. A fire, which started from the main deck cargo hold, caused the…",
+   "url": "https://sahistory.org.za/dated-event/two-strategic-saboteurs-attack-secunda",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1443,
+   "text": "Having deserted the Ottoman army, Skanderbeg arrived in the Albanian city of Krujë and, using a forged letter from Sultan Murad II to the governor of Krujë, became lord of the city.",
+   "url": "https://en.wikipedia.org/wiki/Ottoman_Empire",
+   "sa": false
+  },
+  {
+   "year": 1729,
+   "text": "Natchez Indians revolted against French colonists near modern-day Natchez, Mississippi, killing approximately 230 people.",
+   "url": "https://en.wikipedia.org/wiki/Natchez_people",
+   "sa": false
+  },
+  {
+   "year": 1912,
+   "text": "At the All-Albanian Congress, the Assembly of Vlorë was constituted, which declared the independence of the Albanian Vilayet from the Ottoman Empire.",
+   "url": "https://en.wikipedia.org/wiki/All-Albanian_Congress",
+   "sa": false
+  },
+  {
+   "year": 1971,
+   "text": "Wasfi Tal, Prime Minister of Jordan, was assassinated in Cairo by gunmen from the Black September Organization.",
+   "url": "https://en.wikipedia.org/wiki/Wasfi_Tal",
+   "sa": false
+  },
+  {
+   "year": 1987,
+   "text": "South African Airways Flight 295 suffered a catastrophic in-flight fire and crashed into the Indian Ocean east of Mauritius, killing all 159 people on board.",
+   "url": "https://en.wikipedia.org/wiki/South_African_Airways_Flight_295",
+   "sa": true
+  }
+ ]
+}
