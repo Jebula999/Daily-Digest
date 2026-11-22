@@ -1,0 +1,58 @@
+{
+ "day": "11-29",
+ "south_africa": [
+  {
+   "year": 1789,
+   "title": "The Groote Kerk pulpit, sculpted by Anton Anreith, is inaugurated in Cape Town",
+   "text": "The Groote Kerk is the oldest Dutch Reformed Church in South Africa. It is located at Church Square in Adderly Street, Cape Town. Its architecture boasts a peculiar combination of Greek and Gothic…",
+   "url": "https://sahistory.org.za/dated-event/groote-kerk-pulpit-sculpted-anton-anreith-inaugurated-cape-town",
+   "cape_town": true
+  },
+  {
+   "year": 1922,
+   "title": "Archaeologists announce they have found treasures in the tomb of Tutankhamen in Egypt 29 November 1929 University of Pretoria is established",
+   "text": "On 10 February 1908 a new department of the Transvaal University College (T.U.C.), situated in Johannesburg, started its classes in Kya Rosa, a house in Skinner Street, Pretoria. This department,…",
+   "url": "https://sahistory.org.za/dated-event/archaeologists-announce-they-have-found-treasures-tomb-tutankhamen-egypt",
+   "cape_town": false
+  },
+  {
+   "year": 1991,
+   "title": "CODESA’s starting date set",
+   "text": "Delegates from twenty groups agreed after preparatory talks in Johannesburg on a date for the start of substantive negotiations on South Africa's future constitution, a Convention for a Democratic…",
+   "url": "https://sahistory.org.za/dated-event/codesas-starting-date-set",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 903,
+   "text": "The Abbasid Caliphate captured the Qarmatian leadership at the Battle of Hama in Syria, opening the way for the reconquest of Tulunid Egypt.",
+   "url": "https://en.wikipedia.org/wiki/Abbasid_Caliphate",
+   "sa": false
+  },
+  {
+   "year": 1810,
+   "text": "Napoleonic Wars: British troops rendezvoused at Grand Baie to launch an invasion of Isle de France, now known as Mauritius.",
+   "url": "https://en.wikipedia.org/wiki/Napoleonic_Wars",
+   "sa": false
+  },
+  {
+   "year": 1899,
+   "text": "FC Barcelona, one of the most successful clubs in Spanish football, was founded by Swiss football pioneer Joan Gamper.",
+   "url": "https://en.wikipedia.org/wiki/FC_Barcelona",
+   "sa": false
+  },
+  {
+   "year": 1963,
+   "text": "Five minutes after taking off from Montréal–Dorval, Trans-Canada Air Lines Flight 831 crashed in bad weather, killing all 118 people on board.",
+   "url": "https://en.wikipedia.org/wiki/Montr%C3%A9al%E2%80%93Trudeau_International_Airport",
+   "sa": false
+  },
+  {
+   "year": 1982,
+   "text": "Michael Jackson's Thriller, the best-selling album of all time, was released.",
+   "url": "https://en.wikipedia.org/wiki/Michael_Jackson",
+   "sa": false
+  }
+ ]
+}
