@@ -248,6 +248,11 @@
   "lon": 18.53663,
   "match": "Fisher Avenue, Epping 1, Cape Town Ward 53, Cape Town, City of Cape Town, Western Cape, 7455, South Africa"
  },
+ "Gardens Rugby Club": {
+  "lat": -33.94477,
+  "lon": 18.41343,
+  "match": "Gardens CPUT Rugby Club, Montreal Avenue, Cape Town Ward 77, Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
+ },
  "Glen Close, Grassy Park": {
   "lat": -34.03927,
   "lon": 18.49851,
@@ -267,6 +272,11 @@
   "lat": -34.16112,
   "lon": 18.86869,
   "match": "Gordon's Bay, Cape Town Ward 100, City of Cape Town, Western Cape, 7151, South Africa"
+ },
+ "Grand Parade": {
+  "lat": -33.92487,
+  "lon": 18.4248,
+  "match": "Grand Parade, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
  "Grassy Park": {
   "lat": -34.04513,
@@ -312,6 +322,11 @@
   "lat": -34.04987,
   "lon": 18.34751,
   "match": "Hout Bay Yacht Club Marina, Harbour Road, The Spinnaker, Cape Town Ward 74, Hout Bay, City of Cape Town, Western Cape, 7872, South Africa"
+ },
+ "Ihobe Street, Khayelitsha": {
+  "lat": -34.02711,
+  "lon": 18.67703,
+  "match": "Ihobe Street, Sabata Dalindyebo Square (Green Point), Cape Town Ward 93, Khayelitsha, City of Cape Town, Western Cape, 7783, South Africa"
  },
  "Joostenbergvlakte": {
   "lat": -33.82861,
