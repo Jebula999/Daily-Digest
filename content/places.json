@@ -238,6 +238,11 @@
   "lon": 18.65549,
   "match": "False Bay, City of Cape Town, Western Cape, South Africa"
  },
+ "Firdale Avenue, Gardens": {
+  "lat": -33.93616,
+  "lon": 18.40226,
+  "match": "Firdale Avenue, Cape Town Ward 77, Cape Town, City of Cape Town, Western Cape, 8001, South Africa"
+ },
  "Fish Hoek Beach": {
   "lat": -34.13697,
   "lon": 18.43423,
@@ -499,6 +504,11 @@
   "lon": 18.50435,
   "match": "Muizenberg Beach, Cape Town Ward 64, City of Cape Town, Western Cape, South Africa"
  },
+ "N2, Somerset West": {
+  "lat": -34.08136,
+  "lon": 18.82384,
+  "match": "Mall Information & Cape Town Tourism, N2, Westridge, Cape Town Ward 15, Somerset West, City of Cape Town, Western Cape, 7130, South Africa"
+ },
  "Newlands": {
   "lat": -33.97428,
   "lon": 18.4573,
@@ -754,6 +764,11 @@
   "match": "Vrygrond, City of Cape Town, Western Cape, South Africa"
  },
  "Vygieskraal, Athlone": null,
+ "Westridge, Mitchells Plain": {
+  "lat": -34.05093,
+  "lon": 18.59568,
+  "match": "Westridge Secondary School, Silversands Avenue, Westridge, Cape Town Ward 78, Cape Town, City of Cape Town, Western Cape, 7798, South Africa"
+ },
  "Woodstock": {
   "lat": -33.93056,
   "lon": 18.44722,

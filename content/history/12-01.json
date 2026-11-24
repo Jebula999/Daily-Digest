@@ -1,0 +1,107 @@
+{
+ "day": "12-01",
+ "south_africa": [
+  {
+   "year": 1834,
+   "title": "Slavery abolished in the Cape",
+   "text": "On 1 December 1834, slavery came to an end in the Cape Colony. The move to abolish slavery in the Colony came a year after the Slavery Abolition Bill of 1833 was passed by the British House of…",
+   "url": "https://sahistory.org.za/dated-event/slavery-abolished-cape-0",
+   "cape_town": true
+  },
+  {
+   "year": 1890,
+   "title": "Kimberly linked by rail to Barkley West",
+   "text": "The railway line from Kimberley reaches Fourteen Streams, Barkley West. The railway line had initially been commissioned by the Cape Government and eventually stretched to Vryburg, in what is now…",
+   "url": "https://sahistory.org.za/dated-event/kimberly-linked-rail-barkley-west",
+   "cape_town": true
+  },
+  {
+   "year": 1999,
+   "title": "Unesco lists Robben Island as a World Heritage Site",
+   "text": "Robben Island is located off the coast Cape Town and was named as such by Dutch explorers who encountered many seals on the island. It was however, discovered in 1488 by the Portuguese explorer,…",
+   "url": "https://sahistory.org.za/dated-event/unesco-lists-robben-island-world-heritage-site",
+   "cape_town": true
+  },
+  {
+   "year": 1880,
+   "title": "The railway line between Durban and Pietermaritzburg is completed",
+   "text": "The construction of the railway line linking Durban and Pietermaritzburg was completed in 1880, the twentieth anniversary of railways in South Africa. The line was constructed as result of a mounting…",
+   "url": "https://sahistory.org.za/dated-event/railway-line-between-durban-and-pietermaritzburg-completed",
+   "cape_town": false
+  },
+  {
+   "year": 1978,
+   "title": "Transkei’s first President, Paramount Chief Botha Sigcau, dies",
+   "text": "Transkei's first President, Paramount Chief Botha Sigcau, died of a heart attack. Prime Minister K.D. Matanzima announced his retirement from active politics, but would accept nomination as President…",
+   "url": "https://sahistory.org.za/dated-event/transkeis-first-president-paramount-chief-botha-sigcau-dies",
+   "cape_town": false
+  },
+  {
+   "year": 1986,
+   "title": "Dr Ribeiro and his wife are gunned down",
+   "text": "The medical practitioner and political activist, Dr Fabian Defu Ribeiro, and his wife, a teacher turned businesswoman, Florence Barbara Ribeiro, were finally gunned down in their own courtyard on 1…",
+   "url": "https://sahistory.org.za/dated-event/dr-ribeiro-and-his-wife-are-gunned-down",
+   "cape_town": false
+  },
+  {
+   "year": 1987,
+   "title": "Julius Nyerere chairman of the Chama Cha Mapinduzi (CCM) addresses the ANC in Arusha",
+   "text": "Julius Nyerere president of the Chama Cha Mapinduzi (CCM), a party that succeeded the TANU, addressed delegates attending the African National Congress (ANC) conference in the Tanzanian city of…",
+   "url": "https://sahistory.org.za/dated-event/julius-nyerere-chairman-chama-cha-mapinduzi-ccm-addresses-anc-arusha",
+   "cape_town": false
+  },
+  {
+   "year": 1988,
+   "title": "World Aids Day is internationally observed for the first time",
+   "text": "Following the January 1988 meeting of Health Ministers in London, a decision was taken that 1 December would annually be observed as World Aids Day. This step was motivated by the growing realisation…",
+   "url": "https://sahistory.org.za/dated-event/world-aids-day-internationally-observed-first-time",
+   "cape_town": false
+  },
+  {
+   "year": 1999,
+   "title": "South African GMO Act implemented",
+   "text": "The Genetically Modified Act 15 of 1997 was implemented by the Department of Agriculture on 1 December 1999.[i] The Act was aimed at regulating all South Africa’s genetically modified activities…",
+   "url": "https://sahistory.org.za/dated-event/south-african-gmo-act-implemented",
+   "cape_town": false
+  },
+  {
+   "year": 2006,
+   "title": "The first Gay Marriage in South Africa",
+   "text": "On this day in South African history, Vernon Gibbs and Tony Halls became the first same sex couple to legally wed in the country, one day after President Thabo Mbeki’s government legalized gay…",
+   "url": "https://sahistory.org.za/dated-event/first-gay-marriage-south-africa",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1800,
+   "text": "French Revolutionary Wars: Austrian forces, led by 18-year-old Archduke John, defeated two divisions of the French First Republic near Ampfing, Bavaria.",
+   "url": "https://en.wikipedia.org/wiki/French_Revolutionary_Wars",
+   "sa": false
+  },
+  {
+   "year": 1828,
+   "text": "Returning to Buenos Aires with troops who fought in the Cisplatine War, Juan Lavalle deposed provincial governor Manuel Dorrego, reigniting the Argentine Civil Wars.",
+   "url": "https://en.wikipedia.org/wiki/Cisplatine_War",
+   "sa": false
+  },
+  {
+   "year": 1934,
+   "text": "Soviet politician Sergei Kirov was assassinated at the Smolny Institute in Leningrad.",
+   "url": "https://en.wikipedia.org/wiki/Sergei_Kirov",
+   "sa": false
+  },
+  {
+   "year": 1958,
+   "text": "The musical Flower Drum Song by Rodgers and Hammerstein premiered on Broadway.",
+   "url": "https://en.wikipedia.org/wiki/Flower_Drum_Song",
+   "sa": false
+  },
+  {
+   "year": 1971,
+   "text": "A period of political and economic reforms in the Socialist Republic of Croatia came to an end as the League of Communists of Yugoslavia decided to purge the state's reformist leadership.",
+   "url": "https://en.wikipedia.org/wiki/Croatian_Spring",
+   "sa": false
+  }
+ ]
+}
