@@ -137,6 +137,7 @@
   "lon": 18.37772,
   "match": "Camps Bay Beach, Camps Bay, Cape Town Ward 54, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
+ "Cape Town CBD": null,
  "Cape Town Civic Centre": null,
  "Cape Town International Airport": {
   "lat": -33.97185,
@@ -463,6 +464,7 @@
   "lon": 18.55444,
   "match": "Manenberg, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
+ "Marikana, Philippi": null,
  "Melkbosstrand": {
   "lat": -33.72222,
   "lon": 18.44583,
@@ -558,6 +560,11 @@
   "lat": -33.90106,
   "lon": 18.54397,
   "match": "Cape Town Ward 27, Parow, City of Cape Town, Western Cape, South Africa"
+ },
+ "Parow Police Station": {
+  "lat": -33.90481,
+  "lon": 18.59559,
+  "match": "SAPS Parow Police Station, Arnold Wilhelm Street, Cape Town Ward 10, Cape Town, City of Cape Town, Western Cape, 7500, South Africa"
  },
  "Parow Valley": {
   "lat": -33.91364,
