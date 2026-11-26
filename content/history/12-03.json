@@ -1,0 +1,86 @@
+{
+ "day": "12-03",
+ "south_africa": [
+  {
+   "year": 1967,
+   "title": "Dr Chris Barnard performs the world’s first human heart transplant",
+   "text": "On 3 December 1967, South African doctor, Dr Christiaan (Chris) Barnard, performed the world's first human to human heart transplant at Groote Schuur Hospital, Cape Town. This extraordinary event…",
+   "url": "https://sahistory.org.za/dated-event/dr-chris-barnard-performs-worlds-first-human-heart-transplant",
+   "cape_town": true
+  },
+  {
+   "year": 1986,
+   "title": "Winnie Mandela attacked by a group of people",
+   "text": "Winnie Mandela, at the time wife of imprisoned African National Congress (ANC) leader Nelson Mandela, was pelted with eggs and cool drink cans while leaving the Supreme Court in Cape Town. She blamed…",
+   "url": "https://sahistory.org.za/dated-event/winnie-mandela-attacked-group-people",
+   "cape_town": true
+  },
+  {
+   "year": 1950,
+   "title": "Muntu Myeza, SA anti-apartheid activist, is born.",
+   "text": "Muntu Myeza was Secretary General of the Azanian People’s Organisation (AZAPO), an affiliate of the Black Consciousness Movement. At the age of 22 , he joined the first black consciousness…",
+   "url": "https://sahistory.org.za/dated-event/muntu-myeza-sa-anti-apartheid-activist-born",
+   "cape_town": false
+  },
+  {
+   "year": 1955,
+   "title": "Bruce Fordyce is born",
+   "text": "Bruce Fordyce, legendary South African winner of the Comrades Marathon, was born in Hong Kong, then a city under English administration on the eastern side of Pearl River Delta and now a Special…",
+   "url": "https://sahistory.org.za/dated-event/bruce-fordyce-born",
+   "cape_town": false
+  },
+  {
+   "year": 1959,
+   "title": "Britain and Egypt agree on independence for Sudan.",
+   "text": "Britain and Egypt agree on independence for Sudan following years of colonial rule. The tale of these two countries’ rule over Sudan dates back the 19th century. In 1823, Egyptians founded Khartoum…",
+   "url": "https://sahistory.org.za/dated-event/britain-and-egypt-agree-independence-sudan",
+   "cape_town": false
+  },
+  {
+   "year": 1971,
+   "title": "King Goodwill Zwelithini is installed",
+   "text": "On his return from exile to St Helena, King Goodwill Zwelithini was installed as the eight monarch of the Zulu nation. He took reigns over from Prince Israel Mcwayizeni KaSolomon who acted as regent…",
+   "url": "https://sahistory.org.za/dated-event/king-goodwill-zwelithini-installed",
+   "cape_town": false
+  },
+  {
+   "year": 1988,
+   "title": "Johnstone Mfanafuthi Makhathini, ANC’s head of the Department of International Affairs, dies in exile in Zambia 3 December 1995 Cameroon Boeing 737 crashes 3 December 2002 World Food Program warns the UN that a record 38 million people are at risk of starvation in Africa",
+   "text": "The World Food Program (WFP) was started in 1962 and is concerned with 'providing enough food for every child, woman and man to live an active life'. It is part of the United Nations (UN) program and…",
+   "url": "https://sahistory.org.za/dated-event/johnstone-mfanafuthi-makhathini-ancs-head-department-international-affairs-dies-exile",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1283,
+   "text": "During the First Mongol invasion of Burma, the fort at Ngasaunggyan was overrun after a two-month siege.",
+   "url": "https://en.wikipedia.org/wiki/First_Mongol_invasion_of_Burma",
+   "sa": false
+  },
+  {
+   "year": 1904,
+   "text": "Himalia, Jupiter's largest irregular moon, was discovered by Charles Dillon Perrine at the Lick Observatory in California.",
+   "url": "https://en.wikipedia.org/wiki/Himalia_(moon)",
+   "sa": false
+  },
+  {
+   "year": 1937,
+   "text": "Rupert Bruce-Mitford, the spiritus rector of research on the Sutton Hoo ship burial, joined the British Museum.",
+   "url": "https://en.wikipedia.org/wiki/Rupert_Bruce-Mitford",
+   "sa": false
+  },
+  {
+   "year": 1979,
+   "text": "Following the result of a two-day referendum, the current Constitution of Iran was adopted.",
+   "url": "https://en.wikipedia.org/wiki/1979_Iranian_constitutional_referendum",
+   "sa": false
+  },
+  {
+   "year": 1994,
+   "text": "Sony released the PlayStation, the first computer entertainment platform to ship 100 million units.",
+   "url": "https://en.wikipedia.org/wiki/Sony_Interactive_Entertainment",
+   "sa": false
+  }
+ ]
+}

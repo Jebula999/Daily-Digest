@@ -204,6 +204,11 @@
   "lon": 18.64985,
   "match": "Delft Primary School, Voorbrug Road, Voorbrug, Cape Town Ward 20, Cape Town, City of Cape Town, Western Cape, 7100, South Africa"
  },
+ "Devil's Peak": {
+  "lat": -33.95461,
+  "lon": 18.44039,
+  "match": "Devil's Peak, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
  "Duinefontein Road, Phola Park": {
   "lat": -33.97845,
   "lon": 18.55563,
@@ -359,6 +364,11 @@
   "lon": 18.70818,
   "match": "Cape Town Ward 96, Khayelitsha, City of Cape Town, Western Cape, South Africa"
  },
+ "Khayelitsha Magistrate's Court": {
+  "lat": -34.04759,
+  "lon": 18.6758,
+  "match": "Khayelitsha Magistrate's Court, Walter Sisulu Road, Graceland, Cape Town Ward 94, Khayelitsha, City of Cape Town, Western Cape, 7748, South Africa"
+ },
  "Kleinvlei": {
   "lat": -33.98583,
   "lon": 18.71444,
@@ -434,6 +444,11 @@
   "lon": 18.43415,
   "match": "Lower Tokai, Cape Town Ward 71, Cape Town, City of Cape Town, Western Cape, South Africa"
  },
+ "Main Road, St James": {
+  "lat": -34.12369,
+  "lon": 18.45271,
+  "match": "Main Road, Cape Town Ward 64, City of Cape Town, Western Cape, 7990, South Africa"
+ },
  "Maitland": {
   "lat": -33.9225,
   "lon": 18.49306,
@@ -505,6 +520,11 @@
   "lat": -34.09738,
   "lon": 18.50435,
   "match": "Muizenberg Beach, Cape Town Ward 64, City of Cape Town, Western Cape, South Africa"
+ },
+ "N1, Paarden Eiland": {
+  "lat": -33.91784,
+  "lon": 18.47845,
+  "match": "N1, Cape Town Ward 115, Cape Town, City of Cape Town, Western Cape, 7425, South Africa"
  },
  "N2, Somerset West": {
   "lat": -34.08136,
@@ -636,6 +656,11 @@
   "lat": -34.02119,
   "lon": 18.5847,
   "match": "Samora Machel Primary School, 11, Langa Massacre Road, Cape Town Ward 33, Cape Town, City of Cape Town, Western Cape, 7750, South Africa"
+ },
+ "Sandy Bay, Llandudno": {
+  "lat": -34.02343,
+  "lon": 18.33138,
+  "match": "Sandy Bay Beach, Llandudno, Cape Town Ward 74, Hout Bay, City of Cape Town, Western Cape, South Africa"
  },
  "Sarel Cilliers Street, Strand": {
   "lat": -34.11277,
