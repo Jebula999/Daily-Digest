@@ -1,0 +1,93 @@
+{
+ "day": "12-04",
+ "south_africa": [
+  {
+   "year": 1809,
+   "title": "An earthquake, measuring 6.5 on the Richter scale, hits Cape Town.",
+   "text": "On 4 December 1809 Cape Town was hit by an earthquake measuring 6.5 on the Richter scale. It is the biggest recorded earthquake to have hit the area. The quake was caused by the Milnerton fault,…",
+   "url": "https://sahistory.org.za/dated-event/earthquake-measuring-65-richter-scale-hits-cape-town",
+   "cape_town": true
+  },
+  {
+   "year": 1967,
+   "title": "Marc Lottering was born on this day",
+   "text": "On this day Marc Eugene Lottering, one of the most prominent comedians and entertainers in South African history, was born in Cape Town. [i] Endnotes [i] Getting to know Marc Lottering, http://www…",
+   "url": "https://sahistory.org.za/dated-event/marc-lottering-was-born-day",
+   "cape_town": true
+  },
+  {
+   "year": 2001,
+   "title": "Marike de Klerk is found murdered",
+   "text": "Former South African first lady, Marike de Klerk, was found murdered at her luxury beachfront apartment in Cape Town. The ex-wife of former South African president F.W. de Klerk was stabbed from…",
+   "url": "https://sahistory.org.za/dated-event/marike-de-klerk-found-murdered",
+   "cape_town": true
+  },
+  {
+   "year": 1893,
+   "title": "Allison Wessels George (Mhlongo) Champion is born",
+   "text": "Trade union leader, politician and businessman, Allison Wessels George (Mhlongo) Champion, was born at Sans Souci Mission Station at Nonyeke, near Groutville, Stanger district in Natal. He assumed…",
+   "url": "https://sahistory.org.za/dated-event/allison-wessels-george-mhlongo-champion-born",
+   "cape_town": false
+  },
+  {
+   "year": 1917,
+   "title": "Afrikaans linguist H J Terblanche is born",
+   "text": "Dr Hendrik Josephus Terblanche, compiler of several dictionaries and grammar books, is born in Aberdeen in the Eastern Cape. Dr Terblanche was a pioneer of Afrikaans technical language. He died on 23…",
+   "url": "https://sahistory.org.za/dated-event/afrikaans-linguist-h-j-terblanche-born",
+   "cape_town": false
+  },
+  {
+   "year": 1981,
+   "title": "Lesotho’s Foreign Affairs Minister reveals details of agreement with Pik Botha",
+   "text": "On 4 December 1981 Lesotho's Foreign Affairs Minister, Mr Mooki Molapo, told The Star of an agreement reached with the South African Minister of Foreign Affairs, Pik Botha, a few months earlier. It…",
+   "url": "https://sahistory.org.za/dated-event/lesothos-foreign-affairs-minister-reveals-details-agreement-pik-botha",
+   "cape_town": false
+  },
+  {
+   "year": 1996,
+   "title": "The Constitution of the Republic of South Africa is approved by Parliament",
+   "text": "The Constitution of the Republic of South Africa is regarded as one of the most progressive constitutions in the world. The process that led to its approval was not an easy one. It began in 1990 with…",
+   "url": "https://sahistory.org.za/dated-event/constitution-republic-south-africa-approved-parliament",
+   "cape_town": false
+  },
+  {
+   "year": 1996,
+   "title": "Mandela meets Taiwanese Foreign Minister",
+   "text": "Taiwanese Foreign Minister John Chang Hsiao Yen President met with President Nelson Mandela. While South Africa had maintained a friendly official relationship with Taiwan post-1994 and was duly…",
+   "url": "https://sahistory.org.za/dated-event/mandela-meets-taiwanese-foreign-minister",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1370,
+   "text": "Hundred Years' War: In two separate engagements in the Battle of Pontvallain, French forces wiped out an English army which had split up because of a dispute between the commanders.",
+   "url": "https://en.wikipedia.org/wiki/Hundred_Years'_War",
+   "sa": false
+  },
+  {
+   "year": 1829,
+   "text": "Sati, the Hindu funeral custom of a widow's self-immolation on her husband's pyre, was prohibited by Lord William Bentinck in parts of British India after years of campaigning by Ram Mohan Roy.",
+   "url": "https://en.wikipedia.org/wiki/Sati_(practice)",
+   "sa": false
+  },
+  {
+   "year": 1909,
+   "text": "The first Grey Cup, the championship game of the Canadian Football League, was held in Toronto.",
+   "url": "https://en.wikipedia.org/wiki/1st_Grey_Cup",
+   "sa": false
+  },
+  {
+   "year": 1971,
+   "text": "The Troubles: The Ulster Volunteer Force, an Ulster-loyalist paramilitary group, detonated a bomb at a Catholic-owned pub in Belfast, Northern Ireland, killing 15 people.",
+   "url": "https://en.wikipedia.org/wiki/The_Troubles",
+   "sa": false
+  },
+  {
+   "year": 1992,
+   "text": "U.S. president George H. W. Bush ordered American troops into Somalia to help provide humanitarian aid and restore order during the ongoing Somali Civil War.",
+   "url": "https://en.wikipedia.org/wiki/George_H._W._Bush",
+   "sa": false
+  }
+ ]
+}
