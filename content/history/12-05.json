@@ -1,0 +1,107 @@
+{
+ "day": "12-05",
+ "south_africa": [
+  {
+   "year": 1953,
+   "title": "Gwen Lister is born",
+   "text": "Gwen Lister is a South African born Namibian Journalist, publisher and anti apartheid activist. She was born in East London on 5 December 1953. After graduating at the University of Cape Town, Lister…",
+   "url": "https://sahistory.org.za/dated-event/gwen-lister-born",
+   "cape_town": true
+  },
+  {
+   "year": 1894,
+   "title": "Charles Robberts (Blackie) Swart, first state president of South Africa, is born",
+   "text": "Charles Robberts Swart was born on a farm in the Winburg district of the Orange Free State (OFS) on 5 December 1894. Part of his childhood was spent in a concentration camp during the Anglo Boer War…",
+   "url": "https://sahistory.org.za/dated-event/charles-robberts-blackie-swart-first-state-president-south-africa-born",
+   "cape_town": false
+  },
+  {
+   "year": 1924,
+   "title": "Thomas Pringle, journalist and editor of Cape newspaper Commercial Advertiser, dies in London",
+   "text": "Thomas Pringle was born in Scotland on 5 January 1789. Pringle sustained an injury to his hip as a result of being accidentally dropped by his nanny when he was three months old. Consequently, he had…",
+   "url": "https://sahistory.org.za/dated-event/thomas-pringle-journalist-and-editor-cape-newspaper-commercial-advertiser-dies-london",
+   "cape_town": false
+  },
+  {
+   "year": 1924,
+   "title": "PAC leader Robert Sobukwe is born",
+   "text": "Robert Mangaliso Sobukwe who would become a leader of Pan Africanist Congress (PAC) was born to Hubert and Angelina Sobukwe at Graaff-Reinet, Cape Province (now known as Eastern Cape). He was the…",
+   "url": "https://sahistory.org.za/dated-event/pac-leader-robert-sobukwe-born",
+   "cape_town": false
+  },
+  {
+   "year": 1934,
+   "title": "The United Party is formed",
+   "text": "The United South African National Party, also known as the United Party, was officially formed after a merger between the National Party, under the leadership of General J.B.M. Hertzog, and the South…",
+   "url": "https://sahistory.org.za/dated-event/united-party-formed",
+   "cape_town": false
+  },
+  {
+   "year": 1952,
+   "title": "The UN sets up Commission on Apartheid",
+   "text": "The General Assembly of the United Nations adopted resolution 616(VII) to establish a three-member United Nations Commission on the Racial Situation in the Union of South Africa (UNCORS). Its mandate…",
+   "url": "https://sahistory.org.za/dated-event/un-sets-commission-apartheid",
+   "cape_town": false
+  },
+  {
+   "year": 1956,
+   "title": "Police swoop down on the homes of Congress of the People leaders across the country, the arrests led to the Treason Trial",
+   "text": "Following the highly successful multi-racial Congress of the People Conference in June 1955, the South African Police raided the homes and offices of those who had participated in the conference,…",
+   "url": "https://sahistory.org.za/dated-event/police-swoop-down-homes-congress-people-leaders-across-country-arrests-led-treason",
+   "cape_town": false
+  },
+  {
+   "year": 1979,
+   "title": "The Prime Minister announces the appointment of a Commission of Inquiry into the reporting of defence matters, to be headed by Justice M.T. Steyn",
+   "text": "More recent initiatives by the post 1994 SA government to establish a media tribunal have been condemned as an attempt to introduce 'apartheid style draconian measures' aimed at regulating the media…",
+   "url": "https://sahistory.org.za/dated-event/prime-minister-announces-appointment-commission-inquiry-reporting-defence-matters-be",
+   "cape_town": false
+  },
+  {
+   "year": 1999,
+   "title": "Ernie Els wins the Nedbank Golf Tournament",
+   "text": "Ernie Els won the Nedbank Million Dollar Golf Tournament for the first time in his career on home soil since he turned pro in 1989. The Million Dollar Tournament was played at the Gary Player Country…",
+   "url": "https://sahistory.org.za/dated-event/ernie-els-wins-nedbank-golf-tournament",
+   "cape_town": false
+  },
+  {
+   "year": 2013,
+   "title": "Nelson Rolihlahla Mandela passed away",
+   "text": "The 5th of December marks the anniversary of the death of revolutionary anti-Apartheid liberation leader, Nelson Rolihlahla Mandela, whose vision and respect for human dignity brought hope to a…",
+   "url": "https://sahistory.org.za/dated-event/nelson-rolihlahla-mandela-passed-away",
+   "cape_town": false
+  }
+ ],
+ "world": [
+  {
+   "year": 1456,
+   "text": "The first of two major earthquakes struck the Kingdom of Naples, killing up to 70,000 people.",
+   "url": "https://en.wikipedia.org/wiki/1456_Central_Italy_earthquakes",
+   "sa": false
+  },
+  {
+   "year": 1757,
+   "text": "Seven Years' War: Prussian troops under Frederick the Great defeated Austrian forces at the Battle of Leuthen.",
+   "url": "https://en.wikipedia.org/wiki/Seven_Years'_War",
+   "sa": false
+  },
+  {
+   "year": 1807,
+   "text": "Napoleonic Wars: British ships began a raid on Griessie after the Dutch captain refused a British demand for surrender.",
+   "url": "https://en.wikipedia.org/wiki/Napoleonic_Wars",
+   "sa": false
+  },
+  {
+   "year": 1918,
+   "text": "National Guards and Sokol volunteers protested in Zagreb, leading to an armed clash with regiments of the Home Guard and former Common Army.",
+   "url": "https://en.wikipedia.org/wiki/Sokol_movement",
+   "sa": false
+  },
+  {
+   "year": 1958,
+   "text": "Britain's first motorway, the Preston Bypass, opened to the public.",
+   "url": "https://en.wikipedia.org/wiki/Controlled-access_highway",
+   "sa": false
+  }
+ ]
+}

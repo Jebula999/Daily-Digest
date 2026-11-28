@@ -190,6 +190,11 @@
   "lon": 18.58725,
   "match": "Husami Masjid (Cravenby Mosque), York Street, Cravenby, Cape Town Ward 25, Cape Town, City of Cape Town, Western Cape, 7493, South Africa"
  },
+ "Crossroads, Cape Town": {
+  "lat": -33.99444,
+  "lon": 18.59889,
+  "match": "Crossroads, Cape Town Ward 36, City of Cape Town, Western Cape, 7579, South Africa"
+ },
  "DHL Stadium": {
   "lat": -33.90346,
   "lon": 18.41115,
@@ -566,6 +571,11 @@
   "lat": -33.91405,
   "lon": 18.47119,
   "match": "Paarden Eiland, Cape Town, City of Cape Town, Western Cape, South Africa"
+ },
+ "Pallotti Road, Airport Industria": {
+  "lat": -33.96317,
+  "lon": 18.57279,
+  "match": "Pallotti Road, Montevideo, Cape Town Ward 31, Elsiesriver, City of Cape Town, Western Cape, 7490, South Africa"
  },
  "Panorama, Parow": {
   "lat": -33.8755,
